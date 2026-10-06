@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Linhas do Infinito — storyboard v1</title>
+<style>
+  @font-face { font-family: "Newsreader"; src: url(assets/fonts/newsreader-latin-400-normal.woff2) format("woff2"); font-weight: 400; }
+  @font-face { font-family: "Newsreader"; src: url(assets/fonts/newsreader-latin-400-italic.woff2) format("woff2"); font-weight: 400; font-style: italic; }
+  @font-face { font-family: "Hanken Grotesk"; src: url(assets/fonts/hanken-grotesk-latin-400-normal.woff2) format("woff2"); font-weight: 400; }
+  @font-face { font-family: "Hanken Grotesk"; src: url(assets/fonts/hanken-grotesk-latin-600-normal.woff2) format("woff2"); font-weight: 600; }
+  @font-face { font-family: "DM Mono"; src: url(assets/fonts/dm-mono-latin-400-normal.woff2) format("woff2"); font-weight: 400; }
+  :root { --paper:#F0EBDE; --paper2:#E6E0CE; --ink:#1F2BE0; --soft:#5560E5; --grid:rgba(31,43,224,.10); }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--paper2); color: var(--ink); font-family: "Hanken Grotesk", system-ui, sans-serif; padding: 40px 32px 80px; }
+  header { max-width: 1500px; margin: 0 auto 28px; border-bottom: 2px solid var(--ink); padding-bottom: 18px; display: flex; justify-content: space-between; align-items: end; gap: 24px; flex-wrap: wrap; }
+  h1 { font-family: Newsreader, serif; font-weight: 400; font-size: 56px; letter-spacing: -.01em; }
+  h1 em { font-size: 28px; color: var(--soft); }
+  .dek { font-size: 17px; max-width: 760px; margin-top: 6px; }
+  .tag { font-family: "DM Mono", monospace; font-size: 13px; border: 1px solid var(--ink); padding: 6px 10px; }
+  .act { max-width: 1500px; margin: 26px auto 10px; font: 600 13px "Hanken Grotesk"; letter-spacing: .18em; text-transform: uppercase; background: var(--ink); color: var(--paper); padding: 6px 12px; }
+  .grid { max-width: 1500px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  @media (max-width: 1000px) { .grid { grid-template-columns: 1fr; } }
+  .card { background: var(--paper); border: 1px solid rgba(31,43,224,.25); }
+  .cell { position: relative; aspect-ratio: 16/9; container-type: inline-size; overflow: hidden; background-color: var(--paper);
+    background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px); background-size: 2cqw 2cqw; }
+  .cell.inv { background-color: var(--ink); background-image: linear-gradient(rgba(240,235,222,.12) 1px, transparent 1px), linear-gradient(90deg, rgba(240,235,222,.12) 1px, transparent 1px); color: var(--paper); }
+  .cell::before, .cell::after { content: ""; position: absolute; left: 4cqw; right: 4cqw; height: .12cqw; background: currentColor; }
+  .cell::before { top: 3cqw; } .cell::after { bottom: 3cqw; }
+  .cell svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .lyric { position: absolute; left: 4cqw; right: 4cqw; bottom: 6.5cqw; text-align: center; font: 400 3.4cqw/1.1 Newsreader, serif; }
+  .lyric.big { bottom: auto; top: 50%; transform: translateY(-50%); font-size: 5.6cqw; }
+  .chip { position: absolute; top: 4.2cqw; left: 4cqw; font: 400 1.2cqw "DM Mono", monospace; letter-spacing: .06em; }
+  .meta { padding: 12px 14px 14px; font-size: 14px; line-height: 1.45; }
+  .row { display: flex; justify-content: space-between; font: 400 12px "DM Mono", monospace; margin-bottom: 6px; }
+  .seam { display: inline-block; margin-top: 8px; font: 400 11px "DM Mono", monospace; border: 1px solid var(--ink); padding: 2px 6px; }
+  .tok { padding: 4cqw; font-size: 1.6cqw; }
+  .sw { display: inline-block; width: 7cqw; height: 7cqw; margin-right: 1cqw; border: 1px solid var(--ink); vertical-align: middle; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Linhas do Infinito <em>storyboard v1</em></h1>
+    <p class="dek">Clipe da sua música: cada verso desenhado como geometria em papel quadriculado. A reta nunca tem pontas, a semirreta nasce de um ponto e o segmento tem A e B medidos. A letra entra linha a linha, uma por compasso.</p>
+  </div>
+  <span class="tag">1920×1080 · 30fps · 2:48.6 · 10 cenas · 99 BPM</span>
+</header>
+
+<div class="act">Ato 1 · A reta</div>
+<div class="grid">
+  <div class="card" id="frame-01">
+    <div class="cell">
+      <span class="chip">00:00 — intro</span>
+      <svg viewBox="0 0 1600 900"><circle cx="800" cy="520" r="9" fill="#1F2BE0"/><line x1="-20" y1="520" x2="1620" y2="520" stroke="#1F2BE0" stroke-width="4" stroke-dasharray="1640" stroke-dashoffset="0"/></svg>
+      <div class="lyric big" style="top:36%">Linhas do Infinito</div>
+      <div class="lyric" style="font:400 1.6cqw 'DM Mono';letter-spacing:.1em">RETA · SEMIRRETA · SEGMENTO</div>
+    </div>
+    <div class="meta"><div class="row"><span>01 · INTRO</span><span>f1 · 0.0–12.1s</span></div><b>Primeiro um ponto acende no centro.</b> Um traço sai dele e corre até as duas bordas, e o título entra letra a letra no silêncio dos 9s. <span class="seam">corte seco no compasso 12.1</span></div>
+  </div>
+  <div class="card" id="frame-02">
+    <div class="cell">
+      <span class="chip">verso 1</span>
+      <svg viewBox="0 0 1600 900"><line x1="-50" y1="380" x2="1650" y2="380" stroke="#1F2BE0" stroke-width="5"/><path d="M60 360 L20 380 L60 400 M1540 360 L1580 380 L1540 400" fill="none" stroke="#1F2BE0" stroke-width="5"/><text x="800" y="340" font-family="Newsreader" font-style="italic" font-size="56" text-anchor="middle" fill="#1F2BE0">r</text></svg>
+      <div class="lyric">É a reta que segue sem direção final</div>
+    </div>
+    <div class="meta"><div class="row"><span>02 · VERSO 1</span><span>f2 · 12.1–31.3s</span></div><b>A linha atravessa a página</b> enquanto a câmera recua devagar e ela continua passando das bordas. Muda uma linha da letra a cada compasso (8 no total). <span class="seam">corte no pré-refrão</span></div>
+  </div>
+  <div class="card" id="frame-03">
+    <div class="cell">
+      <span class="chip">pré-refrão</span>
+      <svg viewBox="0 0 1600 900"><g stroke="#1F2BE0" stroke-width="5" fill="none"><circle cx="420" cy="640" r="18"/><path d="M395 615 L445 665 M445 615 L395 665"/><circle cx="1180" cy="640" r="18"/><path d="M1155 615 L1205 665 M1205 615 L1155 665"/><line x1="200" y1="760" x2="1400" y2="760"/><path d="M240 735 L200 760 L240 785 M1360 735 L1400 760 L1360 785"/></g></svg>
+      <div class="lyric big" style="top:34%">Vai nos dois sentidos sem parar</div>
+    </div>
+    <div class="meta"><div class="row"><span>03 · PRÉ 1</span><span>f3 · 31.3–40.9s</span></div><b>"Ponto inicial" aparece riscado</b>, depois o "ponto terminal" também. Na última linha, setas disparam para os dois lados e a tensão cresce até o refrão. <span class="seam">impacto no 40.91</span></div>
+  </div>
+</div>
+
+<div class="act">Ato 2 · As três formas</div>
+<div class="grid">
+  <div class="card" id="frame-04">
+    <div class="cell">
+      <span class="chip">refrão 1</span>
+      <svg viewBox="0 0 1600 900"><g stroke="#1F2BE0" stroke-width="6" fill="#1F2BE0">
+        <line x1="260" y1="230" x2="1340" y2="230"/><path d="M290 210 L250 230 L290 250 M1310 210 L1350 230 L1310 250" fill="none"/>
+        <circle cx="300" cy="400" r="12"/><line x1="300" y1="400" x2="1340" y2="400" opacity=".35"/><path d="M1310 380 L1350 400 L1310 420" fill="none" opacity=".35"/>
+        <circle cx="400" cy="570" r="12" opacity=".35"/><circle cx="1200" cy="570" r="12" opacity=".35"/><line x1="400" y1="570" x2="1200" y2="570" opacity=".35"/></g>
+        <g font-family="DM Mono" font-size="26" fill="#1F2BE0"><text x="100" y="238">RETA</text><text x="100" y="408" opacity=".4">SEMIRRETA</text><text x="100" y="578" opacity=".4">SEGMENTO</text></g></svg>
+      <div class="lyric">Reta vai pro infinito sem jamais parar</div>
+    </div>
+    <div class="meta"><div class="row"><span>04 · REFRÃO 1</span><span>f4 · 40.9–60.1s</span></div><b>Três faixas na tela.</b> Acende a forma que a linha cantada nomeia. No SURGE dos 52s as três batem juntas na batida, e "Geometria vive dentro de mim" fecha com as três acesas. <span class="seam">corte no verso 2</span></div>
+  </div>
+  <div class="card" id="frame-05">
+    <div class="cell">
+      <span class="chip">verso 2</span>
+      <svg viewBox="0 0 1600 900"><g stroke="#1F2BE0" stroke-width="6" fill="#1F2BE0"><circle cx="300" cy="300" r="13"/><line x1="300" y1="300" x2="1400" y2="300"/><path d="M1370 280 L1410 300 L1370 320" fill="none"/>
+        <circle cx="420" cy="560" r="13"/><circle cx="1180" cy="560" r="13"/><line x1="420" y1="560" x2="1180" y2="560"/></g>
+        <g fill="none" stroke="#5560E5" stroke-width="3"><rect x="400" y="600" width="800" height="60"/><path d="M480 600v22M560 600v34M640 600v22M720 600v34M800 600v22M880 600v34M960 600v22M1040 600v34M1120 600v22"/></g>
+        <g font-family="Newsreader" font-style="italic" font-size="48" fill="#1F2BE0"><text x="280" y="270">O</text><text x="400" y="530">A</text><text x="1165" y="530">B</text></g></svg>
+      <div class="lyric">Tenho um segmento pra observar</div>
+    </div>
+    <div class="meta"><div class="row"><span>05 · VERSO 2</span><span>f5 · 60.1–79.3s</span></div><b>Primeira metade:</b> o ponto O é marcado e a semirreta cresce só para a direita. <b>Depois do silêncio dos 69s:</b> surgem A e B, o segmento se desenha entre eles e uma régua mede o trecho. <span class="seam">corte no pré-refrão</span></div>
+  </div>
+  <div class="card" id="frame-06">
+    <div class="cell">
+      <span class="chip">pré-refrão 2</span>
+      <svg viewBox="0 0 1600 900"><g stroke="#1F2BE0" stroke-width="6" fill="#1F2BE0"><circle cx="250" cy="640" r="12"/><line x1="250" y1="640" x2="520" y2="640"/><line x1="670" y1="640" x2="930" y2="640"/><circle cx="930" cy="640" r="12"/><line x1="1080" y1="640" x2="1380" y2="640"/><path d="M1350 620 L1390 640 L1350 660" fill="none"/></g>
+        <g font-family="DM Mono" font-size="24" fill="#1F2BE0" text-anchor="middle"><text x="385" y="710">INÍCIO</text><text x="800" y="710">FIM</text><text x="1230" y="710">SEM FIM</text></g></svg>
+      <div class="lyric big" style="top:34%">Ou seguir sem nunca terminar</div>
+    </div>
+    <div class="meta"><div class="row"><span>06 · PRÉ 2</span><span>f6 · 79.3–88.9s</span></div><b>Três mini-diagramas</b>, um para cada linha: um traço com início, um com fim e um que segue sem fim. A energia sobe até o HIGH dos 88s. <span class="seam">impacto no 88.91</span></div>
+  </div>
+  <div class="card" id="frame-07">
+    <div class="cell inv">
+      <span class="chip">refrão 2</span>
+      <svg viewBox="0 0 1600 900"><g stroke="#F0EBDE" stroke-width="6" fill="#F0EBDE">
+        <line x1="260" y1="230" x2="1340" y2="230" opacity=".35"/><path d="M290 210 L250 230 L290 250 M1310 210 L1350 230 L1310 250" fill="none" opacity=".35"/>
+        <circle cx="300" cy="400" r="12" opacity=".35"/><line x1="300" y1="400" x2="1340" y2="400" opacity=".35"/><path d="M1310 380 L1350 400 L1310 420" fill="none" opacity=".35"/>
+        <circle cx="400" cy="570" r="12"/><circle cx="1200" cy="570" r="12"/><line x1="400" y1="570" x2="1200" y2="570"/></g>
+        <g font-family="DM Mono" font-size="26" fill="#F0EBDE"><text x="100" y="238" opacity=".4">RETA</text><text x="100" y="408" opacity=".4">SEMIRRETA</text><text x="100" y="578">SEGMENTO</text></g></svg>
+      <div class="lyric">Segmento é limitado, dá pra medir</div>
+    </div>
+    <div class="meta"><div class="row"><span>07 · REFRÃO 2</span><span>f7 · 88.9–108.1s</span></div><b>O mesmo sistema do refrão 1, com as cores invertidas</b> (fundo cobalto e traço creme), para o segundo refrão parecer maior. O SURGE dos 100s bate as três formas. <span class="seam">corte na ponte</span></div>
+  </div>
+</div>
+
+<div class="act">Ato 3 · Geometria é arte</div>
+<div class="grid">
+  <div class="card" id="frame-08">
+    <div class="cell">
+      <span class="chip">ponte</span>
+      <svg viewBox="0 0 1600 900"><g stroke="#1F2BE0" stroke-width="5" fill="none"><line x1="-20" y1="640" x2="1620" y2="640"/><path d="M500 640 L700 300 L900 640"/><rect x="1000" y="440" width="200" height="200"/><path d="M1000 440 L1080 380 L1280 380 L1200 440 M1280 380 L1280 580 L1200 640"/></g></svg>
+      <div class="lyric">Reta é base do pensar</div>
+    </div>
+    <div class="meta"><div class="row"><span>08 · PONTE</span><span>f8 · 108.1–127.3s</span></div><b>"Três ideias" chegam como três cartões</b> e as linhas saem deles. Na segunda metade, uma reta enorme vira a base onde se constroem um triângulo, um quadrado e um cubo, que batem juntos no SURGE dos 124s. <span class="seam">queda no 128</span></div>
+  </div>
+  <div class="card" id="frame-09">
+    <div class="cell">
+      <span class="chip">instrumental</span>
+      <svg viewBox="0 0 1600 900"><g stroke="#1F2BE0" stroke-width="1.6" opacity=".8" id="sa"></g>
+        <g stroke="#1F2BE0" stroke-width="1.6">
+          <line x1="1100" y1="450" x2="800" y2="150"/><line x1="1086" y1="539" x2="707" y2="155"/><line x1="1047" y1="620" x2="619" y2="178"/><line x1="985" y1="687" x2="539" y2="215"/><line x1="907" y1="733" x2="471" y2="266"/><line x1="818" y1="750" x2="420" y2="327"/><line x1="727" y1="741" x2="389" y2="394"/><line x1="643" y1="706" x2="379" y2="464"/><line x1="573" y1="648" x2="392" y2="532"/><line x1="521" y1="573" x2="426" y2="597"/><line x1="800" y1="150" x2="1047" y2="280"/><line x1="707" y1="155" x2="985" y2="213"/><line x1="893" y1="155" x2="1086" y2="361"/><line x1="981" y1="178" x2="1100" y2="450"/><line x1="1061" y1="215" x2="1086" y2="539"/></g>
+        <circle cx="800" cy="450" r="300" fill="none" stroke="#5560E5" stroke-width="2" stroke-dasharray="4 10"/></svg>
+      <div class="lyric" style="font-style:italic">só linhas retas…</div>
+    </div>
+    <div class="meta"><div class="row"><span>09 · INSTRUMENTAL</span><span>f9 · 127.3–146.5s</span></div><b>Momento parado de propósito.</b> Segmentos retos ligam pontos de um círculo e, frase a frase, formam uma mandala curva feita só de retas (string art). Ritmo lento até a música crescer de novo nos 146s. <span class="seam">impacto no 146.52</span></div>
+  </div>
+  <div class="card" id="frame-10">
+    <div class="cell">
+      <span class="chip">refrão final</span>
+      <svg viewBox="0 0 1600 900"><g stroke="#1F2BE0" stroke-width="1.4" opacity=".28">
+        <line x1="1100" y1="400" x2="800" y2="100"/><line x1="1086" y1="489" x2="707" y2="105"/><line x1="1047" y1="570" x2="619" y2="128"/><line x1="985" y1="637" x2="539" y2="165"/><line x1="907" y1="683" x2="471" y2="216"/><line x1="818" y1="700" x2="420" y2="277"/><line x1="727" y1="691" x2="389" y2="344"/><line x1="800" y1="100" x2="1047" y2="230"/><line x1="893" y1="105" x2="1086" y2="311"/></g></svg>
+      <div class="lyric big" style="font-size:6.4cqw">Geometria é arte dentro de mim</div>
+    </div>
+    <div class="meta"><div class="row"><span>10 · REFRÃO FINAL</span><span>f10 · 146.5–168.6s</span></div><b>As três faixas voltam por cima da mandala pronta.</b> A última linha, "Geometria é arte dentro de mim", fica como título final no corte dos 167s. <span class="seam">fim</span></div>
+  </div>
+  <div class="card">
+    <div class="cell"><div class="tok" style="font-family:'DM Mono';font-size:1.5cqw;line-height:2.2">
+      01 ▸ 02 corte · 02 ▸ 03 corte · 03 ▸ 04 impacto<br>04 ▸ 05 corte · 05 ▸ 06 corte · 06 ▸ 07 impacto + inversão<br>07 ▸ 08 corte · 08 ▸ 09 queda · 09 ▸ 10 impacto<br>Todas as trocas de cena caem num compasso.</div></div>
+    <div class="meta"><div class="row"><span>MAPA DE TRANSIÇÕES</span><span>10 cenas</span></div>Cortes secos nos tempos fortes. Os refrões entram com "impacto" (escala + flash).</div>
+  </div>
+  <div class="card">
+    <div class="cell"><div class="tok">
+      <span class="sw" style="background:#F0EBDE"></span><span class="sw" style="background:#E6E0CE"></span><span class="sw" style="background:#1F2BE0"></span><span class="sw" style="background:#5560E5"></span>
+      <p style="margin-top:2cqw;font:400 4cqw Newsreader">Newsreader <i>itálico</i></p>
+      <p style="font:600 1.8cqw 'Hanken Grotesk'">Hanken Grotesk · <span style="font-family:'DM Mono'">DM Mono</span></p>
+      <p style="margin-top:1.4cqw;font-size:1.4cqw">Proibido: reta com pontas · letra pequena · efeitos de brilho · cenas iguais tipo slideshow</p></div></div>
+    <div class="meta"><div class="row"><span>TOKENS</span><span>preset cobalt-grid</span></div>Papel creme, tinta cobalto como única cor, quadriculado permanente e linhas finas no topo e no rodapé.</div>
+  </div>
+</div>
+</body>
+</html>
