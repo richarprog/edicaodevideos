@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+
+@font-face{font-family:"Newsreader";src:url("assets/fonts/newsreader-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal}
+@font-face{font-family:"Newsreader";src:url("assets/fonts/newsreader-latin-400-italic.woff2") format("woff2");font-weight:400;font-style:italic}
+@font-face{font-family:"Hanken Grotesk";src:url("assets/fonts/hanken-grotesk-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Hanken Grotesk";src:url("assets/fonts/hanken-grotesk-latin-600-normal.woff2") format("woff2");font-weight:600}
+@font-face{font-family:"DM Mono";src:url("assets/fonts/dm-mono-latin-400-normal.woff2") format("woff2");font-weight:400}
+#r05{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background-color:#F0EBDE;
+  background-image:linear-gradient(rgba(31,43,224,0.10) 1px,transparent 1px),linear-gradient(90deg,rgba(31,43,224,0.10) 1px,transparent 1px);
+  background-size:38.4px 38.4px;color:#1F2BE0;font-family:"Hanken Grotesk",sans-serif}
+#r05 .hl{position:absolute;left:77px;right:77px;height:2px;background:#1F2BE0}
+#r05 .hl.t{top:58px} #r05 .hl.b{bottom:58px}
+#r05 .chip{position:absolute;top:74px;left:77px;font:400 16px "DM Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
+#r05 .pg{position:absolute;top:74px;right:77px;font:400 16px "DM Mono",monospace;letter-spacing:.08em}
+#r05 .cam{position:absolute;inset:0;transform-origin:50% 50%}
+#r05 svg.geo{position:absolute;inset:0;width:1920px;height:1080px;overflow:visible}
+#r05 svg.geo line,#r05 svg.geo path,#r05 svg.geo polyline,#r05 svg.geo polygon{stroke:#1F2BE0;fill:none;stroke-linecap:round;stroke-linejoin:round}
+#r05 svg.geo .arr{stroke-width:5}
+#r05 svg.geo .dot{fill:#1F2BE0;stroke:none}
+#r05 svg.geo .ring{fill:none;stroke:#1F2BE0;stroke-width:3}
+#r05 svg.geo .d{stroke-dasharray:1;stroke-dashoffset:1}
+#r05 svg.geo .lbl{font:400 24px "DM Mono",monospace;letter-spacing:.08em;fill:#1F2BE0}
+#r05 svg.geo .mono{font:400 30px "DM Mono",monospace;fill:#1F2BE0}
+#r05 svg.geo .it{font-family:Newsreader,serif;font-style:italic;fill:#1F2BE0}
+#r05 .pa,#r05 .pd,#r05 .tr,#r05 .cnt,#r05 .lane,#r05 .ticks{opacity:0}
+#r05 .ly{position:absolute;left:160px;right:160px;bottom:142px;text-align:center;font:400 66px/1.12 Newsreader,serif;letter-spacing:-.005em}
+#r05 .ly.big{bottom:auto;top:170px;font-size:104px;line-height:1.02}
+#r05 .ly span{display:inline-block;opacity:0}
+#r05 .flash{position:absolute;inset:0;background:#1F2BE0;opacity:0;pointer-events:none}
+#r05 .pc,#r05 .ghost,#r05 .ruler,#r05 .cnt2,#r05 .g2{opacity:0} #r05 .ruler rect{stroke:#1F2BE0}
+      </style>
+      <div id="r05" data-composition-id="05-f5" data-width="1920" data-height="1080" data-duration="19.2">
+        <div class="hl t"></div><div class="hl b"></div>
+        <div class="chip">verso 2</div><div class="pg">05 / 10</div>
+        <div class="cam"><svg class="geo" viewBox="0 0 1920 1080"><g class="g1"><circle class="dot pd O" cx="420" cy="420" r="15"/><circle class="ring rg" cx="420" cy="420" r="15"/><text class="it pd Ol" x="420" y="380" font-size="54" text-anchor="middle">O</text>
+        <line class="d ray" pathLength="1" x1="420" y1="420" x2="1760" y2="420" stroke-width="5"/><path class="arr pd tip" d="M1754 398.4 L1790 420 L1754 441.6"/><circle class="dot tr" cx="420" cy="420" r="9"/>
+        <g class="ghost"><line class="" pathLength="1" x1="390" y1="420" x2="150" y2="420" stroke-width="4"/><path class="arr " d="M180 402 L150 420 L180 438"/><line class="" pathLength="1" x1="230" y1="380" x2="310" y2="460" stroke-width="5"/><line class="" pathLength="1" x1="310" y1="380" x2="230" y2="460" stroke-width="5"/></g>
+        <text class="lbl pc one" x="1100" y="520" text-anchor="middle">UM SENTIDO SÓ →</text></g>
+      <g class="g2"><circle class="dot pd A" cx="480" cy="460" r="15"/><circle class="dot pd B" cx="1440" cy="460" r="15"/><text class="it pd Al" x="480" y="420" font-size="54" text-anchor="middle">A</text><text class="it pd Bl" x="1440" y="420" font-size="54" text-anchor="middle">B</text>
+        <line class="d seg" pathLength="1" x1="480" y1="460" x2="1440" y2="460" stroke-width="6"/>
+        <g class="ruler"><rect x="460" y="505" width="1000" height="80" fill="none" stroke-width="3"/><line class="" pathLength="1" x1="480" y1="520" x2="480" y2="560" stroke-width="3"/><line class="" pathLength="1" x1="540" y1="520" x2="540" y2="542" stroke-width="3"/><line class="" pathLength="1" x1="600" y1="520" x2="600" y2="542" stroke-width="3"/><line class="" pathLength="1" x1="660" y1="520" x2="660" y2="542" stroke-width="3"/><line class="" pathLength="1" x1="720" y1="520" x2="720" y2="560" stroke-width="3"/><line class="" pathLength="1" x1="780" y1="520" x2="780" y2="542" stroke-width="3"/><line class="" pathLength="1" x1="840" y1="520" x2="840" y2="542" stroke-width="3"/><line class="" pathLength="1" x1="900" y1="520" x2="900" y2="542" stroke-width="3"/><line class="" pathLength="1" x1="960" y1="520" x2="960" y2="560" stroke-width="3"/><line class="" pathLength="1" x1="1020" y1="520" x2="1020" y2="542" stroke-width="3"/><line class="" pathLength="1" x1="1080" y1="520" x2="1080" y2="542" stroke-width="3"/><line class="" pathLength="1" x1="1140" y1="520" x2="1140" y2="542" stroke-width="3"/><line class="" pathLength="1" x1="1200" y1="520" x2="1200" y2="560" stroke-width="3"/><line class="" pathLength="1" x1="1260" y1="520" x2="1260" y2="542" stroke-width="3"/><line class="" pathLength="1" x1="1320" y1="520" x2="1320" y2="542" stroke-width="3"/><line class="" pathLength="1" x1="1380" y1="520" x2="1380" y2="542" stroke-width="3"/><line class="" pathLength="1" x1="1440" y1="520" x2="1440" y2="560" stroke-width="3"/></g>
+        <text class="mono cnt2" x="960" y="660" text-anchor="middle" style="font-size:40px">AB = <tspan class="v">0</tspan> u</text>
+        <line class="d brA" pathLength="1" x1="480" y1="430" x2="480" y2="490" stroke-width="8"/><line class="d brB" pathLength="1" x1="1440" y1="430" x2="1440" y2="490" stroke-width="8"/></g></svg></div>
+        <div class="ly" data-i="0"><span>Se</span> <span>eu</span> <span>marco</span> <span>um</span> <span>ponto</span> <span>pra</span> <span>iniciar</span></div>
+<div class="ly" data-i="1"><span>E</span> <span>só</span> <span>pra</span> <span>um</span> <span>lado</span> <span>ela</span> <span>caminhar</span></div>
+<div class="ly" data-i="2"><span>Surge</span> <span>a</span> <span>semirreta</span> <span>a</span> <span>crescer</span></div>
+<div class="ly" data-i="3"><span>Com</span> <span>um</span> <span>sentido</span> <span>só</span> <span>pra</span> <span>percorrer</span></div>
+<div class="ly" data-i="4"><span>Mas</span> <span>se</span> <span>dois</span> <span>pontos</span> <span>eu</span> <span>escolher</span></div>
+<div class="ly" data-i="5"><span>E</span> <span>entre</span> <span>eles</span> <span>só</span> <span>me</span> <span>deter</span></div>
+<div class="ly" data-i="6"><span>Tenho</span> <span>um</span> <span>segmento</span> <span>pra</span> <span>observar</span></div>
+<div class="ly" data-i="7"><span>Com</span> <span>limites</span> <span>fáceis</span> <span>de</span> <span>encontrar</span></div>
+        <div class="flash"></div>
+      </div>
+      <script>
+        (function () {
+          const R = document.getElementById("r05");
+          const E = (s) => (typeof s === "string" ? R.querySelectorAll(s) : s);
+          const $ = (s) => R.querySelector(s);
+          const S = 60.12, END = 79.32;
+          const at = (t) => Math.max(0, +(t - S).toFixed(3));
+          const tl = gsap.timeline({ paused: true });
+          const IR = { immediateRender: false };
+          function draw(s, t, d, ease) { tl.fromTo(E(s), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d, ease: ease || "power2.inOut", ...IR }, at(t)); }
+          function show(s, t, d) { tl.fromTo(E(s), { opacity: 0 }, { opacity: 1, duration: d == null ? 0.3 : d, ease: "power1.out", ...IR }, at(t)); }
+          function hide(s, t, d) { tl.to(E(s), { opacity: 0, duration: d == null ? 0.25 : d, ease: "power1.in" }, at(t)); }
+          function pop(s, t) { tl.fromTo(E(s), { opacity: 0, scale: 0, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(2.2)", ...IR }, at(t)); }
+          function punch(s, t, k) { tl.fromTo(E(s), { scale: k || 1.07, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.5, ease: "power3.out", ...IR }, at(t)); }
+          function flash(t, o) { tl.fromTo($(".flash"), { opacity: o || 0.35 }, { opacity: 0, duration: 0.4, ease: "power2.out", ...IR }, at(t)); }
+          function count(el, t, to, d) { const p = { v: 0 }; tl.fromTo(p, { v: 0 }, { v: to, duration: d || 1.2, ease: "power2.out", ...IR, onUpdate: () => { el.textContent = Math.round(p.v); } }, at(t)); }
+          // letra: palavras entram 0.15s antes do tempo forte, saem antes da próxima linha
+          const LY = [60.12,62.51,64.92,67.31,69.71,72.12,74.51,76.9];
+          R.querySelectorAll(".ly").forEach((el, i) => {
+            const a = LY[i]; if (a == null) return;
+            tl.fromTo(el.querySelectorAll("span"), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.34, stagger: 0.045, ease: "power3.out", ...IR }, at(a - 0.15));
+            const nx = LY[i + 1];
+            if (nx != null) tl.to(el, { opacity: 0, duration: 0.16, ease: "power1.in" }, at(nx - 0.2));
+          });
+
+          pop(".O", 60.12); show(".Ol", 60.3);
+          tl.fromTo(E(".g1 .rg"), { attr: { r: 15 }, opacity: 0.9 }, { attr: { r: 120 }, opacity: 0, duration: 1.1, ease: "power2.out", ...IR }, at(60.15));
+          draw(".ray", 62.51, 1.5, "power2.inOut"); pop(".tip", 63.95);
+          show(".ghost", 63.2, 0.3); tl.to(E(".ghost"), { opacity: 0.25, duration: 0.6 }, at(64.2));
+          show(".one", 64.92, 0.4); punch(".ray", 64.92, 1.03);
+          tl.fromTo(E(".tip"), { x: 0 }, { x: 40, duration: 1.4, ease: "power2.out", ...IR }, at(64.92));
+          [67.31, 68.5].forEach((t) => tl.fromTo(E(".g1 .tr"), { attr: { cx: 420 }, opacity: 1 }, { attr: { cx: 1780 }, opacity: 0.1, duration: 1.15, ease: "power1.in", ...IR }, at(t)));
+          tl.set(E(".g1"), { opacity: 0 }, at(69.71)); tl.set(E(".g2"), { opacity: 1 }, at(69.71));
+          pop(".A", 69.71); show(".Al", 69.8); pop(".B", 70.9); show(".Bl", 71.0);
+          draw(".seg", 72.12, 1.3, "power2.inOut");
+          tl.fromTo(E(".ruler"), { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out", ...IR }, at(74.4));
+          show(".cnt2", 74.9, 0.3); count($(".cnt2 .v"), 75.0, 16, 1.5);
+          draw(".brA", 76.9, 0.3, "power3.out"); draw(".brB", 76.9, 0.3, "power3.out");
+          [76.904,77.508,78.112,78.716].forEach((b) => punch(".g2", b, 1.02));
+          tl.seek(0);
+          window.__timelines["05-f5"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

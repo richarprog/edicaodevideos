@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+
+@font-face{font-family:"Newsreader";src:url("assets/fonts/newsreader-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal}
+@font-face{font-family:"Newsreader";src:url("assets/fonts/newsreader-latin-400-italic.woff2") format("woff2");font-weight:400;font-style:italic}
+@font-face{font-family:"Hanken Grotesk";src:url("assets/fonts/hanken-grotesk-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Hanken Grotesk";src:url("assets/fonts/hanken-grotesk-latin-600-normal.woff2") format("woff2");font-weight:600}
+@font-face{font-family:"DM Mono";src:url("assets/fonts/dm-mono-latin-400-normal.woff2") format("woff2");font-weight:400}
+#r08{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background-color:#F0EBDE;
+  background-image:linear-gradient(rgba(31,43,224,0.10) 1px,transparent 1px),linear-gradient(90deg,rgba(31,43,224,0.10) 1px,transparent 1px);
+  background-size:38.4px 38.4px;color:#1F2BE0;font-family:"Hanken Grotesk",sans-serif}
+#r08 .hl{position:absolute;left:77px;right:77px;height:2px;background:#1F2BE0}
+#r08 .hl.t{top:58px} #r08 .hl.b{bottom:58px}
+#r08 .chip{position:absolute;top:74px;left:77px;font:400 16px "DM Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
+#r08 .pg{position:absolute;top:74px;right:77px;font:400 16px "DM Mono",monospace;letter-spacing:.08em}
+#r08 .cam{position:absolute;inset:0;transform-origin:50% 50%}
+#r08 svg.geo{position:absolute;inset:0;width:1920px;height:1080px;overflow:visible}
+#r08 svg.geo line,#r08 svg.geo path,#r08 svg.geo polyline,#r08 svg.geo polygon{stroke:#1F2BE0;fill:none;stroke-linecap:round;stroke-linejoin:round}
+#r08 svg.geo .arr{stroke-width:5}
+#r08 svg.geo .dot{fill:#1F2BE0;stroke:none}
+#r08 svg.geo .ring{fill:none;stroke:#1F2BE0;stroke-width:3}
+#r08 svg.geo .d{stroke-dasharray:1;stroke-dashoffset:1}
+#r08 svg.geo .lbl{font:400 24px "DM Mono",monospace;letter-spacing:.08em;fill:#1F2BE0}
+#r08 svg.geo .mono{font:400 30px "DM Mono",monospace;fill:#1F2BE0}
+#r08 svg.geo .it{font-family:Newsreader,serif;font-style:italic;fill:#1F2BE0}
+#r08 .pa,#r08 .pd,#r08 .tr,#r08 .cnt,#r08 .lane,#r08 .ticks{opacity:0}
+#r08 .ly{position:absolute;left:160px;right:160px;bottom:142px;text-align:center;font:400 66px/1.12 Newsreader,serif;letter-spacing:-.005em}
+#r08 .ly.big{bottom:auto;top:170px;font-size:104px;line-height:1.02}
+#r08 .ly span{display:inline-block;opacity:0}
+#r08 .flash{position:absolute;inset:0;background:#1F2BE0;opacity:0;pointer-events:none}
+#r08 .cd,#r08 .b2 .pd{opacity:0} #r08 .cd rect{stroke:#1F2BE0} #r08 .cd .dot{fill:#1F2BE0} #r08 .cd .lbl{fill:#1F2BE0}
+      </style>
+      <div id="r08" data-composition-id="08-f8" data-width="1920" data-height="1080" data-duration="19.2">
+        <div class="hl t"></div><div class="hl b"></div>
+        <div class="chip">ponte</div><div class="pg">08 / 10</div>
+        <div class="cam"><svg class="geo" viewBox="0 0 1920 1080"><g class="b1">
+        <g class="cd cd0"><rect x="170" y="230" width="440" height="330" fill="none" stroke-width="3"/><line class="" pathLength="1" x1="220" y1="380" x2="560" y2="380" stroke-width="5"/><path class="arr " d="M250 362 L220 380 L250 398"/><path class="arr " d="M530 362 L560 380 L530 398"/><text class="lbl " x="390" y="520" text-anchor="middle">RETA</text></g>
+        <g class="cd cd1"><rect x="740" y="230" width="440" height="330" fill="none" stroke-width="3"/><circle class="dot " cx="800" cy="380" r="11"/><line class="" pathLength="1" x1="800" y1="380" x2="1130" y2="380" stroke-width="5"/><path class="arr " d="M1100 362 L1130 380 L1100 398"/><text class="lbl " x="960" y="520" text-anchor="middle">SEMIRRETA</text></g>
+        <g class="cd cd2"><rect x="1310" y="230" width="440" height="330" fill="none" stroke-width="3"/><circle class="dot " cx="1380" cy="380" r="11"/><circle class="dot " cx="1680" cy="380" r="11"/><line class="" pathLength="1" x1="1380" y1="380" x2="1680" y2="380" stroke-width="5"/><text class="lbl " x="1530" y="520" text-anchor="middle">SEGMENTO</text></g>
+        <line class="d ex1" pathLength="1" x1="560" y1="380" x2="1000" y2="380" stroke-width="4"/><line class="d ex2" pathLength="1" x1="1130" y1="380" x2="1600" y2="380" stroke-width="4"/><line class="d ex3" pathLength="1" x1="1380" y1="380" x2="400" y2="380" stroke-width="4"/>
+        <polygon class="d tri" pathLength="1" points="960,240 1240,640 680,640" stroke-width="6"/></g>
+      <g class="b2"><line class="d base" pathLength="1" x1="-40" y1="700" x2="1960" y2="700" stroke-width="7"/><path class="arr pd" d="M130 682 L100 700 L130 718"/><path class="arr pd" d="M1790 682 L1820 700 L1790 718"/>
+        <polygon class="d s1" pathLength="1" points="300,700 520,340 740,700" stroke-width="6"/>
+        <polygon class="d s2" pathLength="1" points="860,700 860,420 1140,420 1140,700" stroke-width="6"/>
+        <path class="d s3" pathLength="1" d="M1260 700 L1260 450 L1510 450 L1510 700 Z M1260 450 L1360 370 L1610 370 L1510 450 M1610 370 L1610 620 L1510 700" stroke-width="6"/></g></svg></div>
+        <div class="ly" data-i="0"><span>Três</span> <span>ideias</span> <span>pra</span> <span>entender</span></div>
+<div class="ly" data-i="1"><span>Como</span> <span>as</span> <span>linhas</span> <span>vão</span> <span>viver</span></div>
+<div class="ly" data-i="2"><span>No</span> <span>espaço</span> <span>a</span> <span>se</span> <span>formar</span></div>
+<div class="ly" data-i="3"><span>É</span> <span>só</span> <span>observar</span></div>
+<div class="ly" data-i="4"><span>Reta</span> <span>é</span> <span>base</span> <span>do</span> <span>pensar</span></div>
+<div class="ly" data-i="5"><span>Nem</span> <span>precisa</span> <span>explicar</span></div>
+<div class="ly" data-i="6"><span>É</span> <span>primitiva,</span> <span>está</span> <span>lá</span></div>
+<div class="ly" data-i="7"><span>Pra</span> <span>tudo</span> <span>fundamentar</span></div>
+        <div class="flash"></div>
+      </div>
+      <script>
+        (function () {
+          const R = document.getElementById("r08");
+          const E = (s) => (typeof s === "string" ? R.querySelectorAll(s) : s);
+          const $ = (s) => R.querySelector(s);
+          const S = 108.11, END = 127.31;
+          const at = (t) => Math.max(0, +(t - S).toFixed(3));
+          const tl = gsap.timeline({ paused: true });
+          const IR = { immediateRender: false };
+          function draw(s, t, d, ease) { tl.fromTo(E(s), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d, ease: ease || "power2.inOut", ...IR }, at(t)); }
+          function show(s, t, d) { tl.fromTo(E(s), { opacity: 0 }, { opacity: 1, duration: d == null ? 0.3 : d, ease: "power1.out", ...IR }, at(t)); }
+          function hide(s, t, d) { tl.to(E(s), { opacity: 0, duration: d == null ? 0.25 : d, ease: "power1.in" }, at(t)); }
+          function pop(s, t) { tl.fromTo(E(s), { opacity: 0, scale: 0, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(2.2)", ...IR }, at(t)); }
+          function punch(s, t, k) { tl.fromTo(E(s), { scale: k || 1.07, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.5, ease: "power3.out", ...IR }, at(t)); }
+          function flash(t, o) { tl.fromTo($(".flash"), { opacity: o || 0.35 }, { opacity: 0, duration: 0.4, ease: "power2.out", ...IR }, at(t)); }
+          function count(el, t, to, d) { const p = { v: 0 }; tl.fromTo(p, { v: 0 }, { v: to, duration: d || 1.2, ease: "power2.out", ...IR, onUpdate: () => { el.textContent = Math.round(p.v); } }, at(t)); }
+          // letra: palavras entram 0.15s antes do tempo forte, saem antes da próxima linha
+          const LY = [108.11,110.5,112.92,115.31,117.7,120.12,122.51,124.9];
+          R.querySelectorAll(".ly").forEach((el, i) => {
+            const a = LY[i]; if (a == null) return;
+            tl.fromTo(el.querySelectorAll("span"), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.34, stagger: 0.045, ease: "power3.out", ...IR }, at(a - 0.15));
+            const nx = LY[i + 1];
+            if (nx != null) tl.to(el, { opacity: 0, duration: 0.16, ease: "power1.in" }, at(nx - 0.2));
+          });
+
+          [0, 1, 2].forEach((i) => tl.fromTo(E(".cd" + i), { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.5, ease: "back.out(1.5)", ...IR }, at(108.11 + i * 0.6)));
+          draw(".ex1", 110.5, 1.0); draw(".ex2", 110.9, 1.0); draw(".ex3", 111.3, 1.2);
+          tl.to(E(".cd"), { opacity: 0, y: 80, duration: 0.5, stagger: 0.12, ease: "power2.in" }, at(112.8));
+          tl.to(E(".ex1, .ex2, .ex3"), { opacity: 0, duration: 0.6 }, at(113.4));
+          draw(".tri", 113.2, 1.6, "power2.inOut");
+          tl.fromTo(E(".tri"), { rotate: 0 }, { rotate: 8, transformOrigin: "50% 60%", duration: 4.3, ease: "sine.inOut", ...IR }, at(115.31));
+          tl.set(E(".b1"), { opacity: 0 }, at(117.7));
+          draw(".base", 117.6, 1.0, "power3.out"); pop(".b2 .pd", 118.4);
+          draw(".s1", 120.12, 1.2); draw(".s2", 122.51, 1.2); draw(".s3", 124.9 - 0.5, 1.3, "power2.out");
+          flash(124.9, 0.3); punch(".b2", 124.9, 1.06);
+          [125.527,126.131,126.711].forEach((b) => punch(".b2", b, 1.02));
+          tl.seek(0);
+          window.__timelines["08-f8"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

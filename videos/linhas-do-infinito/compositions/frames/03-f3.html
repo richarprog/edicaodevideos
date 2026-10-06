@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+
+@font-face{font-family:"Newsreader";src:url("assets/fonts/newsreader-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal}
+@font-face{font-family:"Newsreader";src:url("assets/fonts/newsreader-latin-400-italic.woff2") format("woff2");font-weight:400;font-style:italic}
+@font-face{font-family:"Hanken Grotesk";src:url("assets/fonts/hanken-grotesk-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Hanken Grotesk";src:url("assets/fonts/hanken-grotesk-latin-600-normal.woff2") format("woff2");font-weight:600}
+@font-face{font-family:"DM Mono";src:url("assets/fonts/dm-mono-latin-400-normal.woff2") format("woff2");font-weight:400}
+#r03{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background-color:#F0EBDE;
+  background-image:linear-gradient(rgba(31,43,224,0.10) 1px,transparent 1px),linear-gradient(90deg,rgba(31,43,224,0.10) 1px,transparent 1px);
+  background-size:38.4px 38.4px;color:#1F2BE0;font-family:"Hanken Grotesk",sans-serif}
+#r03 .hl{position:absolute;left:77px;right:77px;height:2px;background:#1F2BE0}
+#r03 .hl.t{top:58px} #r03 .hl.b{bottom:58px}
+#r03 .chip{position:absolute;top:74px;left:77px;font:400 16px "DM Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
+#r03 .pg{position:absolute;top:74px;right:77px;font:400 16px "DM Mono",monospace;letter-spacing:.08em}
+#r03 .cam{position:absolute;inset:0;transform-origin:50% 50%}
+#r03 svg.geo{position:absolute;inset:0;width:1920px;height:1080px;overflow:visible}
+#r03 svg.geo line,#r03 svg.geo path,#r03 svg.geo polyline,#r03 svg.geo polygon{stroke:#1F2BE0;fill:none;stroke-linecap:round;stroke-linejoin:round}
+#r03 svg.geo .arr{stroke-width:5}
+#r03 svg.geo .dot{fill:#1F2BE0;stroke:none}
+#r03 svg.geo .ring{fill:none;stroke:#1F2BE0;stroke-width:3}
+#r03 svg.geo .d{stroke-dasharray:1;stroke-dashoffset:1}
+#r03 svg.geo .lbl{font:400 24px "DM Mono",monospace;letter-spacing:.08em;fill:#1F2BE0}
+#r03 svg.geo .mono{font:400 30px "DM Mono",monospace;fill:#1F2BE0}
+#r03 svg.geo .it{font-family:Newsreader,serif;font-style:italic;fill:#1F2BE0}
+#r03 .pa,#r03 .pd,#r03 .tr,#r03 .cnt,#r03 .lane,#r03 .ticks{opacity:0}
+#r03 .ly{position:absolute;left:160px;right:160px;bottom:142px;text-align:center;font:400 66px/1.12 Newsreader,serif;letter-spacing:-.005em}
+#r03 .ly.big{bottom:auto;top:170px;font-size:104px;line-height:1.02}
+#r03 .ly span{display:inline-block;opacity:0}
+#r03 .flash{position:absolute;inset:0;background:#1F2BE0;opacity:0;pointer-events:none}
+#r03 .pc,#r03 .pd{opacity:0}
+      </style>
+      <div id="r03" data-composition-id="03-f3" data-width="1920" data-height="1080" data-duration="9.61">
+        <div class="hl t"></div><div class="hl b"></div>
+        <div class="chip">pré-refrão</div><div class="pg">03 / 10</div>
+        <div class="cam"><svg class="geo" viewBox="0 0 1920 1080"><circle class="dot pd p1" cx="520" cy="560" r="16"/><line class="d x1" pathLength="1" x1="492" y1="532" x2="548" y2="588" stroke-width="6"/><line class="d x2" pathLength="1" x1="548" y1="532" x2="492" y2="588" stroke-width="6"/><text class="lbl pc l1" x="520" y="640" text-anchor="middle">INÍCIO?</text>
+        <circle class="dot pd p2" cx="1400" cy="560" r="16"/><line class="d x3" pathLength="1" x1="1372" y1="532" x2="1428" y2="588" stroke-width="6"/><line class="d x4" pathLength="1" x1="1428" y1="532" x2="1372" y2="588" stroke-width="6"/><text class="lbl pc l2" x="1400" y="640" text-anchor="middle">FIM?</text>
+        <line class="d s1" pathLength="1" x1="960" y1="780" x2="-60" y2="780" stroke-width="5"/><line class="d s2" pathLength="1" x1="960" y1="780" x2="1980" y2="780" stroke-width="5"/><g class="pc chev"><path class="arr ch chL c0" d="M870 762 L840 780 L870 798"/><path class="arr ch chR c0" d="M1050 762 L1080 780 L1050 798"/><path class="arr ch chL c1" d="M740 762 L710 780 L740 798"/><path class="arr ch chR c1" d="M1180 762 L1210 780 L1180 798"/><path class="arr ch chL c2" d="M610 762 L580 780 L610 798"/><path class="arr ch chR c2" d="M1310 762 L1340 780 L1310 798"/><path class="arr ch chL c3" d="M480 762 L450 780 L480 798"/><path class="arr ch chR c3" d="M1440 762 L1470 780 L1440 798"/><path class="arr ch chL c4" d="M350 762 L320 780 L350 798"/><path class="arr ch chR c4" d="M1570 762 L1600 780 L1570 798"/><path class="arr ch chL c5" d="M220 762 L190 780 L220 798"/><path class="arr ch chR c5" d="M1700 762 L1730 780 L1700 798"/></g></svg></div>
+        <div class="ly big" data-i="0"><span>Não</span> <span>tem</span> <span>ponto</span> <span>inicial</span></div>
+<div class="ly big" data-i="1"><span>Nem</span> <span>tem</span> <span>ponto</span> <span>terminal</span></div>
+<div class="ly big" data-i="2"><span>Vai</span> <span>nos</span> <span>dois</span> <span>sentidos</span> <span>sem</span> <span>parar</span></div>
+        <div class="flash"></div>
+      </div>
+      <script>
+        (function () {
+          const R = document.getElementById("r03");
+          const E = (s) => (typeof s === "string" ? R.querySelectorAll(s) : s);
+          const $ = (s) => R.querySelector(s);
+          const S = 31.3, END = 40.91;
+          const at = (t) => Math.max(0, +(t - S).toFixed(3));
+          const tl = gsap.timeline({ paused: true });
+          const IR = { immediateRender: false };
+          function draw(s, t, d, ease) { tl.fromTo(E(s), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d, ease: ease || "power2.inOut", ...IR }, at(t)); }
+          function show(s, t, d) { tl.fromTo(E(s), { opacity: 0 }, { opacity: 1, duration: d == null ? 0.3 : d, ease: "power1.out", ...IR }, at(t)); }
+          function hide(s, t, d) { tl.to(E(s), { opacity: 0, duration: d == null ? 0.25 : d, ease: "power1.in" }, at(t)); }
+          function pop(s, t) { tl.fromTo(E(s), { opacity: 0, scale: 0, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(2.2)", ...IR }, at(t)); }
+          function punch(s, t, k) { tl.fromTo(E(s), { scale: k || 1.07, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.5, ease: "power3.out", ...IR }, at(t)); }
+          function flash(t, o) { tl.fromTo($(".flash"), { opacity: o || 0.35 }, { opacity: 0, duration: 0.4, ease: "power2.out", ...IR }, at(t)); }
+          function count(el, t, to, d) { const p = { v: 0 }; tl.fromTo(p, { v: 0 }, { v: to, duration: d || 1.2, ease: "power2.out", ...IR, onUpdate: () => { el.textContent = Math.round(p.v); } }, at(t)); }
+          // letra: palavras entram 0.15s antes do tempo forte, saem antes da próxima linha
+          const LY = [31.3,33.72,36.11];
+          R.querySelectorAll(".ly").forEach((el, i) => {
+            const a = LY[i]; if (a == null) return;
+            tl.fromTo(el.querySelectorAll("span"), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.34, stagger: 0.045, ease: "power3.out", ...IR }, at(a - 0.15));
+            const nx = LY[i + 1];
+            if (nx != null) tl.to(el, { opacity: 0, duration: 0.16, ease: "power1.in" }, at(nx - 0.2));
+          });
+
+          pop(".p1", 31.3); show(".l1", 31.4); draw(".x1", 32.2, 0.25, "power3.out"); draw(".x2", 32.4, 0.25, "power3.out");
+          pop(".p2", 33.72); show(".l2", 33.82); draw(".x3", 34.6, 0.25, "power3.out"); draw(".x4", 34.8, 0.25, "power3.out");
+          draw(".s1", 36.11, 0.7, "power3.in"); draw(".s2", 36.11, 0.7, "power3.in");
+          show(".chev", 38.4, 0.1);
+          [38.522,39.126,39.706,40.31].forEach((b) => {
+            tl.fromTo(E(".chL"), { x: 0, opacity: 1 }, { x: -110, opacity: 0.2, duration: 0.5, stagger: 0.03, ease: "power2.out", ...IR }, at(b));
+            tl.fromTo(E(".chR"), { x: 0, opacity: 1 }, { x: 110, opacity: 0.2, duration: 0.5, stagger: 0.03, ease: "power2.out", ...IR }, at(b));
+          });
+          tl.fromTo($(".cam"), { scale: 1 }, { scale: 1.07, duration: 4.8, ease: "power2.in", ...IR }, at(36.11));
+          [38.522,39.126,39.706,40.31].forEach((b, i) => punch(".geo", b, 1.012 + i * 0.004));
+          tl.seek(0);
+          window.__timelines["03-f3"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+
+@font-face{font-family:"Newsreader";src:url("assets/fonts/newsreader-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal}
+@font-face{font-family:"Newsreader";src:url("assets/fonts/newsreader-latin-400-italic.woff2") format("woff2");font-weight:400;font-style:italic}
+@font-face{font-family:"Hanken Grotesk";src:url("assets/fonts/hanken-grotesk-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Hanken Grotesk";src:url("assets/fonts/hanken-grotesk-latin-600-normal.woff2") format("woff2");font-weight:600}
+@font-face{font-family:"DM Mono";src:url("assets/fonts/dm-mono-latin-400-normal.woff2") format("woff2");font-weight:400}
+#r02{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background-color:#F0EBDE;
+  background-image:linear-gradient(rgba(31,43,224,0.10) 1px,transparent 1px),linear-gradient(90deg,rgba(31,43,224,0.10) 1px,transparent 1px);
+  background-size:38.4px 38.4px;color:#1F2BE0;font-family:"Hanken Grotesk",sans-serif}
+#r02 .hl{position:absolute;left:77px;right:77px;height:2px;background:#1F2BE0}
+#r02 .hl.t{top:58px} #r02 .hl.b{bottom:58px}
+#r02 .chip{position:absolute;top:74px;left:77px;font:400 16px "DM Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
+#r02 .pg{position:absolute;top:74px;right:77px;font:400 16px "DM Mono",monospace;letter-spacing:.08em}
+#r02 .cam{position:absolute;inset:0;transform-origin:50% 50%}
+#r02 svg.geo{position:absolute;inset:0;width:1920px;height:1080px;overflow:visible}
+#r02 svg.geo line,#r02 svg.geo path,#r02 svg.geo polyline,#r02 svg.geo polygon{stroke:#1F2BE0;fill:none;stroke-linecap:round;stroke-linejoin:round}
+#r02 svg.geo .arr{stroke-width:5}
+#r02 svg.geo .dot{fill:#1F2BE0;stroke:none}
+#r02 svg.geo .ring{fill:none;stroke:#1F2BE0;stroke-width:3}
+#r02 svg.geo .d{stroke-dasharray:1;stroke-dashoffset:1}
+#r02 svg.geo .lbl{font:400 24px "DM Mono",monospace;letter-spacing:.08em;fill:#1F2BE0}
+#r02 svg.geo .mono{font:400 30px "DM Mono",monospace;fill:#1F2BE0}
+#r02 svg.geo .it{font-family:Newsreader,serif;font-style:italic;fill:#1F2BE0}
+#r02 .pa,#r02 .pd,#r02 .tr,#r02 .cnt,#r02 .lane,#r02 .ticks{opacity:0}
+#r02 .ly{position:absolute;left:160px;right:160px;bottom:142px;text-align:center;font:400 66px/1.12 Newsreader,serif;letter-spacing:-.005em}
+#r02 .ly.big{bottom:auto;top:170px;font-size:104px;line-height:1.02}
+#r02 .ly span{display:inline-block;opacity:0}
+#r02 .flash{position:absolute;inset:0;background:#1F2BE0;opacity:0;pointer-events:none}
+#r02 .edge,#r02 .rl,#r02 .df,#r02 .stamp,#r02 .ticks{opacity:0}
+#r02 .stamp rect{stroke:#1F2BE0}
+      </style>
+      <div id="r02" data-composition-id="02-f2" data-width="1920" data-height="1080" data-duration="19.2">
+        <div class="hl t"></div><div class="hl b"></div>
+        <div class="chip">verso 1</div><div class="pg">02 / 10</div>
+        <div class="cam"><svg class="geo" viewBox="0 0 1920 1080"><g class="world"><line class="L1 big" pathLength="1" x1="960" y1="480" x2="960" y2="480" stroke-width="5"/><line class="L2 big" pathLength="1" x1="960" y1="480" x2="960" y2="480" stroke-width="5"/><g class="ticks"><line class="tk" pathLength="1" x1="-6000" y1="470" x2="-6000" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-5760" y1="470" x2="-5760" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-5520" y1="470" x2="-5520" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-5280" y1="470" x2="-5280" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-5040" y1="470" x2="-5040" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-4800" y1="470" x2="-4800" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-4560" y1="470" x2="-4560" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-4320" y1="470" x2="-4320" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-4080" y1="470" x2="-4080" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-3840" y1="470" x2="-3840" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-3600" y1="470" x2="-3600" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-3360" y1="470" x2="-3360" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-3120" y1="470" x2="-3120" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-2880" y1="470" x2="-2880" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-2640" y1="470" x2="-2640" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-2400" y1="470" x2="-2400" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-2160" y1="470" x2="-2160" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-1920" y1="470" x2="-1920" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-1680" y1="470" x2="-1680" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-1440" y1="470" x2="-1440" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-1200" y1="470" x2="-1200" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-960" y1="470" x2="-960" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-720" y1="470" x2="-720" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-480" y1="470" x2="-480" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="-240" y1="470" x2="-240" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="0" y1="470" x2="0" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="240" y1="470" x2="240" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="480" y1="470" x2="480" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="720" y1="470" x2="720" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="1200" y1="470" x2="1200" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="1440" y1="470" x2="1440" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="1680" y1="470" x2="1680" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="1920" y1="470" x2="1920" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="2160" y1="470" x2="2160" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="2400" y1="470" x2="2400" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="2640" y1="470" x2="2640" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="2880" y1="470" x2="2880" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="3120" y1="470" x2="3120" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="3360" y1="470" x2="3360" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="3600" y1="470" x2="3600" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="3840" y1="470" x2="3840" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="4080" y1="470" x2="4080" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="4320" y1="470" x2="4320" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="4560" y1="470" x2="4560" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="4800" y1="470" x2="4800" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="5040" y1="470" x2="5040" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="5280" y1="470" x2="5280" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="5520" y1="470" x2="5520" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="5760" y1="470" x2="5760" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="6000" y1="470" x2="6000" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="6240" y1="470" x2="6240" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="6480" y1="470" x2="6480" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="6720" y1="470" x2="6720" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="6960" y1="470" x2="6960" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="7200" y1="470" x2="7200" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="7440" y1="470" x2="7440" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="7680" y1="470" x2="7680" y2="490" stroke-width="4"/><line class="tk" pathLength="1" x1="7920" y1="470" x2="7920" y2="490" stroke-width="4"/></g><circle class="dot p0" cx="960" cy="480" r="10"/></g></svg><svg class="geo fixed" viewBox="0 0 1920 1080"><path class="arr edge eL" d="M149 456.6 L110 480 L149 503.4"/><path class="arr edge eR" d="M1771 456.6 L1810 480 L1771 503.4"/><text class="it rl" x="960" y="430" font-size="64" text-anchor="middle">r</text>
+        <text class="lbl df" x="140" y="200">DEFINIÇÃO:</text><line class="d dfl" pathLength="1" x1="330" y1="192" x2="700" y2="192" stroke-width="3"/><line class="d strike" pathLength="1" x1="130" y1="192" x2="720" y2="192" stroke-width="5"/>
+        <g class="stamp"><rect x="1300" y="150" width="480" height="84" fill="none" stroke-width="4"/><text class="lbl" x="1540" y="203" text-anchor="middle" style="font-size:30px">CONCEITO PRIMITIVO</text></g></svg></div>
+        <div class="ly" data-i="0"><span>No</span> <span>papel</span> <span>eu</span> <span>começo</span> <span>a</span> <span>imaginar</span></div>
+<div class="ly" data-i="1"><span>Um</span> <span>traço</span> <span>que</span> <span>não</span> <span>para</span> <span>de</span> <span>andar</span></div>
+<div class="ly" data-i="2"><span>Vai</span> <span>além</span> <span>do</span> <span>que</span> <span>posso</span> <span>enxergar</span></div>
+<div class="ly" data-i="3"><span>Sem</span> <span>começo</span> <span>e</span> <span>sem</span> <span>fim</span> <span>pra</span> <span>marcar</span></div>
+<div class="ly" data-i="4"><span>É</span> <span>a</span> <span>reta</span> <span>que</span> <span>segue</span> <span>sem</span> <span>direção</span> <span>final</span></div>
+<div class="ly" data-i="5"><span>Cresce</span> <span>infinita,</span> <span>conceito</span> <span>essencial</span></div>
+<div class="ly" data-i="6"><span>Nem</span> <span>definição</span> <span>ela</span> <span>chega</span> <span>a</span> <span>ter</span></div>
+<div class="ly" data-i="7"><span>É</span> <span>primitiva,</span> <span>só</span> <span>dá</span> <span>pra</span> <span>entender</span></div>
+        <div class="flash"></div>
+      </div>
+      <script>
+        (function () {
+          const R = document.getElementById("r02");
+          const E = (s) => (typeof s === "string" ? R.querySelectorAll(s) : s);
+          const $ = (s) => R.querySelector(s);
+          const S = 12.1, END = 31.3;
+          const at = (t) => Math.max(0, +(t - S).toFixed(3));
+          const tl = gsap.timeline({ paused: true });
+          const IR = { immediateRender: false };
+          function draw(s, t, d, ease) { tl.fromTo(E(s), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d, ease: ease || "power2.inOut", ...IR }, at(t)); }
+          function show(s, t, d) { tl.fromTo(E(s), { opacity: 0 }, { opacity: 1, duration: d == null ? 0.3 : d, ease: "power1.out", ...IR }, at(t)); }
+          function hide(s, t, d) { tl.to(E(s), { opacity: 0, duration: d == null ? 0.25 : d, ease: "power1.in" }, at(t)); }
+          function pop(s, t) { tl.fromTo(E(s), { opacity: 0, scale: 0, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(2.2)", ...IR }, at(t)); }
+          function punch(s, t, k) { tl.fromTo(E(s), { scale: k || 1.07, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.5, ease: "power3.out", ...IR }, at(t)); }
+          function flash(t, o) { tl.fromTo($(".flash"), { opacity: o || 0.35 }, { opacity: 0, duration: 0.4, ease: "power2.out", ...IR }, at(t)); }
+          function count(el, t, to, d) { const p = { v: 0 }; tl.fromTo(p, { v: 0 }, { v: to, duration: d || 1.2, ease: "power2.out", ...IR, onUpdate: () => { el.textContent = Math.round(p.v); } }, at(t)); }
+          // letra: palavras entram 0.15s antes do tempo forte, saem antes da próxima linha
+          const LY = [12.1,14.51,16.9,19.3,21.71,24.1,26.52,28.91];
+          R.querySelectorAll(".ly").forEach((el, i) => {
+            const a = LY[i]; if (a == null) return;
+            tl.fromTo(el.querySelectorAll("span"), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.34, stagger: 0.045, ease: "power3.out", ...IR }, at(a - 0.15));
+            const nx = LY[i + 1];
+            if (nx != null) tl.to(el, { opacity: 0, duration: 0.16, ease: "power1.in" }, at(nx - 0.2));
+          });
+
+          pop(".p0", 12.0);
+          tl.fromTo(E(".L1"), { attr: { x2: 960 } }, { attr: { x2: -6000 }, duration: 16, ease: "none", ...IR }, at(12.1));
+          tl.fromTo(E(".L2"), { attr: { x2: 960 } }, { attr: { x2: 7920 }, duration: 16, ease: "none", ...IR }, at(12.1));
+          show(".ticks", 16.6, 0.8);
+          // câmera recua: a reta continua além do que se enxerga
+          tl.fromTo($(".world"), { scale: 1, svgOrigin: "960 480" }, { scale: 0.34, duration: 31.3 - 16.9, ease: "power1.inOut", ...IR }, at(16.9));
+          tl.fromTo(E(".world .big"), { attr: { "stroke-width": 5 } }, { attr: { "stroke-width": 14 }, duration: 31.3 - 16.9, ease: "power1.inOut", ...IR }, at(16.9));
+          tl.fromTo(E(".world .tk"), { attr: { "stroke-width": 4 } }, { attr: { "stroke-width": 10 }, duration: 31.3 - 16.9, ease: "power1.inOut", ...IR }, at(16.9));
+          pop(".eL", 19.3); pop(".eR", 19.45);
+          show(".rl", 21.71, 0.4);
+          [24.102,24.729,25.333,25.913].forEach((b) => {
+            tl.fromTo(E(".eL"), { x: -22 }, { x: 0, duration: 0.45, ease: "power2.out", ...IR }, at(b));
+            tl.fromTo(E(".eR"), { x: 22 }, { x: 0, duration: 0.45, ease: "power2.out", ...IR }, at(b));
+          });
+          show(".df", 26.52, 0.3); draw(".dfl", 26.7, 0.5, "power1.out"); draw(".strike", 27.7, 0.35, "power3.out");
+          pop(".stamp", 28.91);
+          tl.fromTo(E(".stamp"), { rotate: 0 }, { rotate: -4, duration: 0.3, ease: "power2.out", transformOrigin: "50% 50%", ...IR }, at(28.95));
+          tl.seek(0);
+          window.__timelines["02-f2"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

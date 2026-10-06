@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+
+@font-face{font-family:"Newsreader";src:url("assets/fonts/newsreader-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal}
+@font-face{font-family:"Newsreader";src:url("assets/fonts/newsreader-latin-400-italic.woff2") format("woff2");font-weight:400;font-style:italic}
+@font-face{font-family:"Hanken Grotesk";src:url("assets/fonts/hanken-grotesk-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Hanken Grotesk";src:url("assets/fonts/hanken-grotesk-latin-600-normal.woff2") format("woff2");font-weight:600}
+@font-face{font-family:"DM Mono";src:url("assets/fonts/dm-mono-latin-400-normal.woff2") format("woff2");font-weight:400}
+#r06{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background-color:#F0EBDE;
+  background-image:linear-gradient(rgba(31,43,224,0.10) 1px,transparent 1px),linear-gradient(90deg,rgba(31,43,224,0.10) 1px,transparent 1px);
+  background-size:38.4px 38.4px;color:#1F2BE0;font-family:"Hanken Grotesk",sans-serif}
+#r06 .hl{position:absolute;left:77px;right:77px;height:2px;background:#1F2BE0}
+#r06 .hl.t{top:58px} #r06 .hl.b{bottom:58px}
+#r06 .chip{position:absolute;top:74px;left:77px;font:400 16px "DM Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
+#r06 .pg{position:absolute;top:74px;right:77px;font:400 16px "DM Mono",monospace;letter-spacing:.08em}
+#r06 .cam{position:absolute;inset:0;transform-origin:50% 50%}
+#r06 svg.geo{position:absolute;inset:0;width:1920px;height:1080px;overflow:visible}
+#r06 svg.geo line,#r06 svg.geo path,#r06 svg.geo polyline,#r06 svg.geo polygon{stroke:#1F2BE0;fill:none;stroke-linecap:round;stroke-linejoin:round}
+#r06 svg.geo .arr{stroke-width:5}
+#r06 svg.geo .dot{fill:#1F2BE0;stroke:none}
+#r06 svg.geo .ring{fill:none;stroke:#1F2BE0;stroke-width:3}
+#r06 svg.geo .d{stroke-dasharray:1;stroke-dashoffset:1}
+#r06 svg.geo .lbl{font:400 24px "DM Mono",monospace;letter-spacing:.08em;fill:#1F2BE0}
+#r06 svg.geo .mono{font:400 30px "DM Mono",monospace;fill:#1F2BE0}
+#r06 svg.geo .it{font-family:Newsreader,serif;font-style:italic;fill:#1F2BE0}
+#r06 .pa,#r06 .pd,#r06 .tr,#r06 .cnt,#r06 .lane,#r06 .ticks{opacity:0}
+#r06 .ly{position:absolute;left:160px;right:160px;bottom:142px;text-align:center;font:400 66px/1.12 Newsreader,serif;letter-spacing:-.005em}
+#r06 .ly.big{bottom:auto;top:170px;font-size:104px;line-height:1.02}
+#r06 .ly span{display:inline-block;opacity:0}
+#r06 .flash{position:absolute;inset:0;background:#1F2BE0;opacity:0;pointer-events:none}
+#r06 .pc,#r06 .pd{opacity:0}
+      </style>
+      <div id="r06" data-composition-id="06-f6" data-width="1920" data-height="1080" data-duration="9.59">
+        <div class="hl t"></div><div class="hl b"></div>
+        <div class="chip">pré-refrão</div><div class="pg">06 / 10</div>
+        <div class="cam"><svg class="geo" viewBox="0 0 1920 1080"><circle class="dot pd q1" cx="240" cy="640" r="14"/><line class="d k1" pathLength="1" x1="240" y1="640" x2="560" y2="640" stroke-width="5"/><text class="lbl pc m1" x="400" y="720" text-anchor="middle">INÍCIO</text>
+        <line class="d k2" pathLength="1" x1="780" y1="640" x2="1110" y2="640" stroke-width="5"/><circle class="dot pd q2" cx="1110" cy="640" r="14"/><text class="lbl pc m2" x="945" y="720" text-anchor="middle">FIM</text>
+        <line class="d k3" pathLength="1" x1="1300" y1="640" x2="1980" y2="640" stroke-width="5"/><path class="arr pd q3" d="M1650 622 L1680 640 L1650 658"/><text class="lbl pc m3" x="1490" y="720" text-anchor="middle">SEM FIM</text></svg></div>
+        <div class="ly big" data-i="0"><span>Tem</span> <span>início</span> <span>pra</span> <span>mostrar</span></div>
+<div class="ly big" data-i="1"><span>E</span> <span>também</span> <span>pode</span> <span>acabar</span></div>
+<div class="ly big" data-i="2"><span>Ou</span> <span>seguir</span> <span>sem</span> <span>nunca</span> <span>terminar</span></div>
+        <div class="flash"></div>
+      </div>
+      <script>
+        (function () {
+          const R = document.getElementById("r06");
+          const E = (s) => (typeof s === "string" ? R.querySelectorAll(s) : s);
+          const $ = (s) => R.querySelector(s);
+          const S = 79.32, END = 88.91;
+          const at = (t) => Math.max(0, +(t - S).toFixed(3));
+          const tl = gsap.timeline({ paused: true });
+          const IR = { immediateRender: false };
+          function draw(s, t, d, ease) { tl.fromTo(E(s), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d, ease: ease || "power2.inOut", ...IR }, at(t)); }
+          function show(s, t, d) { tl.fromTo(E(s), { opacity: 0 }, { opacity: 1, duration: d == null ? 0.3 : d, ease: "power1.out", ...IR }, at(t)); }
+          function hide(s, t, d) { tl.to(E(s), { opacity: 0, duration: d == null ? 0.25 : d, ease: "power1.in" }, at(t)); }
+          function pop(s, t) { tl.fromTo(E(s), { opacity: 0, scale: 0, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(2.2)", ...IR }, at(t)); }
+          function punch(s, t, k) { tl.fromTo(E(s), { scale: k || 1.07, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.5, ease: "power3.out", ...IR }, at(t)); }
+          function flash(t, o) { tl.fromTo($(".flash"), { opacity: o || 0.35 }, { opacity: 0, duration: 0.4, ease: "power2.out", ...IR }, at(t)); }
+          function count(el, t, to, d) { const p = { v: 0 }; tl.fromTo(p, { v: 0 }, { v: to, duration: d || 1.2, ease: "power2.out", ...IR, onUpdate: () => { el.textContent = Math.round(p.v); } }, at(t)); }
+          // letra: palavras entram 0.15s antes do tempo forte, saem antes da próxima linha
+          const LY = [79.32,81.71,84.13];
+          R.querySelectorAll(".ly").forEach((el, i) => {
+            const a = LY[i]; if (a == null) return;
+            tl.fromTo(el.querySelectorAll("span"), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.34, stagger: 0.045, ease: "power3.out", ...IR }, at(a - 0.15));
+            const nx = LY[i + 1];
+            if (nx != null) tl.to(el, { opacity: 0, duration: 0.16, ease: "power1.in" }, at(nx - 0.2));
+          });
+
+          pop(".q1", 79.32); draw(".k1", 79.5, 0.9, "power2.out"); show(".m1", 79.6);
+          draw(".k2", 81.71, 0.8, "power2.in"); pop(".q2", 82.45); show(".m2", 82.0);
+          draw(".k3", 84.13, 1.0, "power2.in"); show(".m3", 84.3);
+          tl.fromTo(E(".q3"), { opacity: 1, x: 0 }, { x: 380, opacity: 0, duration: 1.2, ease: "power2.in", ...IR }, at(84.5));
+          tl.fromTo(E(".q3"), { opacity: 1, x: 0 }, { x: 380, opacity: 0, duration: 1.2, ease: "power2.in", ...IR }, at(86.52));
+          tl.fromTo($(".cam"), { scale: 1 }, { scale: 1.07, duration: 4.78, ease: "power2.in", ...IR }, at(84.13));
+          [86.518,87.121,87.725,88.329].forEach((b, i) => punch(".geo", b, 1.012 + i * 0.004));
+          tl.seek(0);
+          window.__timelines["06-f6"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

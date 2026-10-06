@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+
+@font-face{font-family:"Newsreader";src:url("assets/fonts/newsreader-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal}
+@font-face{font-family:"Newsreader";src:url("assets/fonts/newsreader-latin-400-italic.woff2") format("woff2");font-weight:400;font-style:italic}
+@font-face{font-family:"Hanken Grotesk";src:url("assets/fonts/hanken-grotesk-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Hanken Grotesk";src:url("assets/fonts/hanken-grotesk-latin-600-normal.woff2") format("woff2");font-weight:600}
+@font-face{font-family:"DM Mono";src:url("assets/fonts/dm-mono-latin-400-normal.woff2") format("woff2");font-weight:400}
+#r10{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background-color:#F0EBDE;
+  background-image:linear-gradient(rgba(31,43,224,0.10) 1px,transparent 1px),linear-gradient(90deg,rgba(31,43,224,0.10) 1px,transparent 1px);
+  background-size:38.4px 38.4px;color:#1F2BE0;font-family:"Hanken Grotesk",sans-serif}
+#r10 .hl{position:absolute;left:77px;right:77px;height:2px;background:#1F2BE0}
+#r10 .hl.t{top:58px} #r10 .hl.b{bottom:58px}
+#r10 .chip{position:absolute;top:74px;left:77px;font:400 16px "DM Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
+#r10 .pg{position:absolute;top:74px;right:77px;font:400 16px "DM Mono",monospace;letter-spacing:.08em}
+#r10 .cam{position:absolute;inset:0;transform-origin:50% 50%}
+#r10 svg.geo{position:absolute;inset:0;width:1920px;height:1080px;overflow:visible}
+#r10 svg.geo line,#r10 svg.geo path,#r10 svg.geo polyline,#r10 svg.geo polygon{stroke:#1F2BE0;fill:none;stroke-linecap:round;stroke-linejoin:round}
+#r10 svg.geo .arr{stroke-width:5}
+#r10 svg.geo .dot{fill:#1F2BE0;stroke:none}
+#r10 svg.geo .ring{fill:none;stroke:#1F2BE0;stroke-width:3}
+#r10 svg.geo .d{stroke-dasharray:1;stroke-dashoffset:1}
+#r10 svg.geo .lbl{font:400 24px "DM Mono",monospace;letter-spacing:.08em;fill:#1F2BE0}
+#r10 svg.geo .mono{font:400 30px "DM Mono",monospace;fill:#1F2BE0}
+#r10 svg.geo .it{font-family:Newsreader,serif;font-style:italic;fill:#1F2BE0}
+#r10 .pa,#r10 .pd,#r10 .tr,#r10 .cnt,#r10 .lane,#r10 .ticks{opacity:0}
+#r10 .ly{position:absolute;left:160px;right:160px;bottom:142px;text-align:center;font:400 66px/1.12 Newsreader,serif;letter-spacing:-.005em}
+#r10 .ly.big{bottom:auto;top:170px;font-size:104px;line-height:1.02}
+#r10 .ly span{display:inline-block;opacity:0}
+#r10 .flash{position:absolute;inset:0;background:#1F2BE0;opacity:0;pointer-events:none}
+#r10 .bgart{opacity:.13} #r10 .end{position:absolute;left:120px;right:120px;top:410px;text-align:center;white-space:nowrap;font:400 112px/1 Newsreader,serif;letter-spacing:-.01em;opacity:0}
+#r10 .end em{font-style:italic}
+      </style>
+      <div id="r10" data-composition-id="10-f10" data-width="1920" data-height="1080" data-duration="22.12">
+        <div class="hl t"></div><div class="hl b"></div>
+        <div class="chip">refrão final</div><div class="pg">10 / 10</div>
+        <div class="cam"><svg class="geo" viewBox="0 0 1920 1080"><g class="bgart"><line class="" pathLength="1" x1="994.494" y1="141.808" x2="1028.611" y2="147.211" stroke-width="1.6"/><line class="" pathLength="1" x1="1028.611" y1="147.211" x2="1094.223" y2="168.53" stroke-width="1.6"/><line class="" pathLength="1" x1="1061.976" y1="156.151" x2="1153.969" y2="203.024" stroke-width="1.6"/><line class="" pathLength="1" x1="1094.223" y1="168.53" x2="1205.238" y2="249.187" stroke-width="1.6"/><line class="" pathLength="1" x1="1125" y1="184.212" x2="1245.788" y2="305" stroke-width="1.6"/><line class="" pathLength="1" x1="1153.969" y1="203.024" x2="1273.849" y2="368.024" stroke-width="1.6"/><line class="" pathLength="1" x1="1180.813" y1="224.762" x2="1288.192" y2="435.506" stroke-width="1.6"/><line class="" pathLength="1" x1="1205.238" y1="249.187" x2="1288.192" y2="504.494" stroke-width="1.6"/><line class="" pathLength="1" x1="1226.976" y1="276.031" x2="1273.849" y2="571.976" stroke-width="1.6"/><line class="" pathLength="1" x1="1245.788" y1="305" x2="1245.788" y2="635" stroke-width="1.6"/><line class="" pathLength="1" x1="1261.47" y1="335.777" x2="1205.238" y2="690.813" stroke-width="1.6"/><line class="" pathLength="1" x1="1273.849" y1="368.024" x2="1153.969" y2="736.976" stroke-width="1.6"/><line class="" pathLength="1" x1="1282.789" y1="401.389" x2="1094.223" y2="771.47" stroke-width="1.6"/><line class="" pathLength="1" x1="1288.192" y1="435.506" x2="1028.611" y2="792.789" stroke-width="1.6"/><line class="" pathLength="1" x1="1290" y1="470" x2="960" y2="800" stroke-width="1.6"/><line class="" pathLength="1" x1="1288.192" y1="504.494" x2="891.389" y2="792.789" stroke-width="1.6"/><line class="" pathLength="1" x1="1282.789" y1="538.611" x2="825.777" y2="771.47" stroke-width="1.6"/><line class="" pathLength="1" x1="1273.849" y1="571.976" x2="766.031" y2="736.976" stroke-width="1.6"/><line class="" pathLength="1" x1="1261.47" y1="604.223" x2="714.762" y2="690.813" stroke-width="1.6"/><line class="" pathLength="1" x1="1245.788" y1="635" x2="674.212" y2="635" stroke-width="1.6"/><line class="" pathLength="1" x1="1226.976" y1="663.969" x2="646.151" y2="571.976" stroke-width="1.6"/><line class="" pathLength="1" x1="1205.238" y1="690.813" x2="631.808" y2="504.494" stroke-width="1.6"/><line class="" pathLength="1" x1="1180.813" y1="715.238" x2="631.808" y2="435.506" stroke-width="1.6"/><line class="" pathLength="1" x1="1153.969" y1="736.976" x2="646.151" y2="368.024" stroke-width="1.6"/><line class="" pathLength="1" x1="1125" y1="755.788" x2="674.212" y2="305" stroke-width="1.6"/><line class="" pathLength="1" x1="1094.223" y1="771.47" x2="714.762" y2="249.187" stroke-width="1.6"/><line class="" pathLength="1" x1="1061.976" y1="783.849" x2="766.031" y2="203.024" stroke-width="1.6"/><line class="" pathLength="1" x1="1028.611" y1="792.789" x2="825.777" y2="168.53" stroke-width="1.6"/><line class="" pathLength="1" x1="994.494" y1="798.192" x2="891.389" y2="147.211" stroke-width="1.6"/><line class="" pathLength="1" x1="960" y1="800" x2="960" y2="140" stroke-width="1.6"/><line class="" pathLength="1" x1="925.506" y1="798.192" x2="1028.611" y2="147.211" stroke-width="1.6"/><line class="" pathLength="1" x1="891.389" y1="792.789" x2="1094.223" y2="168.53" stroke-width="1.6"/><line class="" pathLength="1" x1="858.024" y1="783.849" x2="1153.969" y2="203.024" stroke-width="1.6"/><line class="" pathLength="1" x1="825.777" y1="771.47" x2="1205.238" y2="249.187" stroke-width="1.6"/><line class="" pathLength="1" x1="795" y1="755.788" x2="1245.788" y2="305" stroke-width="1.6"/><line class="" pathLength="1" x1="766.031" y1="736.976" x2="1273.849" y2="368.024" stroke-width="1.6"/><line class="" pathLength="1" x1="739.187" y1="715.238" x2="1288.192" y2="435.506" stroke-width="1.6"/><line class="" pathLength="1" x1="714.762" y1="690.813" x2="1288.192" y2="504.494" stroke-width="1.6"/><line class="" pathLength="1" x1="693.024" y1="663.969" x2="1273.849" y2="571.976" stroke-width="1.6"/><line class="" pathLength="1" x1="674.212" y1="635" x2="1245.788" y2="635" stroke-width="1.6"/><line class="" pathLength="1" x1="658.53" y1="604.223" x2="1205.238" y2="690.813" stroke-width="1.6"/><line class="" pathLength="1" x1="646.151" y1="571.976" x2="1153.969" y2="736.976" stroke-width="1.6"/><line class="" pathLength="1" x1="637.211" y1="538.611" x2="1094.223" y2="771.47" stroke-width="1.6"/><line class="" pathLength="1" x1="631.808" y1="504.494" x2="1028.611" y2="792.789" stroke-width="1.6"/><line class="" pathLength="1" x1="630" y1="470" x2="960" y2="800" stroke-width="1.6"/><line class="" pathLength="1" x1="631.808" y1="435.506" x2="891.389" y2="792.789" stroke-width="1.6"/><line class="" pathLength="1" x1="637.211" y1="401.389" x2="825.777" y2="771.47" stroke-width="1.6"/><line class="" pathLength="1" x1="646.151" y1="368.024" x2="766.031" y2="736.976" stroke-width="1.6"/><line class="" pathLength="1" x1="658.53" y1="335.777" x2="714.762" y2="690.813" stroke-width="1.6"/><line class="" pathLength="1" x1="674.212" y1="305" x2="674.212" y2="635" stroke-width="1.6"/><line class="" pathLength="1" x1="693.024" y1="276.031" x2="646.151" y2="571.976" stroke-width="1.6"/><line class="" pathLength="1" x1="714.762" y1="249.187" x2="631.808" y2="504.494" stroke-width="1.6"/><line class="" pathLength="1" x1="739.187" y1="224.762" x2="631.808" y2="435.506" stroke-width="1.6"/><line class="" pathLength="1" x1="766.031" y1="203.024" x2="646.151" y2="368.024" stroke-width="1.6"/><line class="" pathLength="1" x1="795" y1="184.212" x2="674.212" y2="305" stroke-width="1.6"/><line class="" pathLength="1" x1="825.777" y1="168.53" x2="714.762" y2="249.187" stroke-width="1.6"/><line class="" pathLength="1" x1="858.024" y1="156.151" x2="766.031" y2="203.024" stroke-width="1.6"/><line class="" pathLength="1" x1="891.389" y1="147.211" x2="825.777" y2="168.53" stroke-width="1.6"/><line class="" pathLength="1" x1="925.506" y1="141.808" x2="891.389" y2="147.211" stroke-width="1.6"/></g>
+  <g class="lanes">
+    <g class="Lr"><text class="lbl lane" x="110" y="259" text-anchor="start">RETA</text><line class="d ln" pathLength="1" x1="330" y1="250" x2="1790" y2="250" stroke-width="5"/><path class="arr pa aL" d="M360 232 L330 250 L360 268"/><path class="arr pa aR" d="M1760 232 L1790 250 L1760 268"/></g>
+    <g class="Ls"><text class="lbl lane" x="110" y="439" text-anchor="start">SEMIRRETA</text><line class="d ln" pathLength="1" x1="360" y1="430" x2="1790" y2="430" stroke-width="5"/><circle class="dot pd" cx="360" cy="430" r="13"/><path class="arr pa" d="M1760 412 L1790 430 L1760 448"/><circle class="dot tr" cx="360" cy="430" r="9"/></g>
+    <g class="Lg"><text class="lbl lane" x="110" y="619" text-anchor="start">SEGMENTO</text><line class="d ln" pathLength="1" x1="460" y1="610" x2="1500" y2="610" stroke-width="5"/><circle class="dot pd" cx="460" cy="610" r="13"/><circle class="dot pd" cx="1500" cy="610" r="13"/>
+      <text class="it pd" x="460" y="584" font-size="44" text-anchor="middle">A</text><text class="it pd" x="1500" y="584" font-size="44" text-anchor="middle">B</text><g class="ticks"><line class="tk" pathLength="1" x1="460" y1="640" x2="460" y2="668" stroke-width="3"/><line class="tk" pathLength="1" x1="540" y1="640" x2="540" y2="654" stroke-width="3"/><line class="tk" pathLength="1" x1="620" y1="640" x2="620" y2="668" stroke-width="3"/><line class="tk" pathLength="1" x1="700" y1="640" x2="700" y2="654" stroke-width="3"/><line class="tk" pathLength="1" x1="780" y1="640" x2="780" y2="668" stroke-width="3"/><line class="tk" pathLength="1" x1="860" y1="640" x2="860" y2="654" stroke-width="3"/><line class="tk" pathLength="1" x1="940" y1="640" x2="940" y2="668" stroke-width="3"/><line class="tk" pathLength="1" x1="1020" y1="640" x2="1020" y2="654" stroke-width="3"/><line class="tk" pathLength="1" x1="1100" y1="640" x2="1100" y2="668" stroke-width="3"/><line class="tk" pathLength="1" x1="1180" y1="640" x2="1180" y2="654" stroke-width="3"/><line class="tk" pathLength="1" x1="1260" y1="640" x2="1260" y2="668" stroke-width="3"/><line class="tk" pathLength="1" x1="1340" y1="640" x2="1340" y2="654" stroke-width="3"/><line class="tk" pathLength="1" x1="1420" y1="640" x2="1420" y2="668" stroke-width="3"/><line class="tk" pathLength="1" x1="1500" y1="640" x2="1500" y2="654" stroke-width="3"/></g>
+      <text class="mono cnt" x="1560" y="620">AB = <tspan class="v">0</tspan> u</text></g>
+  </g></svg><div class="end">Geometria é <em>arte</em> dentro de mim</div></div>
+        <div class="ly" data-i="0"><span>Reta</span> <span>segue</span> <span>eterna</span> <span>sem</span> <span>se</span> <span>limitar</span></div>
+<div class="ly" data-i="1"><span>Semirreta</span> <span>parte</span> <span>e</span> <span>não</span> <span>vai</span> <span>retornar</span></div>
+<div class="ly" data-i="2"><span>Segmento</span> <span>tem</span> <span>medida</span> <span>pra</span> <span>contar</span></div>
+<div class="ly" data-i="3"><span>Três</span> <span>caminhos</span> <span>pra</span> <span>gente</span> <span>estudar</span></div>
+<div class="ly" data-i="4"><span>Reta</span> <span>é</span> <span>livre,</span> <span>não</span> <span>tem</span> <span>definição</span></div>
+<div class="ly" data-i="5"><span>Semirreta</span> <span>nasce</span> <span>de</span> <span>um</span> <span>ponto,</span> <span>então</span></div>
+<div class="ly" data-i="6"><span>Segmento</span> <span>tem</span> <span>começo</span> <span>e</span> <span>também</span> <span>tem</span> <span>fim</span></div>
+<div class="ly" data-i="7"><span>Geometria</span> <span>é</span> <span>arte</span> <span>dentro</span> <span>de</span> <span>mim</span></div>
+        <div class="flash"></div>
+      </div>
+      <script>
+        (function () {
+          const R = document.getElementById("r10");
+          const E = (s) => (typeof s === "string" ? R.querySelectorAll(s) : s);
+          const $ = (s) => R.querySelector(s);
+          const S = 146.52, END = 168.64;
+          const at = (t) => Math.max(0, +(t - S).toFixed(3));
+          const tl = gsap.timeline({ paused: true });
+          const IR = { immediateRender: false };
+          function draw(s, t, d, ease) { tl.fromTo(E(s), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d, ease: ease || "power2.inOut", ...IR }, at(t)); }
+          function show(s, t, d) { tl.fromTo(E(s), { opacity: 0 }, { opacity: 1, duration: d == null ? 0.3 : d, ease: "power1.out", ...IR }, at(t)); }
+          function hide(s, t, d) { tl.to(E(s), { opacity: 0, duration: d == null ? 0.25 : d, ease: "power1.in" }, at(t)); }
+          function pop(s, t) { tl.fromTo(E(s), { opacity: 0, scale: 0, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(2.2)", ...IR }, at(t)); }
+          function punch(s, t, k) { tl.fromTo(E(s), { scale: k || 1.07, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.5, ease: "power3.out", ...IR }, at(t)); }
+          function flash(t, o) { tl.fromTo($(".flash"), { opacity: o || 0.35 }, { opacity: 0, duration: 0.4, ease: "power2.out", ...IR }, at(t)); }
+          function count(el, t, to, d) { const p = { v: 0 }; tl.fromTo(p, { v: 0 }, { v: to, duration: d || 1.2, ease: "power2.out", ...IR, onUpdate: () => { el.textContent = Math.round(p.v); } }, at(t)); }
+          // letra: palavras entram 0.15s antes do tempo forte, saem antes da próxima linha
+          const LY = [146.52,148.91,151.3,153.72,156.11,158.52,160.91,163.31];
+          R.querySelectorAll(".ly").forEach((el, i) => {
+            const a = LY[i]; if (a == null) return;
+            tl.fromTo(el.querySelectorAll("span"), { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.34, stagger: 0.045, ease: "power3.out", ...IR }, at(a - 0.15));
+            const nx = LY[i + 1];
+            if (nx != null) tl.to(el, { opacity: 0, duration: 0.16, ease: "power1.in" }, at(nx - 0.2));
+          });
+
+          const LANES = { r: $(".Lr"), s: $(".Ls"), g: $(".Lg") };
+          const ALL = [LANES.r, LANES.s, LANES.g];
+          // entrada: as três formas se desenham em sequência
+          [".Lr", ".Ls", ".Lg"].forEach((k, i) => {
+            const t0 = S + 0.05 + i * 0.18;
+            draw(k + " .ln", t0, 0.7, "power3.out");
+            show(k + " .lane", t0, 0.3);
+            pop(k + " .pd", t0 + 0.35);
+            pop(k + " .pa", t0 + 0.55);
+          });
+          show(".Lg .ticks", S + 0.9, 0.4); show(".Lg .cnt", S + 0.9, 0.4);
+          flash(S + 0.02, 0.3);
+          const PLAN = [{"a":146.52,"m":"r","beats":[146.518,147.122,147.725,148.329]},{"a":148.91,"m":"s","beats":[148.91,149.513,150.117,150.721]},{"a":151.3,"m":"g","beats":[151.301,151.905,152.509,153.112]},{"a":153.72,"m":"all","beats":[153.716,154.32,154.924,155.504]},{"a":156.11,"m":"r","beats":[156.108,156.711,157.315,157.919]},{"a":158.52,"m":"s","beats":[158.523,159.103,159.73,160.311]},{"a":160.91,"m":"g","beats":[160.914,161.518,162.122,162.725]},{"a":163.31,"m":"all","beats":[163.306,163.91,164.513,165.117]}];
+          const cnt = $(".Lg .v");
+          PLAN.forEach((p) => {
+            if (p.m === "all") {
+              tl.to(ALL, { opacity: 1, duration: 0.2 }, at(p.a - 0.12));
+              p.beats.forEach((b) => punch(ALL, b, 1.025));
+            } else {
+              const on = LANES[p.m];
+              tl.to(ALL.filter((x) => x !== on), { opacity: 0.2, duration: 0.25 }, at(p.a - 0.12));
+              tl.to(on, { opacity: 1, duration: 0.2 }, at(p.a - 0.12));
+              punch(on, p.a, 1.045);
+              if (p.m === "r") {
+                tl.fromTo(E(".Lr .aL"), { x: 0 }, { x: -28, duration: 0.3, yoyo: true, repeat: 3, ease: "sine.inOut", ...IR }, at(p.a + 0.1));
+                tl.fromTo(E(".Lr .aR"), { x: 0 }, { x: 28, duration: 0.3, yoyo: true, repeat: 3, ease: "sine.inOut", ...IR }, at(p.a + 0.1));
+              } else if (p.m === "s") {
+                tl.fromTo(E(".Ls .tr"), { attr: { cx: 360 }, opacity: 1 }, { attr: { cx: 1790 }, opacity: 0.15, duration: 2.1, ease: "power1.inOut", ...IR }, at(p.a));
+              } else if (p.m === "g") {
+                count(cnt, p.a + 0.1, 13, 1.3);
+                punch(".Lg .ticks", p.a + 1.4, 1.06);
+              }
+            }
+          });
+          [160].forEach((t) => { punch(".lanes", t, 1.06); flash(t, 0.25); });
+          tl.to(ALL, { opacity: 1, duration: 0.25 }, at(END - 0.5));
+          tl.fromTo($(".bgart"), { rotate: 0, svgOrigin: "960 470" }, { rotate: 30, duration: 168.64 - 146.52, ease: "none", ...IR }, 0);
+          // final: as faixas saem, a mandala acende e o verso fica como título
+          tl.to(E(".lanes"), { opacity: 0, y: -30, duration: 0.5, ease: "power2.in" }, at(165.45));
+          tl.to(E(".ly"), { opacity: 0, duration: 0.3 }, at(165.5));
+          tl.to(E(".bgart"), { opacity: 0.3, duration: 1.2, ease: "power2.out" }, at(165.7));
+          tl.fromTo(E(".end"), { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.9, ease: "power3.out", ...IR }, at(165.6));
+          flash(167.0, 0.2); punch(".end", 167.0, 1.04);
+          tl.seek(0);
+          window.__timelines["10-f10"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>
