@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Cormorant Garamond"; src: url("assets/fonts/cormorant-garamond-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; }
+      @font-face { font-family: "Cormorant Garamond"; src: url("assets/fonts/cormorant-garamond-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #172b46; }
+      #root {
+        position: relative; width: 1080px; height: 1920px; overflow: hidden;
+        background: radial-gradient(ellipse 70% 45% at 50% 30%, #1f3858 0%, #172b46 55%, #0f1f35 100%);
+      }
+      #scene { position: absolute; inset: 0; }
+      #particles { position: absolute; inset: 0; }
+      .pt { position: absolute; border-radius: 50%; background: #e7c97a; box-shadow: 0 0 10px 2px rgba(231, 201, 122, 0.55); }
+      #cross { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: visible; }
+      #cross line { stroke: #d9b866; stroke-linecap: round; fill: none; stroke-dasharray: 1; stroke-dashoffset: 1; }
+      #cross .glow { stroke: #f3dd9a; filter: blur(9px); opacity: 0.85; }
+      #halo {
+        position: absolute; left: 540px; top: 560px; width: 520px; height: 520px; margin: -260px 0 0 -260px; border-radius: 50%;
+        background: radial-gradient(circle, rgba(231, 201, 122, 0.28) 0%, rgba(231, 201, 122, 0.08) 45%, rgba(231, 201, 122, 0) 70%);
+        opacity: 0;
+      }
+      #text {
+        position: absolute; left: 90px; right: 90px; top: 960px; text-align: center;
+        font-family: "Cormorant Garamond", Georgia, serif; font-weight: 500; color: #f7f2e8;
+        font-size: 92px; line-height: 1.12; letter-spacing: 0.005em;
+        text-shadow: 0 0 22px rgba(231, 201, 122, 0.32), 0 0 2px rgba(231, 201, 122, 0.25);
+      }
+      #text .row { display: block; }
+      #text .row.lead { font-style: italic; font-size: 104px; margin-bottom: 26px; }
+      #text .w { display: inline-block; opacity: 0; }
+      #text .w.em { font-style: italic; }
+      #veil { position: absolute; inset: 0; background: #0b1626; opacity: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="10" data-width="1080" data-height="1920">
+      <div id="scene" class="clip" data-start="0" data-duration="10" data-track-index="0">
+        <div id="particles"></div>
+        <div id="halo"></div>
+        <svg id="cross" viewBox="0 0 1080 1920">
+          <line class="glow v" pathLength="1" x1="540" y1="380" x2="540" y2="780" stroke-width="10" />
+          <line class="glow h" pathLength="1" x1="430" y1="500" x2="650" y2="500" stroke-width="10" />
+          <line class="v" pathLength="1" x1="540" y1="380" x2="540" y2="780" stroke-width="3.5" />
+          <line class="h" pathLength="1" x1="430" y1="500" x2="650" y2="500" stroke-width="3.5" />
+        </svg>
+        <div id="text">
+          <span class="row lead"><span class="w">Senhor,</span></span>
+          <span class="row"><span class="w">meus</span> <span class="w">filhos</span> <span class="w">estão</span></span>
+          <span class="row"><span class="w">longe</span> <span class="w">dos</span> <span class="w">meus</span> <span class="w">olhos</span></span>
+          <span class="row"><span class="w">e</span> <span class="w">perto</span> <span class="w">do</span> <span class="w">meu</span></span>
+          <span class="row"><span class="w em">coração</span></span>
+        </div>
+        <div id="veil"></div>
+      </div>
+      <audio id="vo" src="assets/narracao.mp3" data-start="2" data-duration="5.29" data-track-index="10" data-volume="1"></audio>
+    </div>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        const IR = { immediateRender: false };
+
+        // Partículas douradas: posições fixas por PRNG com semente (determinístico)
+        let seed = 7;
+        const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+        const box = document.getElementById("particles");
+        for (let i = 0; i < 46; i++) {
+          const p = document.createElement("div");
+          p.className = "pt";
+          const s = 2 + rnd() * 4.5;
+          p.style.width = p.style.height = s + "px";
+          p.style.left = rnd() * 1080 + "px";
+          p.style.top = rnd() * 1920 + "px";
+          box.appendChild(p);
+          const base = 0.18 + rnd() * 0.5;
+          tl.fromTo(p, { y: 0, x: 0 }, { y: -(60 + rnd() * 140), x: (rnd() - 0.5) * 60, duration: 10, ease: "none", ...IR }, 0);
+          const cyc = 1.6 + rnd() * 1.8;
+          tl.fromTo(p, { opacity: base * 0.35 }, { opacity: base, duration: cyc, ease: "sine.inOut", yoyo: true, repeat: Math.max(0, Math.floor(10 / cyc) - 1), ...IR }, rnd() * 0.8);
+        }
+
+        // Cruz: traço de luz (line-draw), depois estática
+        tl.fromTo("#cross .v", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 1.5, ease: "power2.inOut", ...IR }, 0.3);
+        tl.fromTo("#cross .h", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 1.1, ease: "power2.inOut", ...IR }, 1.0);
+        tl.fromTo("#halo", { opacity: 0 }, { opacity: 0.55, duration: 1.6, ease: "sine.out" }, 1.2);
+
+        // Palavras na fala (narração começa em 2.0s; tempos estimados pelas pausas da voz)
+        const VO = 2.0;
+        const T = [0.03, 1.132, 1.308, 1.66, 2.012, 2.364, 2.54, 2.716, 3.644, 3.804, 4.125, 4.285, 4.445];
+        document.querySelectorAll("#text .w").forEach((w, i) => {
+          tl.fromTo(w, { opacity: 0, y: 22, filter: "blur(6px)" }, { opacity: 1, y: 0, filter: "blur(0px)", duration: 0.75, ease: "power2.out", ...IR }, VO + T[i] - 0.08);
+        });
+
+        // Final: a cruz pulsa em dourado, depois fade out
+        tl.fromTo("#halo", { opacity: 0.55, scale: 1 }, { opacity: 1, scale: 1.18, duration: 0.7, ease: "sine.inOut", yoyo: true, repeat: 1, ...IR }, 7.9);
+        tl.fromTo("#cross .glow", { opacity: 0.85 }, { opacity: 1, duration: 0.7, ease: "sine.inOut", yoyo: true, repeat: 1, ...IR }, 7.9);
+        tl.fromTo("#cross line:not(.glow)", { attr: { "stroke-width": 3.5 } }, { attr: { "stroke-width": 5.5 }, duration: 0.7, ease: "sine.inOut", yoyo: true, repeat: 1, ...IR }, 7.9);
+        tl.fromTo("#veil", { opacity: 0 }, { opacity: 1, duration: 1.1, ease: "power1.in", ...IR }, 8.9);
+
+        tl.seek(0);
+        window.__timelines["main"] = tl;
+      })();
+    </script>
+  </body>
+</html>
