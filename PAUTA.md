@@ -77,7 +77,7 @@ na lição. Título sugerido para cada vídeo: "**Nº ano** · tema". Todas as c
 | 38 | Por que todo número elevado a zero dá 1 | "5⁰ = 1?! Por quê?" | 5³ = 125, 5² = 25, 5¹ = 5 (÷5 a cada passo) → 5⁰ = 1 | |
 | 39 | Expoente negativo | "2 elevado a −3 é negativo? Não!" | continua dividindo por 2: 2⁻³ = 1/8 | |
 | 40 | Notação científica | "Quantos km até o Sol?" | ≈ 150.000.000 km = 1,5 × 10⁸ km | |
-| 41 | 0,999... = 1 (curioso, viral) | "0,999... é menor que 1?" | 1/3 = 0,333… → × 3: 0,999… = 1 | |
+| 41 | 0,999... = 1 (curioso, viral) | "0,999... é menor que 1?" | 1/3 = 0,333… → × 3: 0,999… = 1 | feito |
 | 42 | Fração geratriz | "Que fração dá 0,777…?" | 0,777… = 7/9 | |
 | 43 | Sistema: galinhas e coelhos | "10 cabeças e 28 patas no quintal" | 6 galinhas e 4 coelhos (12 + 16 = 28 patas) | |
 | 44 | Pizza grande ou duas médias? | "Uma de 40 cm ou duas de 30 cm?" | π·20² ≈ 1.257 cm² × 2·π·15² ≈ 1.414 cm² → duas médias | |

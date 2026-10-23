@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8" /></head><body>
+<template>
+<style>
+
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-700-normal.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Patrick Hand";src:url("assets/fonts/patrick-hand-latin-400-normal.woff2") format("woff2");font-weight:400}
+#root{position:absolute;inset:0;width:1080px;height:1920px;pointer-events:none}
+#root .cg{position:absolute;left:0;right:0;top:1190px;text-align:center;font:400 62px/1.1 "Patrick Hand";color:#F2EFE4;opacity:0;padding:0 90px}
+</style>
+<div id="root" data-composition-id="legendas" data-width="1080" data-height="1920" data-duration="63.48">
+  <div class="cg" id="c0">Zero vírgula nove nove</div>
+  <div class="cg" id="c1">nove, com noves infinitos.</div>
+  <div class="cg" id="c2">É menor que um?</div>
+  <div class="cg" id="c3">Quase todo mundo responde</div>
+  <div class="cg" id="c4">que sim. Mas a</div>
+  <div class="cg" id="c5">matemática diz: é exatamente</div>
+  <div class="cg" id="c6">um.</div>
+  <div class="cg" id="c7">Primeira prova: um terço</div>
+  <div class="cg" id="c8">é zero vírgula três</div>
+  <div class="cg" id="c9">três três, para sempre.</div>
+  <div class="cg" id="c10">Multiplique os dois lados</div>
+  <div class="cg" id="c11">por três.</div>
+  <div class="cg" id="c12">Três terços dá um.</div>
+  <div class="cg" id="c13">E três vezes zero</div>
+  <div class="cg" id="c14">vírgula três três três</div>
+  <div class="cg" id="c15">dá zero vírgula nove</div>
+  <div class="cg" id="c16">nove nove.</div>
+  <div class="cg" id="c17">Então, zero vírgula nove</div>
+  <div class="cg" id="c18">nove nove é igual</div>
+  <div class="cg" id="c19">a um.</div>
+  <div class="cg" id="c20">Segunda prova: se dois</div>
+  <div class="cg" id="c21">números são diferentes, existe</div>
+  <div class="cg" id="c22">outro número entre eles.</div>
+  <div class="cg" id="c23">Tente achar um número</div>
+  <div class="cg" id="c24">entre zero vírgula nove</div>
+  <div class="cg" id="c25">nove nove e um.</div>
+  <div class="cg" id="c26">Não existe! Os noves</div>
+  <div class="cg" id="c27">nunca acabam, então não</div>
+  <div class="cg" id="c28">sobra espaço.</div>
+  <div class="cg" id="c29">Sem nada entre eles,</div>
+  <div class="cg" id="c30">os dois são o</div>
+  <div class="cg" id="c31">mesmo número.</div>
+  <div class="cg" id="c32">Não é um número</div>
+  <div class="cg" id="c33">quase chegando no um.</div>
+  <div class="cg" id="c34">É outro jeito de</div>
+  <div class="cg" id="c35">escrever o um.</div>
+  <div class="cg" id="c36">E você, acreditava que</div>
+  <div class="cg" id="c37">era menor? Conta aqui</div>
+  <div class="cg" id="c38">nos comentários!</div>
+</div>
+<script>
+(function () {
+  const tl = gsap.timeline({ paused: true });
+  const G = [[0,1.554],[1.554,3.243],[3.243,4.606],[4.665,6.367],[6.367,7.284],[7.284,9.116],[9.116,9.663],[9.949,12.011],[12.011,13.73],[13.73,15.97],[16.163,17.718],[17.718,18.607],[18.749,20.331],[20.331,21.912],[21.912,23.933],[23.933,25.778],[25.778,27.007],[27.162,28.737],[28.737,29.918],[29.918,30.596],[30.626,32.288],[32.288,34.554],[34.554,36.717],[36.869,38.349],[38.349,39.963],[39.963,41.322],[41.62,42.97],[42.97,44.522],[44.522,45.749],[45.854,47.273],[47.273,48.267],[48.267,49.54],[49.657,50.782],[50.782,52.259],[52.259,53.455],[53.455,54.79],[55.16,56.919],[56.919,58.597],[58.597,60.226]];
+  G.forEach(([a, b], i) => {
+    const el = document.getElementById("c" + i);
+    tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: 0.12, immediateRender: false }, Math.max(0.1, a));
+    tl.to(el, { opacity: 0, duration: 0.1, ease: "power2.in" }, b - 0.1);
+    tl.set(el, { opacity: 0, visibility: "hidden" }, b);
+  });
+  tl.seek(0);
+  window.__timelines["legendas"] = tl;
+})();
+</script>
+</template></body></html>

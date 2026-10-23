@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8" /></head><body>
+<template>
+<style>
+
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-700-normal.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Patrick Hand";src:url("assets/fonts/patrick-hand-latin-400-normal.woff2") format("woff2");font-weight:400}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden;color:#F2EFE4;font-family:"Kalam",cursive;
+  background:radial-gradient(ellipse 60% 40% at 30% 25%,rgba(255,255,255,.06),transparent 70%),radial-gradient(ellipse 50% 35% at 75% 70%,rgba(255,255,255,.05),transparent 70%),#1F3A2D}
+#root .dust{position:absolute;inset:0;opacity:.22}
+#root svg.g{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible}
+#root svg.g line,#root svg.g path{fill:none;stroke:#F2EFE4;stroke-width:6;stroke-linecap:round;filter:url(#chalk)}
+#root svg.g .d{stroke-dasharray:1;stroke-dashoffset:1}
+#root svg.g .dot{fill:#F2EFE4}
+#root svg.g .ydot{fill:#F5D547}
+#root svg.g .lb{font:700 58px "Kalam";fill:#F2EFE4}
+#root svg.g .gap path{stroke:#F5D547;stroke-width:5}
+#root svg.g .yq{font:700 64px "Kalam";fill:#F5D547}
+#root .t{position:absolute;left:60px;right:60px;text-align:center;line-height:1.05;white-space:nowrap}
+#root .y{color:#F5D547}
+#root .s{color:rgba(242,239,228,.55)}
+#root .w{display:inline-block}
+#root .hd{top:250px;font:400 66px "Patrick Hand";color:rgba(242,239,228,.55);opacity:0}
+#root .sub{top:250px;font:400 64px "Patrick Hand";color:rgba(242,239,228,.55)}
+#root .q{top:520px;font:700 150px "Kalam"}
+#root .ln{font:700 104px "Kalam";opacity:0}
+#root .tag{font:700 72px "Kalam";color:#F5D547;opacity:0}
+#root .mid{font:700 84px "Kalam";opacity:0}
+#root #l3a,#root #l3b{opacity:0}
+#root .end{top:600px;font:700 120px/1.15 "Kalam";opacity:0;white-space:normal}
+#root .endsub{top:930px;font:700 72px "Kalam";color:#F5D547;opacity:0}
+</style>
+<div id="root" data-composition-id="lousa" data-width="1080" data-height="1920" data-duration="63.48">
+  <svg class="dust" viewBox="0 0 1080 1920"><filter id="nz"><feTurbulence type="fractalNoise" baseFrequency="1.6" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .5 0"/></filter><rect width="1080" height="1920" filter="url(#nz)"/></svg>
+  <svg class="g" viewBox="0 0 1080 1920">
+    <defs><filter id="chalk" filterUnits="userSpaceOnUse" x="0" y="0" width="1080" height="1920"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="2"/><feDisplacementMap in="SourceGraphic" scale="3"/></filter></defs>
+    <g id="nl" opacity="0">
+      <line class="d" id="nline" pathLength="1" x1="100" y1="780" x2="980" y2="780"/>
+      <g id="gap" class="gap"><path class="d" id="gpath" pathLength="1" d="M160 710 q0 -24 24 -24 L524 686 q16 0 16 -22 q0 22 16 22 L896 686 q24 0 24 24"/>
+        <text class="yq" id="gq" x="540" y="630" text-anchor="middle" opacity="0">?</text></g>
+      <g id="pa"><circle class="dot" cx="160" cy="780" r="16"/>
+        <text class="lb" id="la0" x="160" y="870" text-anchor="middle">0,9</text>
+        <text class="lb" id="la1" x="160" y="870" text-anchor="middle" opacity="0">0,99</text>
+        <text class="lb" id="la2" x="160" y="870" text-anchor="middle" opacity="0">0,999</text>
+        <text class="lb" id="la3" x="160" y="870" text-anchor="middle" opacity="0">0,999...</text></g>
+      <circle class="dot" cx="920" cy="780" r="16"/>
+      <text class="lb" x="920" y="870" text-anchor="middle">1</text>
+      <circle class="ydot" id="merge" cx="920" cy="780" r="22" opacity="0"/>
+    </g>
+  </svg>
+
+  <!-- gancho -->
+  <div class="t sub" id="sub">noves infinitos…</div>
+  <div class="t q" id="q">0,999... = 1 <span class="w y" id="qq">?</span></div>
+  <div class="t hd" id="h1">prova 1: <span class="y">frações</span></div>
+  <div class="t hd" id="h2">prova 2: <span class="y">o espaço entre eles</span></div>
+  <div class="t hd" id="h3">então…</div>
+
+  <!-- prova 1 -->
+  <div class="t ln" id="l1" style="top:440px">1/3 = 0,333...</div>
+  <div class="t tag" id="l2" style="top:580px">× 3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; × 3</div>
+  <div class="t ln" id="l3" style="top:690px;opacity:1"><span class="w" id="l3a">3/3</span> <span class="w" id="l3b">= 0,999...</span></div>
+  <div class="t ln" id="l4" style="top:870px"><span class="y">1</span> = 0,999...</div>
+
+  <!-- prova 2: textos -->
+  <div class="t mid" id="p2" style="top:345px;font-size:70px;line-height:1.2">números diferentes?<br/><span class="y">sempre cabe outro no meio</span></div>
+  <div class="t mid" id="p3" style="top:1000px">nenhum número cabe aqui</div>
+  <div class="t mid" id="p4" style="top:1000px;font-size:70px"><span class="y">0,999... e 1</span>: o mesmo ponto</div>
+
+  <!-- conclusão -->
+  <div class="t q" id="c1" style="top:520px;opacity:0">0,999... = <span class="y">1</span></div>
+  <div class="t mid s" id="c2" style="top:740px;font-size:72px;white-space:normal;line-height:1.15">dois jeitos de escrever<br/>o mesmo número</div>
+  <div class="t mid" id="c3" style="top:960px;font:400 66px 'Patrick Hand';white-space:normal">você achava que era menor? comenta!</div>
+
+  <div class="t end" id="end">A Voz da<br/>Matemática</div>
+  <div class="t endsub" id="endsub">0,999... = 1</div>
+</div>
+<script>
+(function () {
+  const R = document.getElementById("root");
+  const $ = (s) => R.querySelector(s), $$ = (s) => R.querySelectorAll(s);
+  const tl = gsap.timeline({ paused: true });
+  const IR = { immediateRender: false };
+  const draw = (el, t, d, e) => tl.fromTo(el, { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d, ease: e || "power1.inOut", ...IR }, t);
+  const show = (el, t, d) => tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: d == null ? 0.3 : d, ease: "power1.out", ...IR }, t);
+  const hide = (el, t, d) => tl.to(el, { opacity: 0, duration: d == null ? 0.3 : d, ease: "power1.in" }, t);
+  const pop = (el, t, s) => tl.fromTo(el, { scale: s || 1.35 }, { scale: 1, duration: 0.45, ease: "back.out(2.5)", ...IR }, t);
+  const up = (el, t) => tl.fromTo(el, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out", ...IR }, t);
+  const swap = (a, b, t) => { tl.to(a, { opacity: 0, duration: 0.12 }, t); tl.to(b, { opacity: 1, duration: 0.15 }, t + 0.05); };
+  const W_ = [[[0,0.338],[0.338,0.878],[0.878,1.216],[1.216,1.554],[1.554,1.891],[1.891,2.162],[2.162,2.567],[2.567,3.243],[3.243,3.378],[3.378,3.783],[3.783,4.053],[4.053,4.256]],[[4.665,5.058],[5.058,5.385],[5.385,5.778],[5.778,6.367],[6.367,6.629],[6.629,6.891],[6.891,7.153],[7.153,7.284],[7.284,8.004],[8.004,8.265],[8.265,8.396],[8.396,9.116],[9.116,9.313]],[[9.949,10.723],[10.723,11.238],[11.238,11.496],[11.496,12.011],[12.011,12.183],[12.183,12.613],[12.613,13.3],[13.3,13.73],[13.73,14.159],[14.159,14.589],[14.589,15.018],[15.018,15.62]],[[16.163,16.881],[16.881,17.06],[17.06,17.359],[17.359,17.718],[17.718,17.958],[17.958,18.257]],[[18.749,19.189],[19.189,19.804],[19.804,20.067],[20.067,20.331],[20.331,20.507],[20.507,20.946],[20.946,21.473],[21.473,21.912],[21.912,22.615],[22.615,23.055],[23.055,23.494],[23.494,23.933],[23.933,24.197],[24.197,24.636],[24.636,25.339],[25.339,25.778],[25.778,26.218],[26.218,26.657]],[[27.162,27.556],[27.556,27.884],[27.884,28.409],[28.409,28.737],[28.737,29.065],[29.065,29.393],[29.393,29.524],[29.524,29.918],[29.918,30.049],[30.049,30.246]],[[30.626,31.231],[31.231,31.684],[31.684,31.91],[31.91,32.288],[32.288,32.892],[32.892,33.195],[33.195,34.026],[34.026,34.554],[34.554,35.008],[35.008,35.536],[35.536,35.99],[35.99,36.367]],[[36.869,37.273],[37.273,37.676],[37.676,37.878],[37.878,38.349],[38.349,38.753],[38.753,39.089],[39.089,39.627],[39.627,39.963],[39.963,40.3],[40.3,40.636],[40.636,40.771],[40.771,40.972]],[[41.62,41.89],[41.89,42.362],[42.362,42.565],[42.565,42.97],[42.97,43.374],[43.374,43.847],[43.847,44.252],[44.252,44.522],[44.522,44.926],[44.926,45.399]],[[45.854,46.138],[46.138,46.493],[46.493,46.918],[46.918,47.273],[47.273,47.486],[47.486,47.841],[47.841,48.125],[48.125,48.267],[48.267,48.693],[48.693,49.19]],[[49.657,49.938],[49.938,50.079],[50.079,50.29],[50.29,50.782],[50.782,51.204],[51.204,51.837],[51.837,52.048],[52.048,52.259],[52.259,52.4],[52.4,52.822],[52.822,53.244],[53.244,53.455],[53.455,54.088],[54.088,54.229],[54.229,54.44]],[[55.16,55.32],[55.32,55.72],[55.72,56.599],[56.599,56.919],[56.919,57.238],[57.238,57.718],[57.718,58.198],[58.198,58.597],[58.597,58.917],[58.917,59.876]]];
+  const wt = (s, i) => W_[s][i][0];
+
+  // gancho (miniatura): "0,999... = 1 ?"
+  pop($("#qq"), wt(0, 9), 1.6);
+  pop($("#qq"), wt(1, 10), 1.6);
+
+  // prova 1 — frações
+  const s2 = wt(2, 0);
+  hide([$("#sub"), $("#q")], s2 - 0.2, 0.3);
+  show($("#h1"), s2, 0.3);
+  up($("#l1"), wt(2, 2) - 0.1);
+  up($("#l2"), wt(3, 0)); pop($("#l2"), wt(3, 5), 1.2);
+  up($("#l3a"), wt(4, 0)); up($("#l3b"), wt(4, 12));
+  up($("#l4"), wt(5, 1)); pop($("#l4 .y"), wt(5, 9), 1.6);
+
+  // prova 2 — o espaço entre eles
+  const s6 = wt(6, 0);
+  hide([$("#h1"), $("#l1"), $("#l2"), $("#l3"), $("#l4")], s6 - 0.2, 0.3);
+  show($("#h2"), s6, 0.3);
+  up($("#p2"), wt(6, 2));
+  tl.set($("#nl"), { opacity: 1 }, wt(7, 0));
+  draw($("#nline"), wt(7, 0), 0.6);
+  draw($("#gpath"), wt(7, 4), 0.5); show($("#gq"), wt(7, 4) + 0.3, 0.2);
+  // zoom: 0,9 → 0,99 → 0,999 → 0,999...
+  swap($("#la0"), $("#la1"), wt(7, 6)); pop($("#nl"), wt(7, 6), 1.05);
+  swap($("#la1"), $("#la2"), wt(7, 10)); pop($("#nl"), wt(7, 10), 1.05);
+  swap($("#la2"), $("#la3"), wt(8, 0)); pop($("#nl"), wt(8, 0), 1.05);
+  // não sobra espaço: o ponto anda até o 1 e a chave some
+  hide($("#p2"), wt(8, 0), 0.25);
+  up($("#p3"), wt(8, 0));
+  tl.to($("#pa"), { x: 760, duration: 1.4, ease: "power2.inOut" }, wt(8, 4));
+  tl.to($("#gap"), { scaleX: 0, transformOrigin: "920px 780px", opacity: 0, duration: 1.4, ease: "power2.inOut" }, wt(8, 4));
+  hide($("#la3"), wt(8, 4) + 0.6, 0.3);
+  hide($("#p3"), wt(9, 0) - 0.15, 0.2);
+  show($("#merge"), wt(9, 0), 0.2); pop($("#merge"), wt(9, 7), 1.8);
+  up($("#p4"), wt(9, 4));
+
+  // conclusão
+  const s10 = wt(10, 0);
+  hide([$("#h2"), $("#nl"), $("#p4")], s10 - 0.2, 0.3);
+  show($("#h3"), s10, 0.3);
+  up($("#c1"), s10); pop($("#c1 .y"), wt(10, 14), 1.6);
+  up($("#c2"), wt(10, 8));
+  up($("#c3"), wt(11, 6));
+
+  // marca
+  hide([$("#h3"), $("#c1"), $("#c2"), $("#c3")], 60.48 - 0.3, 0.3);
+  tl.fromTo($("#end"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out", ...IR }, 60.48);
+  show($("#endsub"), 60.48 + 0.6, 0.4);
+
+  tl.seek(0);
+  window.__timelines["lousa"] = tl;
+})();
+</script>
+</template></body></html>
