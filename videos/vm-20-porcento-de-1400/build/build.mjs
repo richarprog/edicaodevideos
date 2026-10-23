@@ -2,6 +2,7 @@
 // Os tempos vêm de build/timing.json (gerado a partir da narração) ou, se ele
 // não existir, de uma estimativa a 2,4 palavras/s. Uso: node build/build.mjs
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 
 const W = 1080, H = 1920;
 const C = { board: "#1F3A2D", board2: "#183024", chalk: "#F2EFE4", soft: "rgba(242,239,228,.55)", yellow: "#F5D547" };
@@ -32,8 +33,9 @@ if (existsSync("build/timing.json")) {
 }
 const wt = (s, i) => T[s][i][0];                 // início da palavra i da frase s (0-based)
 const send = (s) => T[s][T[s].length - 1][1];    // fim da frase s
-const END_CARD = +(send(10) + 0.5).toFixed(2);
+const END_CARD = +(send(10) + 1.4).toFixed(2);
 const DUR = +(END_CARD + 3.0).toFixed(2);
+const AUDIO_DUR = AUDIO ? +parseFloat(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", AUDIO]).toString()).toFixed(3) : 0;
 
 const FONTS = `
 @font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-700-normal.woff2") format("woff2");font-weight:700}
@@ -245,7 +247,7 @@ const index = `<!doctype html>
 <div id="main" data-composition-id="main" data-start="0" data-duration="${DUR}" data-width="${W}" data-height="${H}">
   <div id="barra" class="clip" data-composition-id="barra" data-composition-src="compositions/barra.html" data-start="0" data-duration="${DUR}" data-track-index="1" data-track-kind="graphics" data-width="${W}" data-height="${H}"></div>
   <div id="legendas" class="clip" data-composition-id="legendas" data-composition-src="compositions/legendas.html" data-start="0" data-duration="${DUR}" data-track-index="2" data-track-kind="captions" data-width="${W}" data-height="${H}" style="z-index:2"></div>
-${AUDIO ? `  <audio id="narracao" src="${AUDIO}" data-start="0" data-duration="${DUR}" data-track-index="10" data-volume="1"></audio>\n` : ""}</div>
+${AUDIO ? `  <audio id="narracao" src="${AUDIO}" data-start="0" data-duration="${AUDIO_DUR}" data-track-index="10" data-volume="1"></audio>\n` : ""}</div>
 <script>window.__timelines["main"] = gsap.timeline({ paused: true });</script>
 </body>
 </html>

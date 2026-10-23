@@ -9,7 +9,7 @@
 #root{position:absolute;inset:0;width:1080px;height:1920px;pointer-events:none}
 #root .cg{position:absolute;left:0;right:0;top:1190px;text-align:center;font:400 62px/1.1 "Patrick Hand";color:#F2EFE4;opacity:0;padding:0 90px}
 </style>
-<div id="root" data-composition-id="legendas" data-width="1080" data-height="1920" data-duration="46.23">
+<div id="root" data-composition-id="legendas" data-width="1080" data-height="1920" data-duration="44.01">
   <div class="cg" id="c0">Um celular de mil</div>
   <div class="cg" id="c1">e quatrocentos reais, com</div>
   <div class="cg" id="c2">vinte por cento de</div>
@@ -42,7 +42,7 @@
 <script>
 (function () {
   const tl = gsap.timeline({ paused: true });
-  const G = [[0.4,2.067],[2.067,3.733],[3.733,5.4],[5.4,6.167],[6.217,7.817],[7.867,9.533],[9.533,11.2],[11.2,12.867],[12.867,14.05],[14.1,15.767],[15.767,17.783],[17.833,19.5],[19.5,20.683],[20.733,22.4],[22.4,23.167],[23.217,24.883],[24.883,26.067],[26.117,27.783],[27.783,29.45],[29.45,30.633],[30.683,32.35],[32.35,34.017],[34.017,36.033],[36.083,37.75],[37.75,39.417],[39.417,40.6],[40.65,42.317],[42.317,43.083]];
+  const G = [[0,1.363],[1.363,3.257],[3.257,4.696],[4.696,5.727],[6.194,7.656],[7.851,9.043],[9.043,11.006],[11.006,12.339],[12.339,13.39],[13.503,14.806],[14.806,16.46],[16.64,17.773],[17.773,18.69],[18.863,19.828],[19.828,20.563],[20.766,22.569],[22.569,24],[24.186,25.733],[25.733,27.561],[27.561,28.614],[28.875,30.68],[30.68,32.138],[32.138,33.737],[33.831,35.336],[35.336,36.766],[36.766,37.718],[38.045,39.136],[39.136,39.963]];
   G.forEach(([a, b], i) => {
     const el = document.getElementById("c" + i);
     tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: 0.12, immediateRender: false }, Math.max(0.1, a));

@@ -32,16 +32,31 @@ let speech = [], t = 0;
 for (const [a, b] of sil) { if (a - t > 0.12) speech.push([t, a]); t = b; }
 if (dur - t > 0.12) speech.push([t, dur]);
 
-// junta trechos até sobrarem 11, sempre unindo a menor pausa
-while (speech.length > SENT.length) {
-  let k = 0, best = Infinity;
-  for (let i = 0; i < speech.length - 1; i++) { const g = speech[i + 1][0] - speech[i][1]; if (g < best) { best = g; k = i; } }
-  speech.splice(k, 2, [speech[k][0], speech[k + 1][1]]);
-}
-if (speech.length < SENT.length) {
-  console.error(`Encontrei só ${speech.length} trechos de fala para ${SENT.length} frases. Grave com uma pausa curta entre as frases.`);
+// escolhe quais pausas separam as frases (programação dinâmica): a duração de cada
+// frase deve ficar proporcional ao número de letras, e pausas longas são preferidas.
+const n = SENT.length, m = speech.length;
+if (m < n) {
+  console.error(`Encontrei só ${m} trechos de fala para ${n} frases. Grave com uma pausa curta entre as frases.`);
   process.exit(1);
 }
+const chars = SENT.map((x) => x.replace(/[^\p{L}\p{N}]/gu, "").length);
+const k = (speech[m - 1][1] - speech[0][0]) / chars.reduce((a, b) => a + b, 0);
+const gapAfter = (j) => (j < m - 1 ? speech[j + 1][0] - speech[j][1] : 1);
+// cost[i][j]: melhor custo pondo as frases 0..i nos trechos 0..j (frase i termina no trecho j)
+const INF = 1e18, cost = [], from = [];
+for (let i = 0; i < n; i++) { cost.push(new Array(m).fill(INF)); from.push(new Array(m).fill(-1)); }
+const segCost = (i, a, b) => { const d = speech[b][1] - speech[a][0], e = k * chars[i]; return ((d - e) / e) ** 2 - 0.6 * gapAfter(b); };
+for (let j = 0; j < m; j++) cost[0][j] = segCost(0, 0, j);
+for (let i = 1; i < n; i++)
+  for (let j = i; j < m; j++)
+    for (let p = i - 1; p < j; p++) {
+      if (cost[i - 1][p] >= INF) continue;
+      const c = cost[i - 1][p] + segCost(i, p + 1, j);
+      if (c < cost[i][j]) { cost[i][j] = c; from[i][j] = p; }
+    }
+const ends = []; let j = m - 1;
+for (let i = n - 1; i >= 0; i--) { ends.unshift(j); j = from[i][j]; }
+speech = ends.map((e, i) => [speech[i === 0 ? 0 : ends[i - 1] + 1][0], speech[e][1]]);
 
 const words = SENT.map((s, i) => {
   const ws = s.split(/\s+/), [a, b] = speech[i];

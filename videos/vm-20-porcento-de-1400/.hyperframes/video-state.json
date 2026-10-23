@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "5f073052-5b78-41bc-8d81-68ef178edc71",
-  "currentRevision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
+  "currentRevision": "c15606e2-32cf-4ac7-8893-87d15f39a217",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -33,20 +33,20 @@
       "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
     },
     "compositions/barra.html": {
-      "hash": "003002d0faf963d4b73ff069e25642f1bf176efa7807120a005166b9e0be0399",
-      "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/00/003002d0faf963d4b73ff069e25642f1bf176efa7807120a005166b9e0be0399"
+      "hash": "86c737757f49f82806efc87fc9f10bca97de868e46e032a8ad8badbf6b072d5b",
+      "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/86/86c737757f49f82806efc87fc9f10bca97de868e46e032a8ad8badbf6b072d5b"
     },
     "compositions/legendas.html": {
-      "hash": "1bc9a6175a3ed40facee6e2455e2bea2382c865c0d29b0abc593455278e1e9ca",
-      "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/1b/1bc9a6175a3ed40facee6e2455e2bea2382c865c0d29b0abc593455278e1e9ca"
+      "hash": "2f894b38fbcfbd61ce1b4890bf95401ea559c02e43fd0c3338e72ff78b8dd5d3",
+      "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/2f/2f894b38fbcfbd61ce1b4890bf95401ea559c02e43fd0c3338e72ff78b8dd5d3"
     },
     "hyperframes.json": {
       "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
       "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
     },
     "index.html": {
-      "hash": "2d7bfa2fdaf68ee054fe900f40ea899f758c0ae30c5636ae5933221fc012ce4e",
-      "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/2d/2d7bfa2fdaf68ee054fe900f40ea899f758c0ae30c5636ae5933221fc012ce4e"
+      "hash": "e5c42e97472a2a5f1f67ff60c0937f18df113a5a59bdd1d033aefa05616d1966",
+      "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/e5/e5c42e97472a2a5f1f67ff60c0937f18df113a5a59bdd1d033aefa05616d1966"
     },
     "meta.json": {
       "hash": "0186fc6015ab01714b01a5fa9e6ecc4878d782901a74fc4cc5085e48b6e159cb",
@@ -55,6 +55,22 @@
     "package.json": {
       "hash": "c1f3b2558b7e4e276564869d03fbc58f73016508c2fa84b6ab1125213094f3b3",
       "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/c1/c1f3b2558b7e4e276564869d03fbc58f73016508c2fa84b6ab1125213094f3b3"
+    },
+    "assets/narracao-take2.mp3": {
+      "hash": "e0bf24833ecfd6749d8e63429f12b99ce219e49843b5c33882aadf24604c2d03",
+      "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/e0/e0bf24833ecfd6749d8e63429f12b99ce219e49843b5c33882aadf24604c2d03"
+    },
+    "assets/narracao.mp3": {
+      "hash": "140214fb498e20d429a4bbb520dd412995330b904e81829c9cadc26ce1b19b76",
+      "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/14/140214fb498e20d429a4bbb520dd412995330b904e81829c9cadc26ce1b19b76"
+    },
+    "REVIEW.md": {
+      "hash": "dcc8ed944dbf4a42128970620d4821b72be2a4a626d188aefce3ec79f1fc8dbc",
+      "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/dc/dcc8ed944dbf4a42128970620d4821b72be2a4a626d188aefce3ec79f1fc8dbc"
+    },
+    "assets/narracao-original.mp3": {
+      "hash": "7320908a50e291637f5255f1d8bac43b31b4d2bf7ae60736bf0b98c99868e8ed",
+      "content": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/73/7320908a50e291637f5255f1d8bac43b31b4d2bf7ae60736bf0b98c99868e8ed"
     }
   },
   "revisions": {
@@ -76,19 +92,98 @@
           "after": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/1b/1bc9a6175a3ed40facee6e2455e2bea2382c865c0d29b0abc593455278e1e9ca"
         }
       }
+    },
+    "1d12b128-e537-49ae-b1d0-948d0792f10e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792752085799,
+      "endedAt": 1792752085817,
+      "files": {
+        "assets/narracao-take2.mp3": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/e0/e0bf24833ecfd6749d8e63429f12b99ce219e49843b5c33882aadf24604c2d03"
+        },
+        "assets/narracao.mp3": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/73/7320908a50e291637f5255f1d8bac43b31b4d2bf7ae60736bf0b98c99868e8ed"
+        },
+        "compositions/barra.html": {
+          "before": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/00/003002d0faf963d4b73ff069e25642f1bf176efa7807120a005166b9e0be0399",
+          "after": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/9f/9f30d7c70a6325b6a34a393b717a0a208901d091e0463de50066c2e022e1b6ad"
+        },
+        "compositions/legendas.html": {
+          "before": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/1b/1bc9a6175a3ed40facee6e2455e2bea2382c865c0d29b0abc593455278e1e9ca",
+          "after": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/44/44d6b2c76759759d7ac6404f37e0b5da2191b15861b0e8bd00dfb4877e64009f"
+        },
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/2d/2d7bfa2fdaf68ee054fe900f40ea899f758c0ae30c5636ae5933221fc012ce4e",
+          "after": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/c3/c329dfc37541d25785139a24c4e6216cc848a1bea02e6b2e52c695a0f5c25bb2"
+        },
+        "REVIEW.md": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/dc/dcc8ed944dbf4a42128970620d4821b72be2a4a626d188aefce3ec79f1fc8dbc"
+        }
+      }
+    },
+    "62093cee-35bf-450d-95db-36b04621a3c1": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792752112592,
+      "endedAt": 1792752112657,
+      "files": {
+        "compositions/barra.html": {
+          "before": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/9f/9f30d7c70a6325b6a34a393b717a0a208901d091e0463de50066c2e022e1b6ad",
+          "after": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/86/86c737757f49f82806efc87fc9f10bca97de868e46e032a8ad8badbf6b072d5b"
+        },
+        "compositions/legendas.html": {
+          "before": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/44/44d6b2c76759759d7ac6404f37e0b5da2191b15861b0e8bd00dfb4877e64009f",
+          "after": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/2f/2f894b38fbcfbd61ce1b4890bf95401ea559c02e43fd0c3338e72ff78b8dd5d3"
+        },
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/c3/c329dfc37541d25785139a24c4e6216cc848a1bea02e6b2e52c695a0f5c25bb2",
+          "after": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/e5/e5c42e97472a2a5f1f67ff60c0937f18df113a5a59bdd1d033aefa05616d1966"
+        }
+      }
+    },
+    "c15606e2-32cf-4ac7-8893-87d15f39a217": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792752272743,
+      "endedAt": 1792752272769,
+      "files": {
+        "assets/narracao-original.mp3": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/73/7320908a50e291637f5255f1d8bac43b31b4d2bf7ae60736bf0b98c99868e8ed"
+        },
+        "assets/narracao.mp3": {
+          "before": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/73/7320908a50e291637f5255f1d8bac43b31b4d2bf7ae60736bf0b98c99868e8ed",
+          "after": "/root/.cache/hyperframes/history/5f073052-5b78-41bc-8d81-68ef178edc71/blobs/14/140214fb498e20d429a4bbb520dd412995330b904e81829c9cadc26ce1b19b76"
+        }
+      }
     }
   },
   "checks": {
     "latest": {
-      "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-      "id": "679575d1-d43b-430d-b2b0-e22e626822f6"
+      "revision": "62093cee-35bf-450d-95db-36b04621a3c1",
+      "id": "543289cc-db1d-43a7-b6ef-0e611f315f46"
     },
     "revisions": {
-      "907a8540-e2b7-4e5b-a3c6-4b7955a88769": [
+      "907a8540-e2b7-4e5b-a3c6-4b7955a88769": [],
+      "1d12b128-e537-49ae-b1d0-948d0792f10e": [],
+      "62093cee-35bf-450d-95db-36b04621a3c1": [
         {
-          "id": "679575d1-d43b-430d-b2b0-e22e626822f6",
+          "id": "543289cc-db1d-43a7-b6ef-0e611f315f46",
           "scope": "project",
-          "report": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/checks/679575d1-d43b-430d-b2b0-e22e626822f6.json",
+          "report": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/checks/543289cc-db1d-43a7-b6ef-0e611f315f46.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -105,84 +200,26 @@
               "browserGpuMode": "auto"
             }
           },
-          "createdAt": 1792751741552,
-          "contentHash": "16c181aab85deb47fbae0807cd3f34208baf7ef651478fd5d9df413d8a991afc",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
+          "createdAt": 1792752118392,
+          "contentHash": "3b2260a7a2cde29c5d8133e74001a35b63af5e71fa444b134a2209cbbe71b7ca",
+          "revision": "62093cee-35bf-450d-95db-36b04621a3c1",
+          "inputFingerprint": "28a2a9c1396b05baaad8758a349d0a6d32a10a772023a368a2dbd19d9caa9751",
           "inputScope": "local-project-files",
           "attribution": "recorded-revision"
         }
       ]
     },
-    "unversioned": [
-      {
-        "id": "c9a4da49-83f3-46e2-b27d-a29000739810",
-        "scope": "project",
-        "report": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/checks/c9a4da49-83f3-46e2-b27d-a29000739810.json",
-        "metadata": {
-          "ok": false,
-          "browserSkipped": false,
-          "options": {
-            "samples": 9,
-            "atTransitions": false,
-            "maxIssues": 80,
-            "collapseStatic": true,
-            "tolerance": 2,
-            "timeout": 3000,
-            "contrast": true,
-            "strict": false,
-            "snapshots": false,
-            "browserGpuMode": "auto"
-          }
-        },
-        "createdAt": 1792751658038,
-        "contentHash": "5d1f35318540159969c8bbf2703e6246f5a97b7a02e75b574054a71d40a54ff5",
-        "revision": null,
-        "inputFingerprint": "3a9612e4720af334c02cdc4a264002bf1452d525fd1676b303db22173d753161",
-        "inputScope": "local-project-files",
-        "attribution": "unversioned"
-      },
-      {
-        "id": "52e1ffb0-e16b-4487-acb7-710fa98aa5e8",
-        "scope": "project",
-        "report": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/checks/52e1ffb0-e16b-4487-acb7-710fa98aa5e8.json",
-        "metadata": {
-          "ok": false,
-          "browserSkipped": false,
-          "options": {
-            "samples": 9,
-            "atTransitions": false,
-            "maxIssues": 80,
-            "collapseStatic": true,
-            "tolerance": 2,
-            "timeout": 3000,
-            "contrast": true,
-            "strict": false,
-            "snapshots": false,
-            "browserGpuMode": "auto"
-          }
-        },
-        "createdAt": 1792751669830,
-        "contentHash": "5d1f35318540159969c8bbf2703e6246f5a97b7a02e75b574054a71d40a54ff5",
-        "revision": null,
-        "inputFingerprint": "3a9612e4720af334c02cdc4a264002bf1452d525fd1676b303db22173d753161",
-        "inputScope": "local-project-files",
-        "attribution": "unversioned"
-      }
-    ]
+    "unversioned": []
   },
   "snapshots": {
-    "latest": {
-      "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-      "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-11"
-    },
+    "latest": null,
     "revisions": {
-      "907a8540-e2b7-4e5b-a3c6-4b7955a88769": [
+      "907a8540-e2b7-4e5b-a3c6-4b7955a88769": [],
+      "1d12b128-e537-49ae-b1d0-948d0792f10e": [
         {
           "scope": "full",
-          "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-0",
-          "image": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/snapshots/cb7ff452-0d2d-4f9c-b8c5-719d70f55e38/frame-00-at-0.2s.png",
-          "time": 0.2,
+          "id": "41293294-ccc6-4ab0-81dd-c69493e45f0d-0",
+          "time": 0.3,
           "metadata": {
             "width": 1080,
             "height": 1920,
@@ -191,18 +228,19 @@
             "warnings": [],
             "partial": false
           },
-          "createdAt": 1792751751620,
-          "contentHash": "09f6c6c71f34f6a2c9fcd766ec89eb58ae6eaa5602d57a217c4c6892ace61ab5",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
+          "createdAt": 1792752101047,
+          "contentHash": "f9e8929551fd8d3e7d7a31adcca8d2dfbc46a33f65129d0e600d40cc834a29e9",
+          "revision": "1d12b128-e537-49ae-b1d0-948d0792f10e",
+          "inputFingerprint": "7220667701632dbd1b875b88887a8453a7dc5f8d5ed16caace6b62f16943e04c",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "0c2c2120-6e74-43a2-a43d-207b9fd0cbec"
         },
         {
           "scope": "full",
-          "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-1",
-          "image": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/snapshots/cb7ff452-0d2d-4f9c-b8c5-719d70f55e38/frame-01-at-6s.png",
-          "time": 6,
+          "id": "41293294-ccc6-4ab0-81dd-c69493e45f0d-1",
+          "time": 8.5,
           "metadata": {
             "width": 1080,
             "height": 1920,
@@ -211,18 +249,19 @@
             "warnings": [],
             "partial": false
           },
-          "createdAt": 1792751751620,
-          "contentHash": "c1aea704ec5cc4365962ae759da59a3a5e909f8893769b3641b12a937d44fadd",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
+          "createdAt": 1792752101047,
+          "contentHash": "4336f5d3e211b5e3997aad603e6fc051709f0b3e578e363054a629a992ec2fdb",
+          "revision": "1d12b128-e537-49ae-b1d0-948d0792f10e",
+          "inputFingerprint": "7220667701632dbd1b875b88887a8453a7dc5f8d5ed16caace6b62f16943e04c",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "0c2c2120-6e74-43a2-a43d-207b9fd0cbec"
         },
         {
           "scope": "full",
-          "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-2",
-          "image": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/snapshots/cb7ff452-0d2d-4f9c-b8c5-719d70f55e38/frame-02-at-13s.png",
-          "time": 13,
+          "id": "41293294-ccc6-4ab0-81dd-c69493e45f0d-2",
+          "time": 14.5,
           "metadata": {
             "width": 1080,
             "height": 1920,
@@ -231,18 +270,19 @@
             "warnings": [],
             "partial": false
           },
-          "createdAt": 1792751751620,
-          "contentHash": "bf132e50518b5137041e090a759b9305e9182be5fcc1bd741cda90aebf66009b",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
+          "createdAt": 1792752101047,
+          "contentHash": "f5b02577b4c67503c1d0893dae2f3db502323de28f7496f68e3238d573ae5b0f",
+          "revision": "1d12b128-e537-49ae-b1d0-948d0792f10e",
+          "inputFingerprint": "7220667701632dbd1b875b88887a8453a7dc5f8d5ed16caace6b62f16943e04c",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "0c2c2120-6e74-43a2-a43d-207b9fd0cbec"
         },
         {
           "scope": "full",
-          "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-3",
-          "image": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/snapshots/cb7ff452-0d2d-4f9c-b8c5-719d70f55e38/frame-03-at-17s.png",
-          "time": 17,
+          "id": "41293294-ccc6-4ab0-81dd-c69493e45f0d-3",
+          "time": 19.5,
           "metadata": {
             "width": 1080,
             "height": 1920,
@@ -251,18 +291,19 @@
             "warnings": [],
             "partial": false
           },
-          "createdAt": 1792751751620,
-          "contentHash": "554126747f636191b02a2d1f2e18086e364d80bfe7d0ed4aea1cc80d51d55553",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
+          "createdAt": 1792752101047,
+          "contentHash": "4421ca37596415ebf1383bf4d83ba8e72ba9c0b659ef751711a03d2229cbd8ee",
+          "revision": "1d12b128-e537-49ae-b1d0-948d0792f10e",
+          "inputFingerprint": "7220667701632dbd1b875b88887a8453a7dc5f8d5ed16caace6b62f16943e04c",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "0c2c2120-6e74-43a2-a43d-207b9fd0cbec"
         },
         {
           "scope": "full",
-          "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-4",
-          "image": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/snapshots/cb7ff452-0d2d-4f9c-b8c5-719d70f55e38/frame-04-at-22.5s.png",
-          "time": 22.5,
+          "id": "41293294-ccc6-4ab0-81dd-c69493e45f0d-4",
+          "time": 24.5,
           "metadata": {
             "width": 1080,
             "height": 1920,
@@ -271,18 +312,19 @@
             "warnings": [],
             "partial": false
           },
-          "createdAt": 1792751751620,
-          "contentHash": "5f71cf8dab11c810d59ddb75662b2490c289fc4a20f20098c77288afb046af8e",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
+          "createdAt": 1792752101047,
+          "contentHash": "345e1f3c543fc2947e392762eba0cee2e525f6c2e36216ca036099bf3864fe5b",
+          "revision": "1d12b128-e537-49ae-b1d0-948d0792f10e",
+          "inputFingerprint": "7220667701632dbd1b875b88887a8453a7dc5f8d5ed16caace6b62f16943e04c",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "0c2c2120-6e74-43a2-a43d-207b9fd0cbec"
         },
         {
           "scope": "full",
-          "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-5",
-          "image": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/snapshots/cb7ff452-0d2d-4f9c-b8c5-719d70f55e38/frame-05-at-25.5s.png",
-          "time": 25.5,
+          "id": "41293294-ccc6-4ab0-81dd-c69493e45f0d-5",
+          "time": 27.5,
           "metadata": {
             "width": 1080,
             "height": 1920,
@@ -291,17 +333,18 @@
             "warnings": [],
             "partial": false
           },
-          "createdAt": 1792751751620,
-          "contentHash": "bc73dfc166a5bc55eeffd797e8d9dc4b6f7dde276d904672334f04d0353e6806",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
+          "createdAt": 1792752101047,
+          "contentHash": "4cb91f68d047cf3aa8e8eb2e083f79d9eec7f27b0f058a26fda187eea8397e25",
+          "revision": "1d12b128-e537-49ae-b1d0-948d0792f10e",
+          "inputFingerprint": "7220667701632dbd1b875b88887a8453a7dc5f8d5ed16caace6b62f16943e04c",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "0c2c2120-6e74-43a2-a43d-207b9fd0cbec"
         },
         {
           "scope": "full",
-          "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-6",
-          "image": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/snapshots/cb7ff452-0d2d-4f9c-b8c5-719d70f55e38/frame-06-at-30s.png",
+          "id": "41293294-ccc6-4ab0-81dd-c69493e45f0d-6",
           "time": 30,
           "metadata": {
             "width": 1080,
@@ -311,18 +354,19 @@
             "warnings": [],
             "partial": false
           },
-          "createdAt": 1792751751620,
-          "contentHash": "dbab8bff8ff4560d9d4a90b1217a3db73c2ea0d66280709ff8770ee6d376b3d2",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
+          "createdAt": 1792752101047,
+          "contentHash": "5d1b9d22367d3a6763993c0158bea776ce2494b578cf3f8ae2a46e9806ce8bb2",
+          "revision": "1d12b128-e537-49ae-b1d0-948d0792f10e",
+          "inputFingerprint": "7220667701632dbd1b875b88887a8453a7dc5f8d5ed16caace6b62f16943e04c",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "0c2c2120-6e74-43a2-a43d-207b9fd0cbec"
         },
         {
           "scope": "full",
-          "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-7",
-          "image": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/snapshots/cb7ff452-0d2d-4f9c-b8c5-719d70f55e38/frame-07-at-33s.png",
-          "time": 33,
+          "id": "41293294-ccc6-4ab0-81dd-c69493e45f0d-7",
+          "time": 35,
           "metadata": {
             "width": 1080,
             "height": 1920,
@@ -331,37 +375,18 @@
             "warnings": [],
             "partial": false
           },
-          "createdAt": 1792751751620,
-          "contentHash": "9bccdfce75b7ff7eab88f92fb005b785d9adcf00a00e63da9620d8a494b5afd7",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
+          "createdAt": 1792752101047,
+          "contentHash": "eb7f3e9ef1f55197a99ff44ff2fe1e0facfafbbf9e6b95d462d17ea5fbcec6ef",
+          "revision": "1d12b128-e537-49ae-b1d0-948d0792f10e",
+          "inputFingerprint": "7220667701632dbd1b875b88887a8453a7dc5f8d5ed16caace6b62f16943e04c",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "0c2c2120-6e74-43a2-a43d-207b9fd0cbec"
         },
         {
           "scope": "full",
-          "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-8",
-          "image": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/snapshots/cb7ff452-0d2d-4f9c-b8c5-719d70f55e38/frame-08-at-35.5s.png",
-          "time": 35.5,
-          "metadata": {
-            "width": 1080,
-            "height": 1920,
-            "zoomScale": 1,
-            "browserGpuMode": "auto",
-            "warnings": [],
-            "partial": false
-          },
-          "createdAt": 1792751751620,
-          "contentHash": "0ec0d3575fda545849fd451ae3055d6eaa0a244682d14e35b458e26ff797c1a3",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
-          "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
-        },
-        {
-          "scope": "full",
-          "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-9",
-          "image": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/snapshots/cb7ff452-0d2d-4f9c-b8c5-719d70f55e38/frame-09-at-38.5s.png",
+          "id": "41293294-ccc6-4ab0-81dd-c69493e45f0d-8",
           "time": 38.5,
           "metadata": {
             "width": 1080,
@@ -371,18 +396,19 @@
             "warnings": [],
             "partial": false
           },
-          "createdAt": 1792751751620,
-          "contentHash": "03904d3ea29915f33bbe26fbe27adbf53fcbcc4b5e3fb466558cb34fdc3ab596",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
+          "createdAt": 1792752101047,
+          "contentHash": "33bc092d5dcbe933475b547e3e91f13d15776b1e95c3116e624db1b5ffe60022",
+          "revision": "1d12b128-e537-49ae-b1d0-948d0792f10e",
+          "inputFingerprint": "7220667701632dbd1b875b88887a8453a7dc5f8d5ed16caace6b62f16943e04c",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "0c2c2120-6e74-43a2-a43d-207b9fd0cbec"
         },
         {
           "scope": "full",
-          "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-10",
-          "image": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/snapshots/cb7ff452-0d2d-4f9c-b8c5-719d70f55e38/frame-10-at-42s.png",
-          "time": 42,
+          "id": "41293294-ccc6-4ab0-81dd-c69493e45f0d-9",
+          "time": 41.5,
           "metadata": {
             "width": 1080,
             "height": 1920,
@@ -391,32 +417,14 @@
             "warnings": [],
             "partial": false
           },
-          "createdAt": 1792751751620,
-          "contentHash": "005987224878ca4e27e634e8f80501576404b5fb02c96710a6298cbba01c7fc9",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
-          "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
-        },
-        {
-          "scope": "full",
-          "id": "6621f0e6-ffb3-4a82-a4af-8c4dd6791dd2-11",
-          "image": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/.hyperframes/artifacts/snapshots/cb7ff452-0d2d-4f9c-b8c5-719d70f55e38/frame-11-at-44.5s.png",
-          "time": 44.5,
-          "metadata": {
-            "width": 1080,
-            "height": 1920,
-            "zoomScale": 1,
-            "browserGpuMode": "auto",
-            "warnings": [],
-            "partial": false
-          },
-          "createdAt": 1792751751620,
+          "createdAt": 1792752101047,
           "contentHash": "a59255d4fba1a2b9ffef2b62b445452f9e0625620fe46ed40c55aaa623036a4d",
-          "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769",
-          "inputFingerprint": "950a16b0a41d570c68dc2bc5b1ee42f9e0a87b3143a3f5a27b449420ad2f0f91",
+          "revision": "1d12b128-e537-49ae-b1d0-948d0792f10e",
+          "inputFingerprint": "7220667701632dbd1b875b88887a8453a7dc5f8d5ed16caace6b62f16943e04c",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "0c2c2120-6e74-43a2-a43d-207b9fd0cbec"
         }
       ]
     },
@@ -424,14 +432,15 @@
   },
   "renders": {
     "latest": {
-      "id": "a99df00f-0aac-49fb-bc58-280235cc01bb",
-      "completedAt": 1792751939228,
-      "output": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/renders/20-porcento-de-1400-sem-voz.mp4",
+      "id": "b2aa04eb-8a18-489a-b3da-c5f25ef5873d",
+      "completedAt": 1792752407310,
+      "output": "/home/user/edicaodevideos/videos/vm-20-porcento-de-1400/renders/20-porcento-de-1400.mp4",
       "status": "completed",
-      "revision": "907a8540-e2b7-4e5b-a3c6-4b7955a88769"
+      "revision": "c15606e2-32cf-4ac7-8893-87d15f39a217"
     },
     "retainedRevisions": [
-      "907a8540-e2b7-4e5b-a3c6-4b7955a88769"
+      "c15606e2-32cf-4ac7-8893-87d15f39a217",
+      "62093cee-35bf-450d-95db-36b04621a3c1"
     ]
   },
   "pendingArtifactCleanup": []
