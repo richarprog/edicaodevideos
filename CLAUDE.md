@@ -38,6 +38,9 @@ O projeto de referência é `videos/vm-jeitos-de-subtrair/` (roteiro em `build/r
    `ffmpeg -i bruto.mp3 -af loudnorm=I=-15:TP=-1.5:LRA=11 -ar 44100 -b:a 192k assets/narracao.mp3`.
 5. `node build/sync.mjs assets/narracao.mp3 && node build/build.mjs` sincroniza animação e legenda com a voz.
 6. `npx hyperframes render . -q high -o renders/<nome>.mp4 --fps 30` e confira o volume (alvo de -16 a -14 LUFS).
+7. Escreva `POST.md` no projeto com a **descrição para as redes** (2 a 4 linhas: gancho em pergunta, a ideia em uma frase,
+   chamada para comentar/salvar/seguir) e **5 a 8 hashtags** (amplas + do tema + série/ano + `#avozdamatematica`),
+   e mostre o texto pronto para copiar na resposta final ao dono.
 
 ## Ambiente (limites conhecidos)
 
