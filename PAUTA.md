@@ -26,6 +26,7 @@ Duração-alvo: **acima de 60 s** quando o vídeo for para monetização (ver no
 | 12 | Multiplicar por 5 | "48 × 5 sem armar a conta" | 48 ÷ 2 = 24 → 240 | |
 | 13 | Porcentagem invertida | "8% de 50 parece difícil..." | = 50% de 8 = 4 | |
 | 14 | Números perto de 100 | "97 × 96 em 3 segundos" | faltam 3 e 4 → 93 \| 12 = 9312 | |
+| 21 | Jeitos diferentes de subtrair | "523 − 198 sem armar a conta?" | compensação: 525 − 200 = 325; complemento: 1000 − 368 = 632; desafio 10.000 − 4.738 = 5.262 | feito |
 | 15 | Divisível por 3? | "4.872 divide por 3?" | 4+8+7+2 = 21 → sim (1.624) | |
 
 ## Série "Entenda de vez" (didáticos)

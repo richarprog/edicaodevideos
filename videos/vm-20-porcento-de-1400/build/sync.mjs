@@ -23,7 +23,11 @@ const SENT = [
 
 const probe = execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", file]).toString();
 const dur = parseFloat(probe);
-const log = spawnSync("ffmpeg", ["-hide_banner", "-i", file, "-af", "silencedetect=noise=-38dB:d=0.18", "-f", "null", "-"], { encoding: "utf8" }).stderr;
+// limite de silêncio relativo ao pico do áudio (funciona antes e depois de normalizar)
+const vol = spawnSync("ffmpeg", ["-hide_banner", "-i", file, "-af", "volumedetect", "-f", "null", "-"], { encoding: "utf8" }).stderr;
+const peak = parseFloat((vol.match(/max_volume: (-?[\d.]+) dB/) || [, "0"])[1]);
+const noise = (peak - 30).toFixed(1);
+const log = spawnSync("ffmpeg", ["-hide_banner", "-i", file, "-af", `silencedetect=noise=${noise}dB:d=0.15`, "-f", "null", "-"], { encoding: "utf8" }).stderr;
 const sil = [];
 for (const m of log.matchAll(/silence_start: ([\d.]+)[\s\S]*?silence_end: ([\d.]+)/g)) sil.push([+m[1], +m[2]]);
 

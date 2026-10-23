@@ -1,0 +1,440 @@
+{
+  "version": 1,
+  "historyId": "128aa719-95bf-4bf0-9da3-041ae0435187",
+  "currentRevision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "CLAUDE.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "assets/fonts/kalam-latin-400-normal.woff2": {
+      "hash": "954410601a823f37e219f7930b7446f86afa15621326a7078d56fb9c910135cb",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/95/954410601a823f37e219f7930b7446f86afa15621326a7078d56fb9c910135cb"
+    },
+    "assets/fonts/kalam-latin-700-normal.woff2": {
+      "hash": "252063af6ade8b9a744cde4ddad0fc21ea53b8ba711eed121a0c2e8610ea9c93",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/25/252063af6ade8b9a744cde4ddad0fc21ea53b8ba711eed121a0c2e8610ea9c93"
+    },
+    "assets/fonts/patrick-hand-latin-400-normal.woff2": {
+      "hash": "ac5bc9033b2572bf84d39f7150c1634e37ed16e8dbee632d6d0bceac0bbf0199",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/ac/ac5bc9033b2572bf84d39f7150c1634e37ed16e8dbee632d6d0bceac0bbf0199"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "compositions/legendas.html": {
+      "hash": "f3de361265c165dd8d6dd849d5183ddf3f68e8b6c81a16599b50bd92263891e3",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/f3/f3de361265c165dd8d6dd849d5183ddf3f68e8b6c81a16599b50bd92263891e3"
+    },
+    "compositions/lousa.html": {
+      "hash": "3963e68ae9056780fd856e5c0d57c798f3c8d0e44c8e749cea7d6df2d7f643d0",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/39/3963e68ae9056780fd856e5c0d57c798f3c8d0e44c8e749cea7d6df2d7f643d0"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "a528dcbc084e107b116332e8bcc42fb5f21e2a8a7c90022a17425f3fb6846ded",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/a5/a528dcbc084e107b116332e8bcc42fb5f21e2a8a7c90022a17425f3fb6846ded"
+    },
+    "meta.json": {
+      "hash": "9e3b3ab505d3979cba1d845df50154c1494137c0302b2b21341266b6d6759e58",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/9e/9e3b3ab505d3979cba1d845df50154c1494137c0302b2b21341266b6d6759e58"
+    },
+    "package.json": {
+      "hash": "c1f3b2558b7e4e276564869d03fbc58f73016508c2fa84b6ab1125213094f3b3",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/c1/c1f3b2558b7e4e276564869d03fbc58f73016508c2fa84b6ab1125213094f3b3"
+    },
+    "assets/narracao-bruta.mp3": {
+      "hash": "36ac197463f254ecb2c06c7a9eea7c35c175558921b8695031696de5afa3db2b",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/36/36ac197463f254ecb2c06c7a9eea7c35c175558921b8695031696de5afa3db2b"
+    },
+    "assets/narracao-take2.mp3": {
+      "hash": "4912e90c66bd6c9a571a2a6dd82bd51ac40c541867a09d834aed73a577788171",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/49/4912e90c66bd6c9a571a2a6dd82bd51ac40c541867a09d834aed73a577788171"
+    },
+    "assets/narracao.mp3": {
+      "hash": "78564d59368cd1f39556f7caa5f9d7c412eb9b1a90681e34ec8d964576a108f8",
+      "content": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/78/78564d59368cd1f39556f7caa5f9d7c412eb9b1a90681e34ec8d964576a108f8"
+    }
+  },
+  "revisions": {
+    "9292a0ec-8d98-41fb-84d7-726cb6c21d76": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792757115802,
+      "endedAt": 1792757115808,
+      "files": {
+        "compositions/lousa.html": {
+          "before": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/b7/b707805204211fd8ef643bb67206dfc65bde0a888de1263985a56793b5cc3b7f",
+          "after": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/09/092945fd409d04c5118549d4f3962514a38289edcc6b1efac96c11382987015d"
+        }
+      }
+    },
+    "f38fee0b-7833-49ce-914a-b42c2b3d58ff": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792757159007,
+      "endedAt": 1792757159013,
+      "files": {
+        "compositions/lousa.html": {
+          "before": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/09/092945fd409d04c5118549d4f3962514a38289edcc6b1efac96c11382987015d",
+          "after": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/ab/ab720a5d2209cd1cedf0c7e57875959bffc4f702fff520a12a60b07348b9ac57"
+        }
+      }
+    },
+    "58be563a-e138-46e8-a8a9-4cc2b3b761bb": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792757260692,
+      "endedAt": 1792757260713,
+      "files": {
+        "assets/narracao-bruta.mp3": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/36/36ac197463f254ecb2c06c7a9eea7c35c175558921b8695031696de5afa3db2b"
+        },
+        "assets/narracao-take2.mp3": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/49/4912e90c66bd6c9a571a2a6dd82bd51ac40c541867a09d834aed73a577788171"
+        },
+        "assets/narracao.mp3": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/78/78564d59368cd1f39556f7caa5f9d7c412eb9b1a90681e34ec8d964576a108f8"
+        },
+        "compositions/legendas.html": {
+          "before": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/aa/aa4f3db537d803240adf72d8d1b0e32b160a34ef53b50e40c1f0c282cfcc6d13",
+          "after": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/f3/f3de361265c165dd8d6dd849d5183ddf3f68e8b6c81a16599b50bd92263891e3"
+        },
+        "compositions/lousa.html": {
+          "before": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/ab/ab720a5d2209cd1cedf0c7e57875959bffc4f702fff520a12a60b07348b9ac57",
+          "after": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/39/3963e68ae9056780fd856e5c0d57c798f3c8d0e44c8e749cea7d6df2d7f643d0"
+        },
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/0e/0eff4b16c380517e7a523d8da0eda621e0d70a0fd40c296d4a93ba9f111a0b09",
+          "after": "/root/.cache/hyperframes/history/128aa719-95bf-4bf0-9da3-041ae0435187/blobs/a5/a528dcbc084e107b116332e8bcc42fb5f21e2a8a7c90022a17425f3fb6846ded"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+      "id": "a3310f84-b08a-47b1-a601-4eff6df882a4"
+    },
+    "revisions": {
+      "9292a0ec-8d98-41fb-84d7-726cb6c21d76": [],
+      "58be563a-e138-46e8-a8a9-4cc2b3b761bb": [
+        {
+          "id": "a3310f84-b08a-47b1-a601-4eff6df882a4",
+          "scope": "project",
+          "report": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/checks/a3310f84-b08a-47b1-a601-4eff6df882a4.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792757269526,
+          "contentHash": "55913fb9082f10fdd124299cd2dc17d6b6b4522eab34e4a5a6bf1fec1e20a2ec",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+      "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-11"
+    },
+    "revisions": {
+      "9292a0ec-8d98-41fb-84d7-726cb6c21d76": [],
+      "f38fee0b-7833-49ce-914a-b42c2b3d58ff": [],
+      "58be563a-e138-46e8-a8a9-4cc2b3b761bb": [
+        {
+          "scope": "full",
+          "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-0",
+          "image": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/snapshots/c05f7eac-8362-4987-b4ef-4580cd6ecd18/frame-00-at-0.3s.png",
+          "time": 0.3,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792757279603,
+          "contentHash": "fc5930b7993b6f8f9efc15a240c0e7fa6b528e545f306469eeaae5f574678396",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-1",
+          "image": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/snapshots/c05f7eac-8362-4987-b4ef-4580cd6ecd18/frame-01-at-11s.png",
+          "time": 11,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792757279603,
+          "contentHash": "e65cd77531d7757d72827de2f0975122ac888823894d06d9caab90915f2179cf",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-2",
+          "image": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/snapshots/c05f7eac-8362-4987-b4ef-4580cd6ecd18/frame-02-at-18s.png",
+          "time": 18,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792757279603,
+          "contentHash": "14eef62fb543471ddbc55b4361e6f78ec4f3f27cba7e9d0f93a7521133b13a01",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-3",
+          "image": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/snapshots/c05f7eac-8362-4987-b4ef-4580cd6ecd18/frame-03-at-21.5s.png",
+          "time": 21.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792757279603,
+          "contentHash": "805156c09f3983e49b055e8d9c3d44a3876b521d51382c3127edd15bafe9acaf",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-4",
+          "image": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/snapshots/c05f7eac-8362-4987-b4ef-4580cd6ecd18/frame-04-at-24s.png",
+          "time": 24,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792757279603,
+          "contentHash": "6edebd3e71a095890c0c286a1ff660bf47a699ccfb821b403d2670e5fda261aa",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-5",
+          "image": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/snapshots/c05f7eac-8362-4987-b4ef-4580cd6ecd18/frame-05-at-29.5s.png",
+          "time": 29.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792757279603,
+          "contentHash": "f6de6fac86317cd2f2196f66022bff1d1f6c8ae7b05c7b1b14cd2140c983fcc9",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-6",
+          "image": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/snapshots/c05f7eac-8362-4987-b4ef-4580cd6ecd18/frame-06-at-33.5s.png",
+          "time": 33.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792757279603,
+          "contentHash": "c4440bd4ca52747a0f5a543cc1b286268ce13664fd2f32f3c86cea29bcd55d6c",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-7",
+          "image": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/snapshots/c05f7eac-8362-4987-b4ef-4580cd6ecd18/frame-07-at-37.5s.png",
+          "time": 37.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792757279603,
+          "contentHash": "6fa711fe2306623046bb05ef6f8d0ca9ed3bb1d95072da4d03104adf1daa9612",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-8",
+          "image": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/snapshots/c05f7eac-8362-4987-b4ef-4580cd6ecd18/frame-08-at-42s.png",
+          "time": 42,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792757279603,
+          "contentHash": "2096db55a04c21e5d9415d167adb8fba0a7cecd455e9be402b0e951ac8560ce1",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-9",
+          "image": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/snapshots/c05f7eac-8362-4987-b4ef-4580cd6ecd18/frame-09-at-47s.png",
+          "time": 47,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792757279603,
+          "contentHash": "2d1358673b0533e5d839e576f2312e5149082189ea780e6c5b6413d9776a4064",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-10",
+          "image": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/snapshots/c05f7eac-8362-4987-b4ef-4580cd6ecd18/frame-10-at-55s.png",
+          "time": 55,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792757279603,
+          "contentHash": "0ff4a544bfaddf344b80e079eee5da82df7d6afdb745292f372cb63db04022a7",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "2eea1a1a-9b49-4c31-88a6-8909863dd9ad-11",
+          "image": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/.hyperframes/artifacts/snapshots/c05f7eac-8362-4987-b4ef-4580cd6ecd18/frame-11-at-59s.png",
+          "time": 59,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792757279603,
+          "contentHash": "875734623b4f7c9c259ed4a379e2092fc2aaa9178bd7ddf70d45eea18fcf7603",
+          "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb",
+          "inputFingerprint": "b03dc87364adbf39a4d3ef1585543ea65b21c5461362035ac02488e10c2bcebe",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "6d068801-6e5f-4ff8-a227-ec6cbe405d76",
+      "completedAt": 1792757486358,
+      "output": "/home/user/edicaodevideos/videos/vm-jeitos-de-subtrair/renders/jeitos-de-subtrair.mp4",
+      "status": "completed",
+      "revision": "58be563a-e138-46e8-a8a9-4cc2b3b761bb"
+    },
+    "retainedRevisions": [
+      "58be563a-e138-46e8-a8a9-4cc2b3b761bb"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

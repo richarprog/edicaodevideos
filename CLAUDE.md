@@ -28,10 +28,11 @@ no máximo cerca de 19 palavras faladas por cena; texto na tela entre y = 168 e 
 
 ## Como fazer um vídeo novo
 
-O projeto de referência é `videos/vm-20-porcento-de-1400/`. Para cada vídeo novo:
+O projeto de referência é `videos/vm-jeitos-de-subtrair/` (roteiro em `build/roteiro.mjs`, compartilhado pelo gerador e pelo sincronizador). Para cada vídeo novo:
 
 1. Copie a pasta para `videos/vm-<assunto>/` (sem `renders/`, `assets/narracao*.mp3` e `build/timing.json`).
-2. Reescreva o roteiro em `SENT` (em `build/build.mjs` **e** em `build/sync.mjs`) e as animações da cena em `build/build.mjs`.
+2. Reescreva o roteiro em `build/roteiro.mjs` (uma frase por item) e a cena em `build/build.mjs` (seção "cena").
+   No fim, `node build/build.mjs` mostra a duração; confira as contas antes de animar.
 3. `node build/build.mjs` gera tudo com tempos estimados; confira com `npx hyperframes check .` e `npx hyperframes snapshot . --at ...`.
 4. Gere a narração no ElevenLabs, salve em `assets/narracao.mp3` e normalize:
    `ffmpeg -i bruto.mp3 -af loudnorm=I=-15:TP=-1.5:LRA=11 -ar 44100 -b:a 192k assets/narracao.mp3`.
@@ -44,4 +45,6 @@ O projeto de referência é `videos/vm-20-porcento-de-1400/`. Para cada vídeo n
 - O ElevenLabs às vezes devolve 429 (limite de requisições): espere e tente de novo, sem repetir em sequência.
 - Google Drive: pasta do canal `A Voz da Matemática` (id `1mg7SptybdljkQ9nJdWidRQApKiw8SmB1`). O conector não envia vídeos
   grandes (só aceita o arquivo inteiro em base64); o dono sobe os MP4 manualmente.
+- O filtro de giz das linhas SVG usa `filterUnits="userSpaceOnUse"` com a tela inteira: sem isso, linhas retas horizontais ou verticais somem.
+- O sincronizador mede o silêncio em relação ao pico do áudio, então funciona com a narração já normalizada.
 - A pauta de vídeos está em `PAUTA.md`.

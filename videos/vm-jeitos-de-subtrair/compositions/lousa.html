@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8" /></head><body>
+<template>
+<style>
+
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-700-normal.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Patrick Hand";src:url("assets/fonts/patrick-hand-latin-400-normal.woff2") format("woff2");font-weight:400}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden;color:#F2EFE4;font-family:"Kalam",cursive;
+  background:radial-gradient(ellipse 60% 40% at 30% 25%,rgba(255,255,255,.06),transparent 70%),radial-gradient(ellipse 50% 35% at 75% 70%,rgba(255,255,255,.05),transparent 70%),#1F3A2D}
+#root .dust{position:absolute;inset:0;opacity:.22}
+#root svg.g{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible}
+#root svg.g path,#root svg.g line{fill:none;stroke:#F2EFE4;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;filter:url(#chalk)}
+#root svg.g .d{stroke-dasharray:1;stroke-dashoffset:1}
+#root svg.g .tk{font:400 30px "Patrick Hand";fill:rgba(242,239,228,.55)}
+#root svg.g .ml{font:700 60px "Kalam";fill:#F2EFE4}
+#root svg.g .yl{font:700 64px "Kalam";fill:#F5D547}
+#root svg.g .dot{fill:#F2EFE4}
+#root svg.g .gap path{stroke:#F5D547;stroke-width:5}
+#root svg.g .plus{font:700 54px "Kalam";fill:#F5D547}
+#root .t{position:absolute;left:60px;right:60px;text-align:center;line-height:1.05;white-space:nowrap}
+#root .y{color:#F5D547}
+#root .ttl{top:230px;font:700 74px "Kalam"}
+#root .ttl small{display:block;font:400 56px "Patrick Hand";color:rgba(242,239,228,.55);margin-top:10px}
+#root .hd{top:250px;font:400 66px "Patrick Hand";color:rgba(242,239,228,.55);opacity:0}
+#root .q{top:560px;font:700 150px "Kalam"}
+#root .eq{top:960px;font:700 108px "Kalam";opacity:0}
+#root .big{top:420px;font:700 116px "Kalam";opacity:0}
+#root .cell{position:absolute;width:160px;text-align:center;font:700 120px/1 "Kalam";opacity:0}
+#root .cell.s{color:rgba(242,239,228,.55);font-size:92px}
+#root .cell.r{color:#F5D547}
+#root .box{position:absolute;width:170px;height:400px;top:620px;border:5px solid #F5D547;border-radius:20px;opacity:0}
+#root .minus{position:absolute;left:150px;top:770px;font:700 110px "Kalam";opacity:0}
+#root .sum{font:700 78px "Kalam";opacity:0}
+#root .end{top:600px;font:700 120px/1.15 "Kalam";opacity:0;white-space:normal}
+#root .endsub{top:930px;font:400 62px "Patrick Hand";color:rgba(242,239,228,.55);opacity:0}
+</style>
+<div id="root" data-composition-id="lousa" data-width="1080" data-height="1920" data-duration="60.61">
+  <svg class="dust" viewBox="0 0 1080 1920"><filter id="nz"><feTurbulence type="fractalNoise" baseFrequency="1.6" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .5 0"/></filter><rect width="1080" height="1920" filter="url(#nz)"/></svg>
+  <svg class="g" viewBox="0 0 1080 1920">
+    <defs><filter id="chalk" filterUnits="userSpaceOnUse" x="0" y="0" width="1080" height="1920"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="2"/><feDisplacementMap in="SourceGraphic" scale="3"/></filter></defs>
+    <g id="ruler" opacity="0">
+      <line class="d rl" pathLength="1" x1="70" y1="760" x2="510" y2="760"/>
+      <line class="d rr" pathLength="1" x1="570" y1="760" x2="1010" y2="760"/>
+      <path d="M510 760 l12 -18 l12 36 l12 -36 l12 36 l12 -18" style="stroke-width:4;opacity:.7"/>
+      <line x1="90" y1="760" x2="90" y2="774" style="stroke-width:3"/><line x1="110" y1="760" x2="110" y2="774" style="stroke-width:3"/><line x1="130" y1="760" x2="130" y2="788" style="stroke-width:3"/><text class="tk" x="130" y="826" text-anchor="middle">190</text><line x1="150" y1="760" x2="150" y2="774" style="stroke-width:3"/><line x1="170" y1="760" x2="170" y2="774" style="stroke-width:3"/><line x1="190" y1="760" x2="190" y2="774" style="stroke-width:3"/><line x1="210" y1="760" x2="210" y2="774" style="stroke-width:3"/><line x1="230" y1="760" x2="230" y2="788" style="stroke-width:3"/><text class="tk" x="230" y="826" text-anchor="middle">195</text><line x1="250" y1="760" x2="250" y2="774" style="stroke-width:3"/><line x1="270" y1="760" x2="270" y2="774" style="stroke-width:3"/><line x1="290" y1="760" x2="290" y2="774" style="stroke-width:3"/><line x1="310" y1="760" x2="310" y2="774" style="stroke-width:3"/><line x1="330" y1="760" x2="330" y2="788" style="stroke-width:3"/><text class="tk" x="330" y="826" text-anchor="middle">200</text><line x1="350" y1="760" x2="350" y2="774" style="stroke-width:3"/><line x1="370" y1="760" x2="370" y2="774" style="stroke-width:3"/><line x1="390" y1="760" x2="390" y2="774" style="stroke-width:3"/><line x1="410" y1="760" x2="410" y2="774" style="stroke-width:3"/><line x1="430" y1="760" x2="430" y2="788" style="stroke-width:3"/><text class="tk" x="430" y="826" text-anchor="middle">205</text><line x1="450" y1="760" x2="450" y2="774" style="stroke-width:3"/><line x1="470" y1="760" x2="470" y2="774" style="stroke-width:3"/><line x1="490" y1="760" x2="490" y2="774" style="stroke-width:3"/><line x1="590" y1="760" x2="590" y2="788" style="stroke-width:3"/><text class="tk" x="590" y="826" text-anchor="middle">515</text><line x1="610" y1="760" x2="610" y2="774" style="stroke-width:3"/><line x1="630" y1="760" x2="630" y2="774" style="stroke-width:3"/><line x1="650" y1="760" x2="650" y2="774" style="stroke-width:3"/><line x1="670" y1="760" x2="670" y2="774" style="stroke-width:3"/><line x1="690" y1="760" x2="690" y2="788" style="stroke-width:3"/><text class="tk" x="690" y="826" text-anchor="middle">520</text><line x1="710" y1="760" x2="710" y2="774" style="stroke-width:3"/><line x1="730" y1="760" x2="730" y2="774" style="stroke-width:3"/><line x1="750" y1="760" x2="750" y2="774" style="stroke-width:3"/><line x1="770" y1="760" x2="770" y2="774" style="stroke-width:3"/><line x1="790" y1="760" x2="790" y2="788" style="stroke-width:3"/><text class="tk" x="790" y="826" text-anchor="middle">525</text><line x1="810" y1="760" x2="810" y2="774" style="stroke-width:3"/><line x1="830" y1="760" x2="830" y2="774" style="stroke-width:3"/><line x1="850" y1="760" x2="850" y2="774" style="stroke-width:3"/><line x1="870" y1="760" x2="870" y2="774" style="stroke-width:3"/><line x1="890" y1="760" x2="890" y2="788" style="stroke-width:3"/><text class="tk" x="890" y="826" text-anchor="middle">530</text><line x1="910" y1="760" x2="910" y2="774" style="stroke-width:3"/><line x1="930" y1="760" x2="930" y2="774" style="stroke-width:3"/><line x1="950" y1="760" x2="950" y2="774" style="stroke-width:3"/><line x1="970" y1="760" x2="970" y2="774" style="stroke-width:3"/><line x1="990" y1="760" x2="990" y2="788" style="stroke-width:3"/><text class="tk" x="990" y="826" text-anchor="middle">535</text>
+    </g>
+    <g id="mk" opacity="0">
+      <g id="gap" class="gap"><path class="d" pathLength="1" d="M290 640 q0 -26 26 -26 L504 614 q16 0 16 -22 q0 22 16 22 L724 614 q26 0 26 26"/>
+        <text id="gq" class="yl" x="520" y="560" text-anchor="middle">?</text>
+        <text id="g325" class="yl" x="520" y="560" text-anchor="middle" opacity="0">325</text></g>
+      <circle class="dot" cx="290" cy="760" r="14"/><circle class="dot" cx="750" cy="760" r="14"/>
+      <text id="n198" class="ml" x="290" y="726" text-anchor="middle">198</text>
+      <text id="n523" class="ml" x="750" y="726" text-anchor="middle">523</text>
+      <text id="n200" class="ml" x="290" y="726" text-anchor="middle" opacity="0">200</text>
+      <text id="n525" class="ml" x="750" y="726" text-anchor="middle" opacity="0">525</text>
+    </g>
+    <text id="p1" class="plus" x="310" y="890" text-anchor="middle" opacity="0">+2</text>
+    <text id="p2" class="plus" x="770" y="890" text-anchor="middle" opacity="0">+2</text>
+  </svg>
+  <div class="t ttl" id="ttl">Jeitos diferentes<br/>de subtrair<small>números naturais</small></div>
+  <div class="t q" id="q">523 − 198 = <span class="y">?</span></div>
+  <div class="t hd" id="hd1">jeito 1: <span class="y">compensação</span></div>
+  <div class="t eq" id="eq1">523 − 198</div>
+  <div class="t eq" id="eq2">525 − 200 = <span class="y">325</span></div>
+  <div class="t hd" id="hd2">jeito 2: <span class="y">complemento</span></div>
+  <div class="t big" id="c1">1000 − 368 <span id="c1r" class="y" style="opacity:0">= 632</span></div>
+  <div class="box" id="bx0" style="left:245px"></div><div class="box" id="bx1" style="left:455px"></div><div class="box" id="bx2" style="left:665px"></div>
+  <div class="cell s" id="a0" style="left:250px;top:650px">9</div><div class="cell s" id="a1" style="left:460px;top:650px">9</div><div class="cell s" id="a2" style="left:670px;top:650px">10</div>
+  <div class="minus" id="mn">−</div>
+  <div class="cell " id="b0" style="left:250px;top:780px">3</div><div class="cell " id="b1" style="left:460px;top:780px">6</div><div class="cell " id="b2" style="left:670px;top:780px">8</div>
+  <svg class="g" viewBox="0 0 1080 1920"><line id="uline" class="d" pathLength="1" x1="170" y1="915" x2="850" y2="915"/></svg>
+  <div class="cell r" id="r0" style="left:250px;top:935px">6</div><div class="cell r" id="r1" style="left:460px;top:935px">3</div><div class="cell r" id="r2" style="left:670px;top:935px">2</div>
+  <div class="t sum" id="sm1" style="top:520px">523 − 198 → 525 − 200</div>
+  <div class="t sum" id="sm2" style="top:700px">tudo do <span class="y">9</span>, o último do <span class="y">10</span></div>
+  <div class="t hd" id="ch0" style="top:470px">sua vez:</div>
+  <div class="t q" id="ch1" style="top:600px;font-size:118px;opacity:0">10.000 − 4.738 = <span class="y">?</span></div>
+  <div class="t hd" id="ch2" style="top:820px">responde nos comentários</div>
+  <div class="t end" id="end">A Voz da<br/>Matemática</div>
+  <div class="t endsub" id="endsub">subtrair sem pedir emprestado</div>
+</div>
+<script>
+(function () {
+  const R = document.getElementById("root");
+  const $ = (s) => R.querySelector(s), $$ = (s) => R.querySelectorAll(s);
+  const tl = gsap.timeline({ paused: true });
+  const IR = { immediateRender: false };
+  const draw = (el, t, d, e) => tl.fromTo(el, { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d, ease: e || "power1.inOut", ...IR }, t);
+  const show = (el, t, d) => tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: d == null ? 0.3 : d, ease: "power1.out", ...IR }, t);
+  const hide = (el, t, d) => tl.to(el, { opacity: 0, duration: d == null ? 0.3 : d, ease: "power1.in" }, t);
+  const pop = (el, t, s) => tl.fromTo(el, { scale: s || 1.3 }, { scale: 1, duration: 0.45, ease: "back.out(2.5)", ...IR }, t);
+  const up = (el, t) => tl.fromTo(el, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out", ...IR }, t);
+  const W_ = [[[0,0.705],[0.705,0.833],[0.833,1.218],[1.218,1.346],[1.346,1.667],[1.667,2.051],[2.051,2.436],[2.436,2.564],[2.564,3.077],[3.077,3.205],[3.205,3.525],[3.525,3.782],[3.782,4.166],[4.166,4.295],[4.295,4.679]],[[5.199,5.782],[5.782,6.17],[6.17,6.3],[6.3,7.077]],[[7.341,7.914],[7.914,8.129],[8.129,8.487],[8.487,9.061],[9.061,9.419],[9.419,9.849],[9.849,9.992],[9.992,10.709],[10.709,10.852],[10.852,10.996],[10.996,11.712],[11.712,12.142],[12.142,12.501]],[[13.032,13.202],[13.202,13.372],[13.372,13.656],[13.656,14.11],[14.11,14.507],[14.507,14.62],[14.62,15.187],[15.187,15.414],[15.414,15.698]],[[16.279,16.774],[16.774,17.186],[17.186,17.599],[17.599,17.929],[17.929,18.342],[18.342,19.002]],[[19.351,19.675],[19.675,20.387],[20.387,20.516],[20.516,20.904],[20.904,21.034],[21.034,21.422],[21.422,21.81],[21.81,22.393]],[[22.963,23.446],[23.446,23.929],[23.929,24.025],[24.025,24.315],[24.315,24.412],[24.412,24.701]],[[25.032,25.494],[25.494,25.84],[25.84,25.955],[25.955,26.648],[26.648,26.936],[26.936,27.34],[27.34,27.571],[27.571,27.802],[27.802,28.032],[28.032,28.263]],[[28.749,28.965],[28.965,29.288],[29.288,29.826],[29.826,29.934],[29.934,30.419],[30.419,30.527],[30.527,30.796]],[[31.345,31.712],[31.712,32.079],[32.079,32.812],[32.812,33.033],[33.033,33.399],[33.399,33.546],[33.546,33.693],[33.693,34.207],[34.207,34.427],[34.427,34.72]],[[35.147,35.48],[35.48,35.879],[35.879,36.212],[36.212,36.544],[36.544,36.877],[36.877,37.276],[37.276,37.608],[37.608,37.941],[37.941,38.207],[38.207,38.606],[38.606,38.939],[38.939,39.271]],[[39.685,40.615],[40.615,41.752],[41.752,41.959],[41.959,42.683],[42.683,42.89],[42.89,43.407]],[[43.883,44.691],[44.691,45.095],[45.095,45.338],[45.338,45.742],[45.742,46.307],[46.307,46.55],[46.55,46.873],[46.873,47.277],[47.277,47.52],[47.52,47.924],[47.924,48.085],[48.085,48.651],[48.651,48.893],[48.893,49.217]],[[49.625,50.102],[50.102,50.26],[50.26,50.578],[50.578,50.896],[50.896,51.213],[51.213,51.531],[51.531,52.008],[52.008,52.564],[52.564,52.881],[52.881,53.755],[53.755,53.914],[53.914,54.47],[54.47,54.629],[54.629,55.026],[55.026,55.741],[55.741,56.058],[56.058,57.012]]];
+  const wt = (s, i) => W_[s][i][0];
+
+  // gancho: título e a conta já na tela (miniatura)
+  pop($("#q .y"), wt(0, 11), 1.5);
+
+  // jeito 1 — compensação
+  hide($("#ttl"), wt(1, 0) - 0.2, 0.3);
+  show($("#hd1"), wt(1, 0), 0.35);
+  tl.to($("#q"), { opacity: 0, y: 380, scale: 0.7, duration: 0.5, ease: "power2.in" }, wt(1, 2));
+  tl.set($("#ruler"), { opacity: 1 }, wt(2, 3));
+  draw($("#ruler .rl"), wt(2, 3), 0.6); draw($("#ruler .rr"), wt(2, 3) + 0.2, 0.6);
+  tl.fromTo($$("#ruler line:not(.d), #ruler text, #ruler path"), { opacity: 0 }, { opacity: 1, duration: 0.4, ...IR }, wt(2, 5));
+  show($("#mk"), wt(2, 5), 0.01);
+  tl.fromTo($$("#mk .dot, #mk #n198, #mk #n523"), { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.35, stagger: 0.12, ...IR }, wt(2, 5));
+  up($("#eq1"), wt(2, 6));
+  draw($("#gap path"), wt(2, 10), 0.6);
+  tl.fromTo($("#gq"), { opacity: 0 }, { opacity: 1, duration: 0.3, ...IR }, wt(2, 10) + 0.4);
+  // andam juntos: +2 nos dois (40 px), a chave vai junto
+  tl.to($("#mk"), { x: 40, duration: 1.0, ease: "power2.inOut" }, wt(3, 3));
+  show($$("#p1, #p2"), wt(4, 1), 0.3);
+  pop($$("#p1, #p2"), wt(4, 2), 1.4);
+  tl.to($$("#n198, #n523"), { opacity: 0, duration: 0.2 }, wt(5, 1) - 0.1);
+  tl.to($$("#n200, #n525"), { opacity: 1, duration: 0.25 }, wt(5, 1));
+  hide($("#eq1"), wt(5, 0), 0.2);
+  up($("#eq2"), wt(5, 1));
+  hide($$("#p1, #p2"), wt(5, 1), 0.3);
+  hide($("#gq"), wt(6, 1) - 0.1, 0.1);
+  tl.fromTo($("#g325"), { opacity: 0 }, { opacity: 1, duration: 0.2, ...IR }, wt(6, 1));
+  pop($("#eq2 .y"), wt(6, 1), 1.4);
+
+  // jeito 2 — complemento
+  const s7 = wt(7, 0);
+  hide([$("#hd1"), $("#ruler"), $("#mk"), $("#eq2")], s7 - 0.2, 0.3);
+  show($("#hd2"), s7, 0.35);
+  up($("#c1"), wt(8, 0) - 0.1);
+  ["#b0", "#b1", "#b2"].forEach((id, i) => up($(id), wt(8, 2) + i * 0.15));
+  show($("#mn"), wt(8, 2), 0.3);
+  ["#a0", "#a1"].forEach((id, i) => up($(id), wt(9, 4) - 0.1 + i * 0.12));
+  up($("#a2"), wt(9, 9) - 0.1);
+  draw($("#uline"), wt(9, 9) + 0.3, 0.5);
+  [0, 4, 8].forEach((k, i) => {
+    show($("#bx" + i), wt(10, k) - 0.05, 0.2);
+    tl.fromTo($("#r" + i), { opacity: 0, scale: 1.5 }, { opacity: 1, scale: 1, duration: 0.35, ease: "back.out(2)", ...IR }, wt(10, k + 3) - 0.05);
+    hide($("#bx" + i), wt(10, k + 3) + 0.35, 0.2);
+  });
+  tl.to($("#c1r"), { opacity: 1, duration: 0.3 }, wt(11, 1));
+  pop($("#c1r"), wt(11, 1), 1.4);
+
+  // resumo
+  const s12 = wt(12, 0);
+  hide($$("#hd2, #c1, .cell, #mn, #uline"), s12 - 0.2, 0.3);
+  up($("#sm1"), wt(12, 1));
+  up($("#sm2"), wt(12, 6));
+
+  // desafio
+  const s13 = wt(13, 0);
+  hide($$("#sm1, #sm2"), s13 - 0.2, 0.3);
+  show($("#ch0"), s13, 0.3);
+  up($("#ch1"), wt(13, 4) - 0.1);
+  pop($("#ch1 .y"), wt(13, 13), 1.5);
+  show($("#ch2"), wt(13, 14), 0.3);
+
+  // marca
+  hide($$("#ch0, #ch1, #ch2"), 57.61 - 0.3, 0.3);
+  tl.fromTo($("#end"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out", ...IR }, 57.61);
+  show($("#endsub"), 57.61 + 0.6, 0.4);
+
+  tl.seek(0);
+  window.__timelines["lousa"] = tl;
+})();
+</script>
+</template></body></html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8" /></head><body>
+<template>
+<style>
+
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-700-normal.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Patrick Hand";src:url("assets/fonts/patrick-hand-latin-400-normal.woff2") format("woff2");font-weight:400}
+#root{position:absolute;inset:0;width:1080px;height:1920px;pointer-events:none}
+#root .cg{position:absolute;left:0;right:0;top:1190px;text-align:center;font:400 62px/1.1 "Patrick Hand";color:#F2EFE4;opacity:0;padding:0 90px}
+</style>
+<div id="root" data-composition-id="legendas" data-width="1080" data-height="1920" data-duration="60.61">
+  <div class="cg" id="c0">Quinhentos e vinte e</div>
+  <div class="cg" id="c1">três menos cento e</div>
+  <div class="cg" id="c2">noventa e oito, sem</div>
+  <div class="cg" id="c3">armar a conta?</div>
+  <div class="cg" id="c4">Primeiro jeito: a compensação.</div>
+  <div class="cg" id="c5">Imagine os dois números</div>
+  <div class="cg" id="c6">numa régua. A subtração</div>
+  <div class="cg" id="c7">é a distância entre</div>
+  <div class="cg" id="c8">eles.</div>
+  <div class="cg" id="c9">Se os dois andarem</div>
+  <div class="cg" id="c10">juntos, a distância não</div>
+  <div class="cg" id="c11">muda.</div>
+  <div class="cg" id="c12">Então, some dois nos</div>
+  <div class="cg" id="c13">dois números.</div>
+  <div class="cg" id="c14">Fica quinhentos e vinte</div>
+  <div class="cg" id="c15">e cinco menos duzentos.</div>
+  <div class="cg" id="c16">Resultado: trezentos e vinte</div>
+  <div class="cg" id="c17">e cinco!</div>
+  <div class="cg" id="c18">Segundo jeito: o complemento,</div>
+  <div class="cg" id="c19">para contas com mil,</div>
+  <div class="cg" id="c20">dez mil...</div>
+  <div class="cg" id="c21">Mil menos trezentos e</div>
+  <div class="cg" id="c22">sessenta e oito.</div>
+  <div class="cg" id="c23">Tire cada algarismo do</div>
+  <div class="cg" id="c24">nove, e o último</div>
+  <div class="cg" id="c25">do dez.</div>
+  <div class="cg" id="c26">Nove menos três, seis.</div>
+  <div class="cg" id="c27">Nove menos seis, três.</div>
+  <div class="cg" id="c28">Dez menos oito, dois.</div>
+  <div class="cg" id="c29">Resposta: seiscentos e trinta</div>
+  <div class="cg" id="c30">e dois!</div>
+  <div class="cg" id="c31">Resumindo: ande os dois</div>
+  <div class="cg" id="c32">juntos, ou use tudo</div>
+  <div class="cg" id="c33">do nove, o último</div>
+  <div class="cg" id="c34">do dez.</div>
+  <div class="cg" id="c35">Agora é sua vez:</div>
+  <div class="cg" id="c36">dez mil menos quatro</div>
+  <div class="cg" id="c37">mil setecentos e trinta</div>
+  <div class="cg" id="c38">e oito. Responde nos</div>
+  <div class="cg" id="c39">comentários!</div>
+</div>
+<script>
+(function () {
+  const tl = gsap.timeline({ paused: true });
+  const G = [[0,1.346],[1.346,2.564],[2.564,3.782],[3.782,5.029],[5.199,7.341],[7.341,9.061],[9.061,10.709],[10.709,12.142],[12.142,12.851],[13.032,14.11],[14.11,15.414],[15.414,16.048],[16.279,17.929],[17.929,19.351],[19.351,20.904],[20.904,22.743],[22.963,24.315],[24.315,25.032],[25.032,26.648],[26.648,27.802],[27.802,28.613],[28.749,29.934],[29.934,31.146],[31.345,33.033],[33.033,34.207],[34.207,35.07],[35.147,36.544],[36.544,37.941],[37.941,39.621],[39.685,42.683],[42.683,43.757],[43.883,45.742],[45.742,47.277],[47.277,48.651],[48.651,49.567],[49.625,50.896],[50.896,52.564],[52.564,54.47],[54.47,56.058],[56.058,57.362]];
+  G.forEach(([a, b], i) => {
+    const el = document.getElementById("c" + i);
+    tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: 0.12, immediateRender: false }, Math.max(0.1, a));
+    tl.to(el, { opacity: 0, duration: 0.1, ease: "power2.in" }, b - 0.1);
+    tl.set(el, { opacity: 0, visibility: "hidden" }, b);
+  });
+  tl.seek(0);
+  window.__timelines["legendas"] = tl;
+})();
+</script>
+</template></body></html>
