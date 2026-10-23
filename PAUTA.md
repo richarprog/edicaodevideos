@@ -48,7 +48,7 @@ na lição. Título sugerido para cada vídeo: "**Nº ano** · tema". Todas as c
 
 | # | Vídeo | Gancho (situação real) | Exemplo resolvido | Status |
 |---|---|---|---|---|
-| 22 | Divisibilidade por 3 e por 9 | "135 balas para 9 crianças: dá certo?" | 1+3+5 = 9 → divide por 9; 135 ÷ 9 = 15 | |
+| 22 | Divisibilidade por 3 e por 9 | "135 balas para 9 crianças: dá certo?" | 1+3+5 = 9 → divide por 9; 135 ÷ 9 = 15 | feito |
 | 23 | Números primos e a pegadinha do 91 | "91 é primo? Quase todo mundo erra" | 91 = 7 × 13, não é primo | |
 | 24 | MMC na vida real | "Um ônibus passa a cada 12 min, outro a cada 18" | MMC(12, 18) = 36 → juntos de novo em 36 min | |
 | 25 | MDC na vida real | "Fitas de 24 e 36 cm em pedaços iguais, os maiores possíveis" | MDC(24, 36) = 12 cm | |

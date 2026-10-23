@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8" /></head><body>
+<template>
+<style>
+
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-700-normal.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Patrick Hand";src:url("assets/fonts/patrick-hand-latin-400-normal.woff2") format("woff2");font-weight:400}
+#root{position:absolute;inset:0;width:1080px;height:1920px;pointer-events:none}
+#root .cg{position:absolute;left:0;right:0;top:1190px;text-align:center;font:400 62px/1.1 "Patrick Hand";color:#F2EFE4;opacity:0;padding:0 90px}
+</style>
+<div id="root" data-composition-id="legendas" data-width="1080" data-height="1920" data-duration="64.53">
+  <div class="cg" id="c0">Cento e trinta e</div>
+  <div class="cg" id="c1">cinco balas para nove</div>
+  <div class="cg" id="c2">crianças. Dá para dividir</div>
+  <div class="cg" id="c3">sem sobrar nenhuma?</div>
+  <div class="cg" id="c4">Tem um truque: some</div>
+  <div class="cg" id="c5">os algarismos do número.</div>
+  <div class="cg" id="c6">Um, mais três, mais</div>
+  <div class="cg" id="c7">cinco: dá nove.</div>
+  <div class="cg" id="c8">Se essa soma está</div>
+  <div class="cg" id="c9">na tabuada do nove,</div>
+  <div class="cg" id="c10">o número também divide</div>
+  <div class="cg" id="c11">por nove.</div>
+  <div class="cg" id="c12">Então dá certo: cada</div>
+  <div class="cg" id="c13">criança ganha quinze balas.</div>
+  <div class="cg" id="c14">E o três? Mesma</div>
+  <div class="cg" id="c15">regra: se a soma</div>
+  <div class="cg" id="c16">divide por três, o</div>
+  <div class="cg" id="c17">número também divide.</div>
+  <div class="cg" id="c18">Quatro mil oitocentos e</div>
+  <div class="cg" id="c19">setenta e dois.</div>
+  <div class="cg" id="c20">Quatro, mais oito, mais</div>
+  <div class="cg" id="c21">sete, mais dois: vinte</div>
+  <div class="cg" id="c22">e um.</div>
+  <div class="cg" id="c23">Vinte e um divide</div>
+  <div class="cg" id="c24">por três. Então quatro</div>
+  <div class="cg" id="c25">mil oitocentos e setenta</div>
+  <div class="cg" id="c26">e dois também divide.</div>
+  <div class="cg" id="c27">Mas vinte e um</div>
+  <div class="cg" id="c28">não está na tabuada</div>
+  <div class="cg" id="c29">do nove. Então, por</div>
+  <div class="cg" id="c30">nove, não divide.</div>
+  <div class="cg" id="c31">Por que funciona? Porque</div>
+  <div class="cg" id="c32">dez é nove mais</div>
+  <div class="cg" id="c33">um, e cem é</div>
+  <div class="cg" id="c34">noventa e nove mais</div>
+  <div class="cg" id="c35">um.</div>
+  <div class="cg" id="c36">Os noves sempre dividem.</div>
+  <div class="cg" id="c37">O que sobra é</div>
+  <div class="cg" id="c38">justamente a soma dos</div>
+  <div class="cg" id="c39">algarismos.</div>
+  <div class="cg" id="c40">Sua vez: setecentos e</div>
+  <div class="cg" id="c41">vinte e nove divide</div>
+  <div class="cg" id="c42">por nove? Responde nos</div>
+  <div class="cg" id="c43">comentários!</div>
+</div>
+<script>
+(function () {
+  const tl = gsap.timeline({ paused: true });
+  const G = [[0,1.148],[1.148,2.633],[2.633,4.322],[4.322,5.955],[5.984,7.209],[7.209,9.085],[9.085,10.585],[10.585,12.102],[12.4,13.467],[13.467,14.593],[14.593,15.956],[15.956,16.839],[17.179,18.758],[18.758,21.24],[21.474,22.289],[22.289,23.158],[23.158,24.135],[24.135,25.626],[25.969,27.596],[27.596,28.963],[29.288,30.925],[30.925,32.488],[32.488,33.21],[33.243,34.422],[34.422,35.864],[35.864,37.503],[37.503,39.229],[39.256,40.244],[40.244,41.563],[41.563,42.749],[42.749,44.154],[44.253,46.03],[46.03,47.214],[47.214,48.029],[48.029,49.51],[49.51,50.082],[50.436,52.167],[52.167,53.177],[53.177,54.763],[54.763,55.888],[55.888,57.3],[57.3,58.646],[58.646,60.125],[60.125,61.283]];
+  G.forEach(([a, b], i) => {
+    const el = document.getElementById("c" + i);
+    tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: 0.12, immediateRender: false }, Math.max(0.1, a));
+    tl.to(el, { opacity: 0, duration: 0.1, ease: "power2.in" }, b - 0.1);
+    tl.set(el, { opacity: 0, visibility: "hidden" }, b);
+  });
+  tl.seek(0);
+  window.__timelines["legendas"] = tl;
+})();
+</script>
+</template></body></html>

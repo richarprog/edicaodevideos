@@ -1,0 +1,473 @@
+{
+  "version": 1,
+  "historyId": "0142ff24-08e2-4984-aa99-06ac1c6b9d64",
+  "currentRevision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "CLAUDE.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "assets/fonts/kalam-latin-400-normal.woff2": {
+      "hash": "954410601a823f37e219f7930b7446f86afa15621326a7078d56fb9c910135cb",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/95/954410601a823f37e219f7930b7446f86afa15621326a7078d56fb9c910135cb"
+    },
+    "assets/fonts/kalam-latin-700-normal.woff2": {
+      "hash": "252063af6ade8b9a744cde4ddad0fc21ea53b8ba711eed121a0c2e8610ea9c93",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/25/252063af6ade8b9a744cde4ddad0fc21ea53b8ba711eed121a0c2e8610ea9c93"
+    },
+    "assets/fonts/patrick-hand-latin-400-normal.woff2": {
+      "hash": "ac5bc9033b2572bf84d39f7150c1634e37ed16e8dbee632d6d0bceac0bbf0199",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/ac/ac5bc9033b2572bf84d39f7150c1634e37ed16e8dbee632d6d0bceac0bbf0199"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "compositions/legendas.html": {
+      "hash": "13007e38bc32579f73a2c8e253564889d81859a182431693f1e0c1da538583cd",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/13/13007e38bc32579f73a2c8e253564889d81859a182431693f1e0c1da538583cd"
+    },
+    "compositions/lousa.html": {
+      "hash": "3d757fdc961d1a0e9b1668d6eeae8d3a6deeaa116d04e950114e42c281351454",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/3d/3d757fdc961d1a0e9b1668d6eeae8d3a6deeaa116d04e950114e42c281351454"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "5c8fe91b1b9d8e6aaa1aa61b8da4738e16185b589c6aa62ef7aef37c10bbc156",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/5c/5c8fe91b1b9d8e6aaa1aa61b8da4738e16185b589c6aa62ef7aef37c10bbc156"
+    },
+    "meta.json": {
+      "hash": "e274d1e994b59afc45eb73bbd376c89f4c95e6af464f17205d72b6169f31c3e7",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/e2/e274d1e994b59afc45eb73bbd376c89f4c95e6af464f17205d72b6169f31c3e7"
+    },
+    "package.json": {
+      "hash": "c1f3b2558b7e4e276564869d03fbc58f73016508c2fa84b6ab1125213094f3b3",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/c1/c1f3b2558b7e4e276564869d03fbc58f73016508c2fa84b6ab1125213094f3b3"
+    },
+    "assets/narracao-bruta.mp3": {
+      "hash": "eacf42d2ca1f83dc62e1b735ea177b087abafb33af6a5a5b829b5100fd5842be",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/ea/eacf42d2ca1f83dc62e1b735ea177b087abafb33af6a5a5b829b5100fd5842be"
+    },
+    "assets/narracao.mp3": {
+      "hash": "761f137398afc6ce7ec460b53641e8cb6524629d6ba05ac37498631db2572d09",
+      "content": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/76/761f137398afc6ce7ec460b53641e8cb6524629d6ba05ac37498631db2572d09"
+    }
+  },
+  "revisions": {
+    "4c68a9e4-e490-4f19-9a9e-98ec210b67b7": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792763679549,
+      "endedAt": 1792763679553,
+      "files": {
+        "compositions/lousa.html": {
+          "before": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/0a/0a5c1ce325227d5440763e0058416df3b588bca05e64dea9eb7d43b5837fe028",
+          "after": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/c6/c68bf2f7e47b2919cbd9d740a231a04d6f6c088e6463b8d98e8720605b2ecce0"
+        }
+      }
+    },
+    "3be908ed-4d63-487c-a28e-b2814b692f6a": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792763743074,
+      "endedAt": 1792763743090,
+      "files": {
+        "assets/narracao-bruta.mp3": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/ea/eacf42d2ca1f83dc62e1b735ea177b087abafb33af6a5a5b829b5100fd5842be"
+        },
+        "assets/narracao.mp3": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/76/761f137398afc6ce7ec460b53641e8cb6524629d6ba05ac37498631db2572d09"
+        },
+        "compositions/legendas.html": {
+          "before": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/a7/a7b91611e72ac113786f7067b6b872f5df0374b3b5855bd4c06e9774f9c634f2",
+          "after": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/13/13007e38bc32579f73a2c8e253564889d81859a182431693f1e0c1da538583cd"
+        },
+        "compositions/lousa.html": {
+          "before": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/c6/c68bf2f7e47b2919cbd9d740a231a04d6f6c088e6463b8d98e8720605b2ecce0",
+          "after": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/3d/3d757fdc961d1a0e9b1668d6eeae8d3a6deeaa116d04e950114e42c281351454"
+        },
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/dc/dcabe298de7363b98102716dedcfc261262ca60e67f3e1780ae0d59504c23520",
+          "after": "/root/.cache/hyperframes/history/0142ff24-08e2-4984-aa99-06ac1c6b9d64/blobs/5c/5c8fe91b1b9d8e6aaa1aa61b8da4738e16185b589c6aa62ef7aef37c10bbc156"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+      "id": "4ae60fc7-8991-4a20-a5a8-9ba5492c251f"
+    },
+    "revisions": {
+      "4c68a9e4-e490-4f19-9a9e-98ec210b67b7": [
+        {
+          "id": "ab817b3b-a436-4b40-ab05-4aa374a06aa2",
+          "scope": "project",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792763688367,
+          "contentHash": "a3126bcabb8c6014bdb8829e6ca058d8f19fbae8762561a83f2f6ea7c33ba4fb",
+          "revision": "4c68a9e4-e490-4f19-9a9e-98ec210b67b7",
+          "inputFingerprint": "b64db404f97a3f5e0782ed91e49fc8ee83591f09722347b2fb3024f3df7c3961",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "a8d43903-b918-4655-bfdc-a3bdf872f05f"
+        }
+      ],
+      "3be908ed-4d63-487c-a28e-b2814b692f6a": [
+        {
+          "id": "4ae60fc7-8991-4a20-a5a8-9ba5492c251f",
+          "scope": "project",
+          "report": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/checks/4ae60fc7-8991-4a20-a5a8-9ba5492c251f.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792763751388,
+          "contentHash": "02b66fc13db802ee42eb7479d30160fb3680753e13abfd16f0d04b0ba5bcfd8c",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "b57c62ea-7425-4595-9645-0a63302d576c",
+        "scope": "project",
+        "report": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/checks/b57c62ea-7425-4595-9645-0a63302d576c.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792763640267,
+        "contentHash": "a3126bcabb8c6014bdb8829e6ca058d8f19fbae8762561a83f2f6ea7c33ba4fb",
+        "revision": null,
+        "inputFingerprint": "9703bad6e14950cef4ded892f692dc823a0a7a914b1f96a054513d35c3564fb3",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+      "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-11"
+    },
+    "revisions": {
+      "4c68a9e4-e490-4f19-9a9e-98ec210b67b7": [],
+      "3be908ed-4d63-487c-a28e-b2814b692f6a": [
+        {
+          "scope": "full",
+          "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-0",
+          "image": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/snapshots/b0ffa0c3-7617-4dff-bef9-55faa6fa8297/frame-00-at-0.3s.png",
+          "time": 0.3,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792763761902,
+          "contentHash": "f8cf40f9b6a23b3e7236fe2849a67f63cdc4a7d9d4f0d673a3142afda6e28ab0",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-1",
+          "image": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/snapshots/b0ffa0c3-7617-4dff-bef9-55faa6fa8297/frame-01-at-10.5s.png",
+          "time": 10.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792763761902,
+          "contentHash": "068a1ab6f4f04077e1bd0387c8c3d15565b1582023caa08fc75a40c664ac1a87",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-2",
+          "image": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/snapshots/b0ffa0c3-7617-4dff-bef9-55faa6fa8297/frame-02-at-15s.png",
+          "time": 15,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792763761903,
+          "contentHash": "6a80a6a8742d8395824ee174e9368bca3b25455b06f9e076583e30b05446f4f3",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-3",
+          "image": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/snapshots/b0ffa0c3-7617-4dff-bef9-55faa6fa8297/frame-03-at-19.5s.png",
+          "time": 19.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792763761903,
+          "contentHash": "b987a4887ad75d4aef951eb8156c4382fd424ba6df88b828daf4cb9ac691e05e",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-4",
+          "image": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/snapshots/b0ffa0c3-7617-4dff-bef9-55faa6fa8297/frame-04-at-24s.png",
+          "time": 24,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792763761903,
+          "contentHash": "a92bcde1fead944aaf03d90b72839391460d7611c01c1b757da5169717e7f474",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-5",
+          "image": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/snapshots/b0ffa0c3-7617-4dff-bef9-55faa6fa8297/frame-05-at-31s.png",
+          "time": 31,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792763761903,
+          "contentHash": "c6579fefd86a436bee503880b50bd962a2c0cf944510101a4fe72a6945531c84",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-6",
+          "image": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/snapshots/b0ffa0c3-7617-4dff-bef9-55faa6fa8297/frame-06-at-36s.png",
+          "time": 36,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792763761903,
+          "contentHash": "759fec5ab5cafdef160046155447c4af53af2629c7e60449fd1c4a4bf7b9b130",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-7",
+          "image": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/snapshots/b0ffa0c3-7617-4dff-bef9-55faa6fa8297/frame-07-at-42s.png",
+          "time": 42,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792763761903,
+          "contentHash": "23c9efeed56b453969d1ad86b10b8e46f9f583410c1d01b39fb5041c8042eee6",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-8",
+          "image": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/snapshots/b0ffa0c3-7617-4dff-bef9-55faa6fa8297/frame-08-at-47s.png",
+          "time": 47,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792763761903,
+          "contentHash": "b32ff822dfee31ddaec7ba2fb90203029b2bdd6daf659e3082f3ae904604a1b6",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-9",
+          "image": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/snapshots/b0ffa0c3-7617-4dff-bef9-55faa6fa8297/frame-09-at-53s.png",
+          "time": 53,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792763761903,
+          "contentHash": "b16891095d3a148dabca7969310b8ffbd1b85be9bd3b0bd2f403d3d4f654b30e",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-10",
+          "image": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/snapshots/b0ffa0c3-7617-4dff-bef9-55faa6fa8297/frame-10-at-58.5s.png",
+          "time": 58.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792763761903,
+          "contentHash": "cb388afe7ac49d63ea1306289428ef2ee5a830bd5a9c165bb9807930ab8e458f",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "b2f3463c-5941-499d-9039-ec7bc435e0de-11",
+          "image": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/.hyperframes/artifacts/snapshots/b0ffa0c3-7617-4dff-bef9-55faa6fa8297/frame-11-at-63s.png",
+          "time": 63,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792763761903,
+          "contentHash": "e892357fcad94afc151516994f75b02c200f7ba6ee3dc4f9b3d7cd057657d71d",
+          "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a",
+          "inputFingerprint": "e0a3bdc040bcb9d204493b04abb45af313eb3db7d5143e099cd02add695e7a9a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "a8d43903-b918-4655-bfdc-a3bdf872f05f",
+      "completedAt": 1792763974033,
+      "output": "/home/user/edicaodevideos/videos/vm-divisibilidade-3-e-9/renders/divisibilidade-3-e-9.mp4",
+      "status": "completed",
+      "revision": "3be908ed-4d63-487c-a28e-b2814b692f6a"
+    },
+    "retainedRevisions": [
+      "3be908ed-4d63-487c-a28e-b2814b692f6a"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
