@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8" /></head><body>
+<template>
+<style>
+
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-700-normal.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Patrick Hand";src:url("assets/fonts/patrick-hand-latin-400-normal.woff2") format("woff2");font-weight:400}
+#root{position:absolute;inset:0;width:1080px;height:1920px;pointer-events:none}
+#root .cg{position:absolute;left:0;right:0;top:1190px;text-align:center;font:400 62px/1.1 "Patrick Hand";color:#F2EFE4;opacity:0;padding:0 90px}
+</style>
+<div id="root" data-composition-id="legendas" data-width="1080" data-height="1920" data-duration="46.23">
+  <div class="cg" id="c0">Um celular de mil</div>
+  <div class="cg" id="c1">e quatrocentos reais, com</div>
+  <div class="cg" id="c2">vinte por cento de</div>
+  <div class="cg" id="c3">desconto.</div>
+  <div class="cg" id="c4">Quanto você economiza?</div>
+  <div class="cg" id="c5">Imagine os mil e</div>
+  <div class="cg" id="c6">quatrocentos como uma barra</div>
+  <div class="cg" id="c7">inteira: isso é cem</div>
+  <div class="cg" id="c8">por cento.</div>
+  <div class="cg" id="c9">Agora, divida a barra</div>
+  <div class="cg" id="c10">em dez partes iguais.</div>
+  <div class="cg" id="c11">Cada parte vale cento</div>
+  <div class="cg" id="c12">e quarenta.</div>
+  <div class="cg" id="c13">Isso é dez por</div>
+  <div class="cg" id="c14">cento.</div>
+  <div class="cg" id="c15">Vinte por cento são</div>
+  <div class="cg" id="c16">duas partes.</div>
+  <div class="cg" id="c17">Cento e quarenta, mais</div>
+  <div class="cg" id="c18">cento e quarenta... duzentos</div>
+  <div class="cg" id="c19">e oitenta!</div>
+  <div class="cg" id="c20">Você economiza duzentos e</div>
+  <div class="cg" id="c21">oitenta reais, e paga</div>
+  <div class="cg" id="c22">mil cento e vinte.</div>
+  <div class="cg" id="c23">O truque: para achar</div>
+  <div class="cg" id="c24">dez por cento, tire</div>
+  <div class="cg" id="c25">um zero.</div>
+  <div class="cg" id="c26">Para vinte, é só</div>
+  <div class="cg" id="c27">dobrar.</div>
+</div>
+<script>
+(function () {
+  const tl = gsap.timeline({ paused: true });
+  const G = [[0.4,2.067],[2.067,3.733],[3.733,5.4],[5.4,6.167],[6.217,7.817],[7.867,9.533],[9.533,11.2],[11.2,12.867],[12.867,14.05],[14.1,15.767],[15.767,17.783],[17.833,19.5],[19.5,20.683],[20.733,22.4],[22.4,23.167],[23.217,24.883],[24.883,26.067],[26.117,27.783],[27.783,29.45],[29.45,30.633],[30.683,32.35],[32.35,34.017],[34.017,36.033],[36.083,37.75],[37.75,39.417],[39.417,40.6],[40.65,42.317],[42.317,43.083]];
+  G.forEach(([a, b], i) => {
+    const el = document.getElementById("c" + i);
+    tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: 0.12, immediateRender: false }, Math.max(0.1, a));
+    tl.to(el, { opacity: 0, duration: 0.1, ease: "power2.in" }, b - 0.1);
+    tl.set(el, { opacity: 0, visibility: "hidden" }, b);
+  });
+  tl.seek(0);
+  window.__timelines["legendas"] = tl;
+})();
+</script>
+</template></body></html>

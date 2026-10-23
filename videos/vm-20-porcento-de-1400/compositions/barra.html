@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8" /></head><body>
+<template>
+<style>
+
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-700-normal.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Patrick Hand";src:url("assets/fonts/patrick-hand-latin-400-normal.woff2") format("woff2");font-weight:400}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden;color:#F2EFE4;font-family:"Kalam",cursive;
+  background:radial-gradient(ellipse 60% 40% at 30% 25%,rgba(255,255,255,.06),transparent 70%),radial-gradient(ellipse 50% 35% at 75% 70%,rgba(255,255,255,.05),transparent 70%),#1F3A2D}
+#root .dust{position:absolute;inset:0;opacity:.22}
+#root svg.g{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible}
+#root svg.g path,#root svg.g line,#root svg.g rect.o{fill:none;stroke:#F2EFE4;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;filter:url(#chalk)}
+#root svg.g .d{stroke-dasharray:1;stroke-dashoffset:1}
+#root svg.g .dv{stroke-width:5}
+#root svg.g .sf{fill:#F5D547;opacity:0}
+#root svg.g .sl{font:700 44px "Kalam";fill:#F2EFE4;opacity:0}
+#root svg.g .br path{stroke:#F5D547;stroke-width:5}
+#root svg.g .br text{font:700 56px "Kalam";fill:#F5D547;opacity:0}
+#root svg.g .br.w path{stroke:#F2EFE4} #root svg.g .br.w text{fill:#F2EFE4}
+#root .t{position:absolute;left:60px;right:60px;text-align:center;line-height:1;white-space:nowrap}
+#root .hd{top:230px;font:400 76px "Patrick Hand";color:rgba(242,239,228,.55)}
+#root .hd .y{display:inline-block}
+#root .y{color:#F5D547}
+#root .w{display:inline-block}
+#root .tag{position:absolute;left:560px;top:800px;width:360px;height:130px;border:6px solid #F2EFE4;border-radius:18px;
+  display:flex;align-items:center;justify-content:center;font:700 74px "Kalam";transform-origin:0 0;filter:url(#chalk)}
+#root .badge{position:absolute;left:700px;top:330px;width:220px;height:220px;border-radius:50%;background:#F5D547;color:#1F3A2D;
+  display:flex;align-items:center;justify-content:center;font:700 78px "Kalam";transform:rotate(-10deg)}
+#root .eq{top:880px;font:700 110px "Kalam";opacity:0}
+#root .eq2{top:1010px;font:700 140px "Kalam";opacity:0;color:#F5D547}
+#root .res{font:700 84px "Kalam";opacity:0}
+#root #phone{transform-origin:345px 640px}
+#root .big{top:740px;font:700 190px "Kalam";opacity:0}
+#root .big .z{display:inline-block;position:relative}
+#root .cut{position:absolute;left:-6px;right:-6px;top:52%;height:12px;background:#F5D547;transform:rotate(-20deg) scaleX(0);transform-origin:0 50%;border-radius:6px}
+#root .end{top:600px;font:700 120px/1.15 "Kalam";opacity:0;white-space:normal}
+#root .endsub{top:960px;font:400 64px "Patrick Hand";color:rgba(242,239,228,.55);opacity:0}
+</style>
+<div id="root" data-composition-id="barra" data-width="1080" data-height="1920" data-duration="46.23">
+  <svg class="dust" viewBox="0 0 1080 1920"><filter id="nz"><feTurbulence type="fractalNoise" baseFrequency="1.6" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .5 0"/></filter><rect width="1080" height="1920" filter="url(#nz)"/></svg>
+  <svg class="g" viewBox="0 0 1080 1920">
+    <defs><filter id="chalk" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="2"/><feDisplacementMap in="SourceGraphic" scale="3"/></filter></defs>
+    <g id="phone"><rect class="o" x="180" y="330" width="330" height="620" rx="46"/><line x1="300" y1="370" x2="390" y2="370"/><path d="M215 410 h260 v460 h-260 z" style="stroke-width:3;opacity:.6"/><path d="M300 905 a14 14 0 1 0 28 0 a14 14 0 1 0 -28 0" style="stroke-width:4"/><path d="M510 640 C540 700 560 760 600 800" style="stroke-width:4"/></g>
+    <g id="bar"><rect id="barbox" class="o d" pathLength="1" x="90" y="680" width="900" height="170" rx="8"/><rect id="f0" class="sf" x="94" y="684" width="82" height="162"/><rect id="f1" class="sf" x="184" y="684" width="82" height="162"/><rect id="f2" class="sf" x="274" y="684" width="82" height="162"/><rect id="f3" class="sf" x="364" y="684" width="82" height="162"/><rect id="f4" class="sf" x="454" y="684" width="82" height="162"/><rect id="f5" class="sf" x="544" y="684" width="82" height="162"/><rect id="f6" class="sf" x="634" y="684" width="82" height="162"/><rect id="f7" class="sf" x="724" y="684" width="82" height="162"/><rect id="f8" class="sf" x="814" y="684" width="82" height="162"/><rect id="f9" class="sf" x="904" y="684" width="82" height="162"/><line class="dv d" pathLength="1" x1="180" y1="680" x2="180" y2="850"/><line class="dv d" pathLength="1" x1="270" y1="680" x2="270" y2="850"/><line class="dv d" pathLength="1" x1="360" y1="680" x2="360" y2="850"/><line class="dv d" pathLength="1" x1="450" y1="680" x2="450" y2="850"/><line class="dv d" pathLength="1" x1="540" y1="680" x2="540" y2="850"/><line class="dv d" pathLength="1" x1="630" y1="680" x2="630" y2="850"/><line class="dv d" pathLength="1" x1="720" y1="680" x2="720" y2="850"/><line class="dv d" pathLength="1" x1="810" y1="680" x2="810" y2="850"/><line class="dv d" pathLength="1" x1="900" y1="680" x2="900" y2="850"/><text id="l0" class="sl" x="135" y="780" text-anchor="middle">140</text><text id="l1" class="sl" x="225" y="780" text-anchor="middle">140</text><text id="l2" class="sl" x="315" y="780" text-anchor="middle">140</text><text id="l3" class="sl" x="405" y="780" text-anchor="middle">140</text><text id="l4" class="sl" x="495" y="780" text-anchor="middle">140</text><text id="l5" class="sl" x="585" y="780" text-anchor="middle">140</text><text id="l6" class="sl" x="675" y="780" text-anchor="middle">140</text><text id="l7" class="sl" x="765" y="780" text-anchor="middle">140</text><text id="l8" class="sl" x="855" y="780" text-anchor="middle">140</text><text id="l9" class="sl" x="945" y="780" text-anchor="middle">140</text></g>
+    <g id="b100" class="br w"><path class="d" pathLength="1" d="M90 660 q0 -26 26 -26 L524 634 q16 0 16 -22 q0 22 16 22 L964 634 q26 0 26 26"/>
+   <text x="540" y="590" text-anchor="middle">R$ 1.400 = 100%</text></g>
+    <g id="b10" class="br "><path class="d" pathLength="1" d="M94 870 q0 26 26 26 L119 896 q16 0 16 22 q0 -22 16 -22 L150 896 q26 0 26 -26"/>
+   <text x="135" y="970" text-anchor="middle">10%</text></g>
+    <g id="b20" class="br "><path class="d" pathLength="1" d="M94 870 q0 26 26 26 L164 896 q16 0 16 22 q0 -22 16 -22 L240 896 q26 0 26 -26"/>
+   <text x="180" y="970" text-anchor="middle">R$ 280</text></g>
+    <g id="b80" class="br w"><path class="d" pathLength="1" d="M274 870 q0 26 26 26 L614 896 q16 0 16 22 q0 -22 16 -22 L960 896 q26 0 26 -26"/>
+   <text x="630" y="970" text-anchor="middle">R$ 1.120</text></g>
+  </svg>
+  <div class="t hd" id="h1">desconto = <span class="y">?</span></div>
+  <div class="tag" id="tag">R$ 1.400</div>
+  <div class="badge" id="badge">-20%</div>
+  <div class="t eq" id="eq"><span class="w" id="e1">140</span> <span class="w" id="e2">+ 140</span></div>
+  <div class="t eq2" id="eq2">= 280</div>
+  <div class="t res" id="r1" style="top:1030px">você economiza <span class="y">R$ 280</span></div>
+  <div class="t res" id="r2" style="top:1030px">você paga <span class="y">R$ 1.120</span></div>
+  <div class="t big" id="k1"><span>140</span><span class="z">0<span class="cut" id="cut"></span></span></div>
+  <div class="t res" id="k2" style="top:970px">10% = 140</div>
+  <div class="t res" id="k3" style="top:1075px">× 2 &nbsp;→&nbsp; <span class="y">20% = 280</span></div>
+  <div class="t end" id="end">A Voz da<br/>Matemática</div>
+  <div class="t endsub" id="endsub">20% = 10% × 2</div>
+</div>
+<script>
+(function () {
+  const R = document.getElementById("root");
+  const $ = (s) => R.querySelector(s), $$ = (s) => R.querySelectorAll(s);
+  const tl = gsap.timeline({ paused: true });
+  const IR = { immediateRender: false };
+  const draw = (el, t, d, e) => tl.fromTo(el, { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d, ease: e || "power1.inOut", ...IR }, t);
+  const show = (el, t, d) => tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: d == null ? 0.3 : d, ease: "power1.out", ...IR }, t);
+  const hide = (el, t, d) => tl.to(el, { opacity: 0, duration: d == null ? 0.3 : d, ease: "power1.in" }, t);
+  const pop = (el, t, s) => tl.fromTo(el, { scale: s || 1.25 }, { scale: 1, duration: 0.45, ease: "back.out(2.5)", ...IR }, t);
+  const W_ = [[[0.4,0.817],[0.817,1.233],[1.233,1.65],[1.65,2.067],[2.067,2.483],[2.483,2.9],[2.9,3.317],[3.317,3.733],[3.733,4.15],[4.15,4.567],[4.567,4.983],[4.983,5.4],[5.4,5.817]],[[6.217,6.633],[6.633,7.05],[7.05,7.467]],[[7.867,8.283],[8.283,8.7],[8.7,9.117],[9.117,9.533],[9.533,9.95],[9.95,10.367],[10.367,10.783],[10.783,11.2],[11.2,11.617],[11.617,12.033],[12.033,12.45],[12.45,12.867],[12.867,13.283],[13.283,13.7]],[[14.1,14.517],[14.517,14.933],[14.933,15.35],[15.35,15.767],[15.767,16.183],[16.183,16.6],[16.6,17.017],[17.017,17.433]],[[17.833,18.25],[18.25,18.667],[18.667,19.083],[19.083,19.5],[19.5,19.917],[19.917,20.333]],[[20.733,21.15],[21.15,21.567],[21.567,21.983],[21.983,22.4],[22.4,22.817]],[[23.217,23.633],[23.633,24.05],[24.05,24.467],[24.467,24.883],[24.883,25.3],[25.3,25.717]],[[26.117,26.533],[26.533,26.95],[26.95,27.367],[27.367,27.783],[27.783,28.2],[28.2,28.617],[28.617,29.033],[29.033,29.45],[29.45,29.867],[29.867,30.283]],[[30.683,31.1],[31.1,31.517],[31.517,31.933],[31.933,32.35],[32.35,32.767],[32.767,33.183],[33.183,33.6],[33.6,34.017],[34.017,34.433],[34.433,34.85],[34.85,35.267],[35.267,35.683]],[[36.083,36.5],[36.5,36.917],[36.917,37.333],[37.333,37.75],[37.75,38.167],[38.167,38.583],[38.583,39],[39,39.417],[39.417,39.833],[39.833,40.25]],[[40.65,41.067],[41.067,41.483],[41.483,41.9],[41.9,42.317],[42.317,42.733]]];
+  const wt = (s, i) => W_[s][i][0];
+
+  // 1 — gancho: celular, etiqueta e selo já na tela (miniatura)
+  pop($("#badge"), wt(0, 8), 1.18);
+  pop($("#h1 .y"), wt(1, 0), 1.6);
+  pop($("#badge"), wt(1, 2), 1.12);
+
+  // 2 — a etiqueta vira a barra
+  const s2 = wt(2, 0);
+  hide($("#h1"), s2, 0.3);
+  tl.to($("#phone"), { opacity: 0, y: -60, duration: 0.6, ease: "power2.in" }, s2 + 0.1);
+  tl.to($("#badge"), { opacity: 0, scale: 0.6, duration: 0.5, ease: "power2.in" }, s2 + 0.1);
+  tl.to($("#tag"), { x: 90 - 560, y: 680 - 800, duration: 0.9, ease: "power2.inOut" }, s2 + 0.3);
+  tl.to($("#tag"), { width: 900, height: 170, duration: 0.9, ease: "power2.inOut" }, wt(2, 9) - 0.6);
+  draw($("#barbox"), wt(2, 9) + 0.2, 0.5);
+  tl.to($("#tag"), { opacity: 0, duration: 0.3 }, wt(2, 9) + 0.5);
+  draw($$("#b100 path"), wt(2, 12) - 0.1, 0.5); show($$("#b100 text"), wt(2, 12), 0.35);
+
+  // 3 — dez partes
+  $$(".dv").forEach((el, i) => draw(el, wt(3, 2) + i * 0.17, 0.3, "power2.out"));
+  $$(".sl").forEach((el, i) => tl.fromTo(el, { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.25, ease: "power2.out", ...IR }, wt(4, 3) + i * 0.09));
+  draw($$("#b10 path"), wt(5, 2) - 0.1, 0.4); show($$("#b10 text"), wt(5, 2), 0.3);
+  tl.fromTo($("#f0"), { opacity: 0 }, { opacity: 0.35, duration: 0.3, ...IR }, wt(5, 2));
+
+  // 4 — duas partes = 20%
+  hide($$("#b10 path, #b10 text"), wt(6, 0), 0.25);
+  tl.to($("#f0"), { opacity: 1, duration: 0.25 }, wt(6, 4) - 0.05);
+  tl.fromTo($("#f1"), { opacity: 0 }, { opacity: 1, duration: 0.25, ...IR }, wt(6, 4) + 0.15);
+  tl.to([$("#l0"), $("#l1")], { fill: "#1F3A2D", duration: 0.2 }, wt(6, 4));
+  show($("#eq"), wt(7, 0) - 0.1, 0.01);
+  tl.fromTo($("#e1"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.3, ...IR }, wt(7, 0) - 0.1);
+  tl.fromTo($("#e2"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.3, ...IR }, wt(7, 3) - 0.1);
+  tl.fromTo($("#eq2"), { opacity: 0, scale: 1.6 }, { opacity: 1, scale: 1, duration: 0.5, ease: "back.out(2)", ...IR }, wt(7, 6) - 0.1);
+
+  // 5 — economia e preço final
+  hide([$("#eq"), $("#eq2")], wt(8, 0) - 0.15, 0.25);
+  show($("#r1"), wt(8, 1), 0.35);
+  draw($$("#b20 path"), wt(8, 2), 0.4); show($$("#b20 text"), wt(8, 2) + 0.1, 0.3);
+  hide($$("#b100 path, #b100 text"), wt(8, 2), 0.3);
+  hide($("#r1"), wt(8, 8) - 0.2, 0.2); show($("#r2"), wt(8, 8), 0.3);
+  draw($$("#b80 path"), wt(8, 8) - 0.1, 0.5); show($$("#b80 text"), wt(8, 8), 0.3);
+
+  // 6 — o truque: tira um zero, depois dobra
+  const s9 = wt(9, 0);
+  hide([$("#r2")], s9 - 0.1, 0.25);
+  hide($$("#b20, #b80"), s9 - 0.1, 0.25);
+  tl.to($("#bar"), { opacity: 0.3, y: -300, duration: 0.6, ease: "power2.inOut" }, s9);
+  show($("#k1"), wt(9, 1), 0.35);
+  tl.to($("#cut"), { scaleX: 1, duration: 0.35, ease: "power2.out" }, wt(9, 8));
+  tl.to($("#k1 .z"), { y: 260, rotation: 25, opacity: 0, duration: 0.7, ease: "power2.in" }, wt(9, 9) + 0.15);
+  tl.fromTo($("#k2"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.35, ...IR }, wt(9, 9) + 0.6);
+  tl.fromTo($("#k3"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.35, ...IR }, wt(10, 3));
+  pop($("#k3 .y"), wt(10, 4), 1.3);
+
+  // 7 — marca
+  hide([$("#k1"), $("#k2"), $("#k3"), $("#bar")], 43.23 - 0.3, 0.3);
+  tl.fromTo($("#end"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out", ...IR }, 43.23);
+  show($("#endsub"), 43.23 + 0.6, 0.4);
+
+  tl.seek(0);
+  window.__timelines["barra"] = tl;
+})();
+</script>
+</template></body></html>
