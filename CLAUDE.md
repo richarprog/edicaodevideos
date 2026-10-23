@@ -9,7 +9,7 @@ as pessoas a entender cálculos do dia a dia.
 - **Formato:** vertical 1080×1920, 30 fps, 35–65 s. Ferramenta: HyperFrames (`/hyperframes`).
 - **Visual:** lousa verde `#1F3A2D` com textura leve de giz, giz branco `#F2EFE4` e **um** destaque amarelo-giz
   `#F5D547`, usado só no resultado ou na parte que importa. Fontes: Kalam (números e títulos) e Patrick Hand (legendas).
-- **Voz:** ElevenLabs, voz **Roberto Valença** (`bZztR6P62TDbe6sgaZgz`), modelo `eleven_multilingual_v2`, 2 versões por vídeo.
+- **Voz:** ElevenLabs, voz **Roberto Valença** (`bZztR6P62TDbe6sgaZgz`), modelo `eleven_multilingual_v2`, **1 versão por vídeo** (`generations_count: 1`, para economizar créditos; só gere outra se o dono pedir).
   Escreva os números por extenso no roteiro ("mil e quatrocentos") para a voz não errar a leitura.
 - **Legendas:** sempre presentes (muita gente assiste sem som), na faixa y ≈ 1190 px.
 - **Fechamento:** cartão "A Voz da Matemática" com a regra do vídeo em uma linha (ex.: "20% = 10% × 2").
