@@ -54,7 +54,7 @@ na lição. Título sugerido para cada vídeo: "**Nº ano** · tema". Todas as c
 | 25 | MDC na vida real | "Fitas de 24 e 36 cm em pedaços iguais, os maiores possíveis" | MDC(24, 36) = 12 cm | |
 | 26 | Frações equivalentes | "Metade da barra ou 4 de 8 quadradinhos?" | 1/2 = 2/4 = 4/8 | |
 | 27 | Porcentagem sem regra de três | "25% de 80? Divide por 4" | 25% = 1/4 → 20; 75% = 3/4 → 60 | |
-| 28 | Ordem das operações (pegadinha viral) | "2 + 3 × 4 = 20? Não!" | primeiro a multiplicação: 2 + 12 = 14 | |
+| 28 | Ordem das operações (pegadinha viral) | "2 + 3 × 4 = 20? Não!" | primeiro a multiplicação: 2 + 12 = 14 | feito |
 | 29 | Potência: dobrar 10 vezes | "Dobrando um papel 10 vezes, quantas camadas?" | 2¹⁰ = 1.024 | |
 
 ### 7º ano: inteiros, proporção e equação do 1º grau

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8" /></head><body>
+<template>
+<style>
+
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-700-normal.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Patrick Hand";src:url("assets/fonts/patrick-hand-latin-400-normal.woff2") format("woff2");font-weight:400}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden;color:#F2EFE4;font-family:"Kalam",cursive;
+  background:radial-gradient(ellipse 60% 40% at 30% 25%,rgba(255,255,255,.06),transparent 70%),radial-gradient(ellipse 50% 35% at 75% 70%,rgba(255,255,255,.05),transparent 70%),#1F3A2D}
+#root .dust{position:absolute;inset:0;opacity:.22}
+#root .t{position:absolute;left:60px;right:60px;text-align:center;line-height:1.05;white-space:nowrap}
+#root .y{color:#F5D547}
+#root .s{color:rgba(242,239,228,.55)}
+#root .w{display:inline-block}
+#root .hd{top:250px;font:400 66px "Patrick Hand";color:rgba(242,239,228,.55);opacity:0}
+#root .ttl{top:250px;font:400 66px "Patrick Hand";color:rgba(242,239,228,.55)}
+#root .q{top:520px;font:700 122px "Kalam"}
+#root .row{font:700 82px "Kalam";opacity:0}
+#root .eq{font:700 110px "Kalam";opacity:0}
+#root .box{display:inline-block;position:relative}
+#root .box i{position:absolute;left:-18px;right:-18px;top:-6px;bottom:-10px;border:6px solid #F5D547;border-radius:22px;opacity:0}
+#root .no{position:relative;display:inline-block}
+#root .no i{position:absolute;left:-10px;right:-10px;top:50%;height:9px;background:#F5D547;border-radius:5px;transform:scaleX(0);transform-origin:0 50%}
+#root .st{font:700 84px "Kalam";opacity:0}
+#root .st small{font:400 54px "Patrick Hand";color:rgba(242,239,228,.55);margin-left:22px}
+#root .ch2{font:400 66px "Patrick Hand";color:rgba(242,239,228,.55);opacity:0}
+#root .end{top:600px;font:700 120px/1.15 "Kalam";opacity:0;white-space:normal}
+#root .endsub{top:930px;font:700 70px "Kalam";color:#F5D547;opacity:0}
+</style>
+<div id="root" data-composition-id="lousa" data-width="1080" data-height="1920" data-duration="62.74">
+  <svg class="dust" viewBox="0 0 1080 1920"><filter id="nz"><feTurbulence type="fractalNoise" baseFrequency="1.6" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .5 0"/></filter><rect width="1080" height="1920" filter="url(#nz)"/></svg>
+
+  <!-- gancho (miniatura) -->
+  <div class="t ttl" id="ttl">ordem das operações</div>
+  <div class="t q" id="q">2 + 3 × 4 = <span class="w y" id="qq">20?</span></div>
+
+  <div class="t hd" id="hA">na vida real</div>
+  <div class="t hd" id="hB">o certo</div>
+  <div class="t hd" id="hC">a ordem certa</div>
+  <div class="t hd" id="hD">quer o 20?</div>
+  <div class="t hd" id="hE">sua vez</div>
+
+  <!-- A: a compra -->
+  <div class="t row" id="a1" style="top:430px">1 refri: R$ 2</div>
+  <div class="t row" id="a2" style="top:560px">3 lanches × R$ 4 <span class="w" id="a2b" style="opacity:0">= R$ 12</span></div>
+  <div class="t row" id="a3" style="top:720px;font-size:68px">total: R$ 2 + R$ 12 = <span class="w y" id="a3y">R$ 14</span></div>
+
+  <!-- B: a conta certa e a errada -->
+  <div class="t eq" id="b1" style="top:420px">2 + <span class="box">3 × 4<i id="bx"></i></span></div>
+  <div class="t eq" id="b2" style="top:580px">= 2 + 12 = <span class="w y" id="b2y">14</span></div>
+  <div class="t eq s" id="b3" style="top:800px;font-size:90px"><span class="no">(2 + 3) × 4 = 20<i id="b3x"></i></span></div>
+  <div class="t row" id="b4" style="top:930px;font-size:66px">5 lanches? <span class="y">você não comprou!</span></div>
+
+  <!-- C: a ordem -->
+  <div class="t st" id="c1" style="top:420px">1º &nbsp;( )<small>parênteses</small></div>
+  <div class="t st" id="c2" style="top:560px">2º &nbsp;x² &nbsp;√<small>potências e raízes</small></div>
+  <div class="t st" id="c3" style="top:700px">3º &nbsp;× &nbsp;÷<small>da esquerda → direita</small></div>
+  <div class="t st" id="c4" style="top:840px">4º &nbsp;+ &nbsp;−<small>soma e subtração</small></div>
+
+  <!-- D: parênteses -->
+  <div class="t q" id="d1" style="top:520px;opacity:0"><span class="w y" id="dp1">(</span>2 + 3<span class="w y" id="dp2">)</span> × 4 = 20</div>
+  <div class="t ch2" id="d2" style="top:760px">agora sim: 5 × 4</div>
+
+  <!-- E: desafio -->
+  <div class="t q" id="e1" style="top:520px;font-size:104px;opacity:0">10 − 2 × 3 + 4 = <span class="w y" id="e1y">?</span></div>
+  <div class="t ch2" id="e2" style="top:760px">responde nos comentários</div>
+  <div class="t ch2" id="e3" style="top:880px;font-size:58px">salva para não esquecer a ordem</div>
+
+  <div class="t end" id="end">A Voz da<br/>Matemática</div>
+  <div class="t endsub" id="endsub">( ) → x² → × ÷ → + −</div>
+</div>
+<script>
+(function () {
+  const R = document.getElementById("root");
+  const $ = (s) => R.querySelector(s);
+  const tl = gsap.timeline({ paused: true });
+  const IR = { immediateRender: false };
+  const show = (el, t, d) => tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: d == null ? 0.3 : d, ease: "power1.out", ...IR }, t);
+  const hide = (el, t, d) => tl.to(el, { opacity: 0, duration: d == null ? 0.3 : d, ease: "power1.in" }, t);
+  const pop = (el, t, s) => tl.fromTo(el, { scale: s || 1.35 }, { scale: 1, duration: 0.45, ease: "back.out(2.5)", ...IR }, t);
+  const up = (el, t) => tl.fromTo(el, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out", ...IR }, t);
+  const W_ = [[[0,0.42],[0.42,0.839],[0.839,1.259],[1.259,1.763],[1.763,2.35],[2.35,2.602],[2.602,3.106],[3.106,3.693],[3.693,4.029],[4.029,4.701],[4.701,5.12],[5.12,5.54],[5.54,6.044]],[[6.616,7.01],[7.01,7.339],[7.339,7.8],[7.8,7.997],[7.997,8.853],[8.853,9.05],[9.05,9.379],[9.379,9.774],[9.774,9.905],[9.905,10.234],[10.234,10.76],[10.76,10.958],[10.958,11.418],[11.418,11.813]],[[12.374,12.708],[12.708,13.242],[13.242,13.442],[13.442,13.909],[13.909,14.176],[14.176,14.51],[14.51,14.91],[14.91,15.244],[15.244,15.444],[15.444,15.777],[15.777,15.978],[15.978,16.845],[16.845,17.379]],[[17.954,18.22],[18.22,18.553],[18.553,18.686],[18.686,19.617],[19.617,19.884],[19.884,20.283],[20.283,20.482],[20.482,20.815]],[[21.303,21.541],[21.541,21.938],[21.938,22.413],[22.413,23.126],[23.126,23.523],[23.523,23.919],[23.919,24.315],[24.315,24.791],[24.791,25.267],[25.267,25.821],[25.821,26.297],[26.297,26.693],[26.693,27.09],[27.09,27.565],[27.565,28.199],[28.199,28.516],[28.516,28.833],[28.833,29.468]],[[30.072,30.201],[30.201,30.586],[30.586,30.971],[30.971,31.099],[31.099,31.677],[31.677,31.87],[31.87,32.576]],[[32.88,33.374],[33.374,34.08],[34.08,34.221],[34.221,34.715]],[[35.117,35.546],[35.546,36.403],[36.403,36.526],[36.526,37.015],[37.015,37.199],[37.199,37.75],[37.75,38.057],[38.057,38.179],[38.179,38.669]],[[39.298,39.542],[39.542,39.969],[39.969,40.275],[40.275,40.397],[40.397,41.007]],[[41.586,41.732],[41.732,41.951],[41.951,42.316],[42.316,42.827],[42.827,43.265],[43.265,43.411],[43.411,43.849],[43.849,44.141],[44.141,44.944],[44.944,45.309],[45.309,45.673],[45.673,46.038],[46.038,46.476],[46.476,47.279],[47.279,47.717],[47.717,48.228]],[[48.797,49.307],[49.307,49.477],[49.477,49.817],[49.817,50.243],[50.243,50.583],[50.583,51.093],[51.093,51.518],[51.518,52.028],[52.028,52.453],[52.453,52.879],[52.879,53.474],[53.474,54.069],[54.069,54.324],[54.324,55.089],[55.089,55.43],[55.43,56.45]],[[56.94,57.247],[57.247,57.502],[57.502,57.809],[57.809,58.065],[58.065,58.269],[58.269,58.729],[58.729,58.831],[58.831,59.138]]];
+  const wt = (s, i) => W_[s][i][0];
+
+  // gancho: "2 + 3 × 4 = 20?" já na miniatura
+  pop($("#qq"), wt(0, 6), 1.5);
+
+  // A — a compra
+  const s1 = wt(1, 0);
+  hide([$("#ttl"), $("#q")], s1 - 0.2, 0.3);
+  show($("#hA"), s1, 0.3);
+  up($("#a1"), wt(1, 4));
+  up($("#a2"), wt(1, 9));
+  show($("#a2b"), wt(2, 5), 0.3);
+  up($("#a3"), wt(2, 7)); pop($("#a3y"), wt(2, 12), 1.5);
+
+  // B — por isso × vem antes; o erro de somar primeiro
+  const s3 = wt(3, 0);
+  hide([$("#hA"), $("#a1"), $("#a2"), $("#a3")], s3 - 0.2, 0.3);
+  show($("#hB"), s3, 0.3);
+  up($("#b1"), s3);
+  show($("#bx"), wt(3, 3), 0.25);
+  up($("#b2"), wt(3, 5)); pop($("#b2y"), wt(3, 7), 1.5);
+  up($("#b3"), wt(4, 4));
+  tl.to($("#b3x"), { scaleX: 1, duration: 0.3, ease: "power2.out" }, wt(4, 10));
+  up($("#b4"), wt(4, 12));
+
+  // C — a ordem
+  const s5 = wt(5, 0);
+  hide([$("#hB"), $("#b1"), $("#b2"), $("#b3"), $("#b4")], s5 - 0.2, 0.3);
+  show($("#hC"), s5, 0.3);
+  up($("#c1"), wt(5, 6) - 0.1);
+  up($("#c2"), wt(6, 1) - 0.1);
+  up($("#c3"), wt(7, 1) - 0.1);
+  up($("#c4"), wt(8, 2) - 0.1);
+
+  // D — parênteses mudam a conta
+  const s9 = wt(9, 0);
+  hide([$("#hC"), $("#c1"), $("#c2"), $("#c3"), $("#c4")], s9 - 0.2, 0.3);
+  show($("#hD"), s9, 0.3);
+  up($("#d1"), wt(9, 8) - 0.1);
+  pop($("#dp1"), wt(9, 12), 1.6); pop($("#dp2"), wt(9, 13), 1.6);
+  up($("#d2"), wt(9, 9));
+
+  // E — desafio
+  const s10 = wt(10, 0);
+  hide([$("#hD"), $("#d1"), $("#d2")], s10 - 0.2, 0.3);
+  show($("#hE"), s10, 0.3);
+  up($("#e1"), wt(10, 4) - 0.1); pop($("#e1y"), wt(10, 12), 1.6);
+  show($("#e2"), wt(10, 13), 0.3);
+  show($("#e3"), wt(11, 0), 0.3);
+
+  // marca
+  hide([$("#hE"), $("#e1"), $("#e2"), $("#e3")], 59.74 - 0.3, 0.3);
+  tl.fromTo($("#end"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out", ...IR }, 59.74);
+  show($("#endsub"), 59.74 + 0.6, 0.4);
+
+  tl.seek(0);
+  window.__timelines["lousa"] = tl;
+})();
+</script>
+</template></body></html>

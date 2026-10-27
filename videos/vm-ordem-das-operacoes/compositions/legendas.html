@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8" /></head><body>
+<template>
+<style>
+
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-700-normal.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Patrick Hand";src:url("assets/fonts/patrick-hand-latin-400-normal.woff2") format("woff2");font-weight:400}
+#root{position:absolute;inset:0;width:1080px;height:1920px;pointer-events:none}
+#root .cg{position:absolute;left:0;right:0;top:1190px;text-align:center;font:400 62px/1.1 "Patrick Hand";color:#F2EFE4;opacity:0;padding:0 90px}
+</style>
+<div id="root" data-composition-id="legendas" data-width="1080" data-height="1920" data-duration="62.74">
+  <div class="cg" id="c0">Dois mais três vezes</div>
+  <div class="cg" id="c1">quatro. Dá vinte? Metade</div>
+  <div class="cg" id="c2">das pessoas erra essa</div>
+  <div class="cg" id="c3">conta.</div>
+  <div class="cg" id="c4">Pensa numa compra: um</div>
+  <div class="cg" id="c5">refrigerante de dois reais</div>
+  <div class="cg" id="c6">e três lanches de</div>
+  <div class="cg" id="c7">quatro reais.</div>
+  <div class="cg" id="c8">Três lanches de quatro</div>
+  <div class="cg" id="c9">são doze reais. Mais</div>
+  <div class="cg" id="c10">os dois do refrigerante:</div>
+  <div class="cg" id="c11">catorze.</div>
+  <div class="cg" id="c12">Por isso a multiplicação</div>
+  <div class="cg" id="c13">vem antes da soma.</div>
+  <div class="cg" id="c14">Se você somar primeiro,</div>
+  <div class="cg" id="c15">dois mais três, cinco,</div>
+  <div class="cg" id="c16">vezes quatro, vinte, você</div>
+  <div class="cg" id="c17">paga cinco lanches que</div>
+  <div class="cg" id="c18">não comprou.</div>
+  <div class="cg" id="c19">A ordem certa é:</div>
+  <div class="cg" id="c20">primeiro os parênteses.</div>
+  <div class="cg" id="c21">Depois, potências e raízes.</div>
+  <div class="cg" id="c22">Depois, multiplicação e divisão,</div>
+  <div class="cg" id="c23">da esquerda para a</div>
+  <div class="cg" id="c24">direita.</div>
+  <div class="cg" id="c25">Por último, soma e</div>
+  <div class="cg" id="c26">subtração.</div>
+  <div class="cg" id="c27">E se você quiser</div>
+  <div class="cg" id="c28">mesmo o vinte? Use</div>
+  <div class="cg" id="c29">parênteses: dois mais três,</div>
+  <div class="cg" id="c30">entre parênteses, vezes quatro.</div>
+  <div class="cg" id="c31">Agora é com você:</div>
+  <div class="cg" id="c32">dez menos dois vezes</div>
+  <div class="cg" id="c33">três mais quatro. Quanto</div>
+  <div class="cg" id="c34">dá? Responde nos comentários!</div>
+  <div class="cg" id="c35">Salva esse vídeo para</div>
+  <div class="cg" id="c36">não esquecer a ordem.</div>
+</div>
+<script>
+(function () {
+  const tl = gsap.timeline({ paused: true });
+  const G = [[0,1.763],[1.763,3.693],[3.693,5.54],[5.54,6.394],[6.616,7.997],[7.997,9.774],[9.774,10.958],[10.958,12.163],[12.374,13.909],[13.909,15.244],[15.244,16.845],[16.845,17.729],[17.954,19.617],[19.617,21.165],[21.303,23.126],[23.126,24.791],[24.791,26.693],[26.693,28.516],[28.516,29.818],[30.072,31.099],[31.099,32.88],[32.88,35.065],[35.117,37.015],[37.015,38.179],[38.179,39.019],[39.298,40.397],[40.397,41.357],[41.586,42.827],[42.827,44.141],[44.141,46.038],[46.038,48.578],[48.797,50.243],[50.243,52.028],[52.028,54.069],[54.069,56.8],[56.94,58.065],[58.065,59.488]];
+  G.forEach(([a, b], i) => {
+    const el = document.getElementById("c" + i);
+    tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: 0.12, immediateRender: false }, Math.max(0.1, a));
+    tl.to(el, { opacity: 0, duration: 0.1, ease: "power2.in" }, b - 0.1);
+    tl.set(el, { opacity: 0, visibility: "hidden" }, b);
+  });
+  tl.seek(0);
+  window.__timelines["legendas"] = tl;
+})();
+</script>
+</template></body></html>

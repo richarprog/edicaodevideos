@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "historyId": "02001e5a-c822-4c44-a58f-7e88a391a28f",
+  "currentRevision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "CLAUDE.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "assets/fonts/kalam-latin-400-normal.woff2": {
+      "hash": "954410601a823f37e219f7930b7446f86afa15621326a7078d56fb9c910135cb",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/95/954410601a823f37e219f7930b7446f86afa15621326a7078d56fb9c910135cb"
+    },
+    "assets/fonts/kalam-latin-700-normal.woff2": {
+      "hash": "252063af6ade8b9a744cde4ddad0fc21ea53b8ba711eed121a0c2e8610ea9c93",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/25/252063af6ade8b9a744cde4ddad0fc21ea53b8ba711eed121a0c2e8610ea9c93"
+    },
+    "assets/fonts/patrick-hand-latin-400-normal.woff2": {
+      "hash": "ac5bc9033b2572bf84d39f7150c1634e37ed16e8dbee632d6d0bceac0bbf0199",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/ac/ac5bc9033b2572bf84d39f7150c1634e37ed16e8dbee632d6d0bceac0bbf0199"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "compositions/legendas.html": {
+      "hash": "4e1964b7ea613adafe3b1102ff326c4270ef5279928833bef33710eb4b3a71b7",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/4e/4e1964b7ea613adafe3b1102ff326c4270ef5279928833bef33710eb4b3a71b7"
+    },
+    "compositions/lousa.html": {
+      "hash": "dc9186f5a9ee2261e539969c4ea6e5c6564992107f5913def6eea32dd3e8339e",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/dc/dc9186f5a9ee2261e539969c4ea6e5c6564992107f5913def6eea32dd3e8339e"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "41e4311a0ea9f027813306051d4433e48eea0212b6121469f8624152357bd1c0",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/41/41e4311a0ea9f027813306051d4433e48eea0212b6121469f8624152357bd1c0"
+    },
+    "meta.json": {
+      "hash": "4342b8de875f3b17eddaa123ae75f83bab283d59fddc949ffa82dc52ced7ecb2",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/43/4342b8de875f3b17eddaa123ae75f83bab283d59fddc949ffa82dc52ced7ecb2"
+    },
+    "package.json": {
+      "hash": "c1f3b2558b7e4e276564869d03fbc58f73016508c2fa84b6ab1125213094f3b3",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/c1/c1f3b2558b7e4e276564869d03fbc58f73016508c2fa84b6ab1125213094f3b3"
+    },
+    "assets/narracao-bruta.mp3": {
+      "hash": "16e2e0c5cf03be430fcfd45b2b68820471226daf1fad4ae871f5e1b1164db3df",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/16/16e2e0c5cf03be430fcfd45b2b68820471226daf1fad4ae871f5e1b1164db3df"
+    },
+    "assets/narracao.mp3": {
+      "hash": "179a1f3564e4ef16029756874f66cc9c4aa4aa498b90ca5794646703b2e9101e",
+      "content": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/17/179a1f3564e4ef16029756874f66cc9c4aa4aa498b90ca5794646703b2e9101e"
+    }
+  },
+  "revisions": {
+    "c9cabbe1-ae34-469d-8d3c-8f1cbb67651f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793134500864,
+      "endedAt": 1793134500869,
+      "files": {
+        "compositions/lousa.html": {
+          "before": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/34/34a3e9a6254af21f23032e7fce14ec939c5e2cb795e5cb6916f267318417fbf0",
+          "after": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/89/89e6eef9c9731750a789e672fb83779a1424e6c2a482df91359fc4e8bb9dceef"
+        }
+      }
+    },
+    "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793134613762,
+      "endedAt": 1793134613790,
+      "files": {
+        "assets/narracao-bruta.mp3": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/16/16e2e0c5cf03be430fcfd45b2b68820471226daf1fad4ae871f5e1b1164db3df"
+        },
+        "assets/narracao.mp3": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/17/179a1f3564e4ef16029756874f66cc9c4aa4aa498b90ca5794646703b2e9101e"
+        },
+        "compositions/legendas.html": {
+          "before": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/a9/a9871ebe35d0f252fb0431d6b1c869fae7c5824a190774bf4c3c93f48582ed37",
+          "after": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/4e/4e1964b7ea613adafe3b1102ff326c4270ef5279928833bef33710eb4b3a71b7"
+        },
+        "compositions/lousa.html": {
+          "before": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/89/89e6eef9c9731750a789e672fb83779a1424e6c2a482df91359fc4e8bb9dceef",
+          "after": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/dc/dc9186f5a9ee2261e539969c4ea6e5c6564992107f5913def6eea32dd3e8339e"
+        },
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/05/0585d73688cfc73df85acf7134c4395c470dca731b81f701d8cd9449723fabc0",
+          "after": "/root/.cache/hyperframes/history/02001e5a-c822-4c44-a58f-7e88a391a28f/blobs/41/41e4311a0ea9f027813306051d4433e48eea0212b6121469f8624152357bd1c0"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+      "id": "9f75fcfa-346b-4fac-9094-bbb9274f6a45"
+    },
+    "revisions": {
+      "c9cabbe1-ae34-469d-8d3c-8f1cbb67651f": [],
+      "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f": [
+        {
+          "id": "9f75fcfa-346b-4fac-9094-bbb9274f6a45",
+          "scope": "project",
+          "report": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/checks/9f75fcfa-346b-4fac-9094-bbb9274f6a45.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 10000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1793134625052,
+          "contentHash": "c3ca90ea0457286f4aa7f664f9ce4f05a4b85246b2464f0603259105d2dc490e",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+      "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-12"
+    },
+    "revisions": {
+      "c9cabbe1-ae34-469d-8d3c-8f1cbb67651f": [],
+      "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f": [
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-0",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-00-at-0.3s.png",
+          "time": 0.3,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640577,
+          "contentHash": "fb43480d51634e2d8ce9d917316f5c55552225d2949691bb74e86249bc33b149",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-1",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-01-at-9s.png",
+          "time": 9,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640577,
+          "contentHash": "d334cc2b3089381debcd1ad2a2746688eb5584371d523e304d6302900acf65f4",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-2",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-02-at-15.5s.png",
+          "time": 15.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640577,
+          "contentHash": "b5c8455b46641362bce7cfdf66eadb7a75ea161019dea383dcdc0822b60c00a4",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-3",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-03-at-19.5s.png",
+          "time": 19.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640577,
+          "contentHash": "a79e4d03e1a34e6a9fec020336545ea290c46ccc5d889b5124036fa2afbd6e03",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-4",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-04-at-27s.png",
+          "time": 27,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640577,
+          "contentHash": "e5a3f13f605032d988577d588a9701120791ef287ea4024ed0c6d58e65fc15ce",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-5",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-05-at-31.5s.png",
+          "time": 31.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640577,
+          "contentHash": "1f0845522b0d77885ee0766187b0350eb264f7d8e2ea0f6bfcd920899b521b21",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-6",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-06-at-37s.png",
+          "time": 37,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640577,
+          "contentHash": "60c1101ea3f9e3fada79ac6be07fb39555d1c2bb7fdd51d9547f1bc994c00add",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-7",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-07-at-40.5s.png",
+          "time": 40.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640578,
+          "contentHash": "d8348e0d932f36e35d6ff48fb09e59cbd465c2ca951ebfb382d7e73ccdab84fb",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-8",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-08-at-46s.png",
+          "time": 46,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640578,
+          "contentHash": "9f70131002aa8d87a50eb096a99d3d636676fba985943c28e402174cef7dcc69",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-9",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-09-at-51s.png",
+          "time": 51,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640578,
+          "contentHash": "9563219a7638d028f3ae28d15ae3908a1c295d3b03dbc4bd3a9c25b7e6f1b302",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-10",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-10-at-55.5s.png",
+          "time": 55.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640578,
+          "contentHash": "e7e1bdd65fc43218f472bca54f3adcb077d9bb4294712bb40208d689feb5ab58",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-11",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-11-at-58s.png",
+          "time": 58,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640578,
+          "contentHash": "e657191e14de84017bb70f756b445ba16ef3e8d8e673674b6d587ea31473d675",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "8e5d2d6b-dd14-4875-a6e4-0b979fce9748-12",
+          "image": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/.hyperframes/artifacts/snapshots/201c1430-20f3-4509-b1e2-e9bc88d0379c/frame-12-at-61s.png",
+          "time": 61,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793134640578,
+          "contentHash": "0ec9da1448a1e4a4649cbe50797bdfd7234621d8cdce6797b40ceea3ebd2d48a",
+          "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f",
+          "inputFingerprint": "08c585a8248b2b26506a32cf14e65db32765cfb7debc3c4adf9265378a0031a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "6a708009-c76e-4d3c-8653-bae6c4af7170",
+      "completedAt": 1793134901983,
+      "output": "/home/user/edicaodevideos/videos/vm-ordem-das-operacoes/renders/ordem-das-operacoes.mp4",
+      "status": "completed",
+      "revision": "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f"
+    },
+    "retainedRevisions": [
+      "2ca71f39-9aab-4f0a-bc3d-a2c221aa792f"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
