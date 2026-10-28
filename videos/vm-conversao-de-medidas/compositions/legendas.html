@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8" /></head><body>
+<template>
+<style>
+
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-700-normal.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Patrick Hand";src:url("assets/fonts/patrick-hand-latin-400-normal.woff2") format("woff2");font-weight:400}
+#root{position:absolute;inset:0;width:1080px;height:1920px;pointer-events:none}
+#root .cg{position:absolute;left:0;right:0;top:1190px;text-align:center;font:400 62px/1.1 "Patrick Hand";color:#F2EFE4;opacity:0;padding:0 90px}
+</style>
+<div id="root" data-composition-id="legendas" data-width="1080" data-height="1920" data-duration="76.81">
+  <div class="cg" id="c0">Dois vírgula cinco metros</div>
+  <div class="cg" id="c1">de tecido. Quantos centímetros</div>
+  <div class="cg" id="c2">são?</div>
+  <div class="cg" id="c3">Para converter, você só</div>
+  <div class="cg" id="c4">precisa desta tabela e</div>
+  <div class="cg" id="c5">de uma vírgula andando.</div>
+  <div class="cg" id="c6">Quilômetro, hectômetro, decâmetro, metro,</div>
+  <div class="cg" id="c7">decímetro, centímetro e milímetro.</div>
+  <div class="cg" id="c8">Cada casa para a</div>
+  <div class="cg" id="c9">direita multiplica por dez.</div>
+  <div class="cg" id="c10">Para a esquerda, divide</div>
+  <div class="cg" id="c11">por dez.</div>
+  <div class="cg" id="c12">Coloque o dois vírgula</div>
+  <div class="cg" id="c13">cinco na tabela: o</div>
+  <div class="cg" id="c14">dois fica na casa</div>
+  <div class="cg" id="c15">do metro.</div>
+  <div class="cg" id="c16">Queremos centímetros. Do metro</div>
+  <div class="cg" id="c17">ao centímetro são duas</div>
+  <div class="cg" id="c18">casas para a direita.</div>
+  <div class="cg" id="c19">Então a vírgula anda</div>
+  <div class="cg" id="c20">duas casas: uma, duas.</div>
+  <div class="cg" id="c21">Ficou uma casa vazia?</div>
+  <div class="cg" id="c22">Ela ganha um zero.</div>
+  <div class="cg" id="c23">Dois vírgula cinco metros</div>
+  <div class="cg" id="c24">são duzentos e cinquenta</div>
+  <div class="cg" id="c25">centímetros.</div>
+  <div class="cg" id="c26">Agora, setenta e cinco</div>
+  <div class="cg" id="c27">milímetros em metros. A</div>
+  <div class="cg" id="c28">vírgula está escondida no</div>
+  <div class="cg" id="c29">fim.</div>
+  <div class="cg" id="c30">Do milímetro ao metro,</div>
+  <div class="cg" id="c31">três casas para a</div>
+  <div class="cg" id="c32">esquerda.</div>
+  <div class="cg" id="c33">A vírgula anda: uma,</div>
+  <div class="cg" id="c34">duas, três. As casas</div>
+  <div class="cg" id="c35">vazias viram zeros.</div>
+  <div class="cg" id="c36">Setenta e cinco milímetros</div>
+  <div class="cg" id="c37">são zero vírgula zero</div>
+  <div class="cg" id="c38">setenta e cinco metros.</div>
+  <div class="cg" id="c39">Sua vez: um vírgula</div>
+  <div class="cg" id="c40">dois quilômetros dá quantos</div>
+  <div class="cg" id="c41">metros? Responde nos comentários!</div>
+  <div class="cg" id="c42">Salva esse vídeo para</div>
+  <div class="cg" id="c43">não esquecer a tabela.</div>
+</div>
+<script>
+(function () {
+  const tl = gsap.timeline({ paused: true });
+  const G = [[0,1.802],[1.802,3.882],[3.882,4.51],[4.939,6.393],[6.393,7.848],[7.848,9.652],[9.893,12.979],[12.979,16.009],[16.226,17.382],[17.382,19.217],[19.217,20.781],[20.781,21.674],[21.924,23.326],[23.326,24.423],[24.423,25.52],[25.52,26.419],[26.791,28.698],[28.698,30.16],[30.16,31.845],[32.04,33.418],[33.418,36.35],[36.52,38],[38.25,39.68],[40.03,41.681],[41.681,43.268],[43.268,44.182],[44.182,45.577],[45.577,47.034],[47.034,48.682],[48.682,49.286],[49.436,51.137],[51.137,52.529],[52.529,53.575],[53.75,55.76],[55.84,58.337],[58.337,60.2],[60.25,61.907],[61.907,63.258],[63.258,65.02],[65.07,66.399],[66.399,68.358],[68.358,70.947],[71.123,72.168],[72.168,73.563]];
+  G.forEach(([a, b], i) => {
+    const el = document.getElementById("c" + i);
+    tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: 0.12, immediateRender: false }, Math.max(0.1, a));
+    tl.to(el, { opacity: 0, duration: 0.1, ease: "power2.in" }, b - 0.1);
+    tl.set(el, { opacity: 0, visibility: "hidden" }, b);
+  });
+  tl.seek(0);
+  window.__timelines["legendas"] = tl;
+})();
+</script>
+</template></body></html>

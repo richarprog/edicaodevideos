@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8" /></head><body>
+<template>
+<style>
+
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-700-normal.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"Kalam";src:url("assets/fonts/kalam-latin-400-normal.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Patrick Hand";src:url("assets/fonts/patrick-hand-latin-400-normal.woff2") format("woff2");font-weight:400}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden;color:#F2EFE4;font-family:"Kalam",cursive;
+  background:radial-gradient(ellipse 60% 40% at 30% 25%,rgba(255,255,255,.06),transparent 70%),radial-gradient(ellipse 50% 35% at 75% 70%,rgba(255,255,255,.05),transparent 70%),#1F3A2D}
+#root .dust{position:absolute;inset:0;opacity:.22}
+#root .t{position:absolute;left:60px;right:60px;text-align:center;line-height:1.05;white-space:nowrap}
+#root .y{color:#F5D547}
+#root .w{display:inline-block}
+#root .hd{top:250px;font:400 66px "Patrick Hand";color:rgba(242,239,228,.55);opacity:0}
+#root .ttl{top:250px;font:400 66px "Patrick Hand";color:rgba(242,239,228,.55)}
+#root .q{top:600px;font:700 140px "Kalam"}
+#root .q2{top:318px;font:700 112px "Kalam";opacity:0}
+#root .col{position:absolute;top:480px;width:137px;height:260px;border:4px solid rgba(242,239,228,.6);border-left-width:0;opacity:0}
+#root .col.first{border-left-width:4px}
+#root .col b{display:block;height:90px;line-height:90px;text-align:center;font:700 54px "Kalam";border-bottom:4px solid rgba(242,239,228,.6)}
+#root .hl{position:absolute;top:480px;width:137px;height:260px;background:rgba(242,239,228,.13);opacity:0}
+#root .dg{position:absolute;top:570px;width:137px;height:170px;line-height:170px;text-align:center;font:700 120px "Kalam";opacity:0}
+#root .dg.z{color:#F5D547}
+#root .cm{position:absolute;top:588px;width:40px;text-align:center;font:700 130px/1 "Kalam";color:#F5D547;opacity:0}
+#root .hop{position:absolute;top:758px;width:80px;text-align:center;font:700 60px "Kalam";color:rgba(242,239,228,.55);opacity:0}
+#root .rl{font:400 64px "Patrick Hand";opacity:0}
+#root .res{top:900px;font:700 96px "Kalam";opacity:0}
+#root .ch2{font:400 66px "Patrick Hand";color:rgba(242,239,228,.55);opacity:0}
+#root .end{top:600px;font:700 120px/1.15 "Kalam";opacity:0;white-space:normal}
+#root .endsub{top:930px;font:700 70px "Kalam";color:#F5D547;opacity:0}
+</style>
+<div id="root" data-composition-id="lousa" data-width="1080" data-height="1920" data-duration="76.81">
+  <svg class="dust" viewBox="0 0 1080 1920"><filter id="nz"><feTurbulence type="fractalNoise" baseFrequency="1.6" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .5 0"/></filter><rect width="1080" height="1920" filter="url(#nz)"/></svg>
+
+  <!-- gancho (miniatura) -->
+  <div class="t ttl" id="ttl">medidas de comprimento</div>
+  <div class="t q" id="q">2,5 m = <span class="w y" id="qq">?</span> cm</div>
+  <div class="t q2" id="q2">75 mm = <span class="w y" id="q2q">?</span> m</div>
+  <div class="t q2" id="q3">1,2 km = <span class="w y" id="q3q">?</span> m</div>
+
+  <!-- a tabela -->
+  <div class="hl" id="hl0" style="left:60px"></div>
+  <div class="hl" id="hl1" style="left:197px"></div>
+  <div class="hl" id="hl2" style="left:334px"></div>
+  <div class="hl" id="hl3" style="left:471px"></div>
+  <div class="hl" id="hl4" style="left:608px"></div>
+  <div class="hl" id="hl5" style="left:745px"></div>
+  <div class="hl" id="hl6" style="left:882px"></div>
+  <div class="col first" id="col0" style="left:60px"><b>km</b></div>
+  <div class="col" id="col1" style="left:197px"><b>hm</b></div>
+  <div class="col" id="col2" style="left:334px"><b>dam</b></div>
+  <div class="col" id="col3" style="left:471px"><b>m</b></div>
+  <div class="col" id="col4" style="left:608px"><b>dm</b></div>
+  <div class="col" id="col5" style="left:745px"><b>cm</b></div>
+  <div class="col" id="col6" style="left:882px"><b>mm</b></div>
+
+  <!-- regra -->
+  <div class="t rl" id="r1" style="top:840px">direita → <span class="y">×10</span> a cada casa</div>
+  <div class="t rl" id="r2" style="top:940px">esquerda ← <span class="y">÷10</span> a cada casa</div>
+
+  <!-- exemplo 1: 2,5 m → cm -->
+  <div class="dg " id="a2" style="left:471px">2</div><div class="dg " id="a5" style="left:608px">5</div><div class="dg z" id="a0" style="left:745px">0</div>
+  <div class="cm" id="ac" style="left:588px">,</div>
+  <div class="hop" id="ah1" style="left:705px">1</div><div class="hop" id="ah2" style="left:842px">2</div>
+  <div class="t res" id="ar">2,5 m = <span class="w y" id="ary">250 cm</span></div>
+
+  <!-- exemplo 2: 75 mm → m -->
+  <div class="dg " id="b7" style="left:745px">7</div><div class="dg " id="b5" style="left:882px">5</div><div class="dg z" id="b0a" style="left:608px">0</div><div class="dg z" id="b0b" style="left:471px">0</div>
+  <div class="cm" id="bc" style="left:999px">,</div>
+  <div class="hop" id="bh1" style="left:842px">1</div><div class="hop" id="bh2" style="left:705px">2</div><div class="hop" id="bh3" style="left:568px">3</div>
+  <div class="t res" id="br">75 mm = <span class="w y" id="bry">0,075 m</span></div>
+
+  <!-- desafio -->
+  <div class="t ch2" id="e2" style="top:860px">responde nos comentários</div>
+  <div class="t ch2" id="e3" style="top:960px;font-size:58px">salva para não esquecer a tabela</div>
+
+  <div class="t end" id="end">A Voz da<br/>Matemática</div>
+  <div class="t endsub" id="endsub">cada casa = ×10 ou ÷10</div>
+</div>
+<script>
+(function () {
+  const R = document.getElementById("root");
+  const $ = (s) => R.querySelector(s);
+  const tl = gsap.timeline({ paused: true });
+  const IR = { immediateRender: false };
+  const show = (el, t, d) => tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: d == null ? 0.3 : d, ease: "power1.out", ...IR }, t);
+  const hide = (el, t, d) => tl.to(el, { opacity: 0, duration: d == null ? 0.3 : d, ease: "power1.in" }, t);
+  const pop = (el, t, s) => tl.fromTo(el, { scale: s || 1.35 }, { scale: 1, duration: 0.45, ease: "back.out(2.5)", ...IR }, t);
+  const up = (el, t) => tl.fromTo(el, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out", ...IR }, t);
+  const drop = (el, t) => tl.fromTo(el, { opacity: 0, y: -60, scale: 1.4 }, { opacity: 1, y: 0, scale: 1, duration: 0.45, ease: "back.out(2)", ...IR }, t);
+  // a vírgula pula uma casa (dx = ±1) com um arco
+  const CW = 137;
+  const jump = (el, t, n, dir, hopEl) => {
+    tl.to(el, { x: dir * n * CW, duration: 0.42, ease: "power2.inOut" }, t);
+    tl.to(el, { y: -70, duration: 0.21, ease: "power1.out", yoyo: true, repeat: 1 }, t);
+    if (hopEl) { show(hopEl, t + 0.25, 0.2); pop(hopEl, t + 0.25, 1.6); }
+  };
+  const W_ = [[[0,0.347],[0.347,0.901],[0.901,1.317],[1.317,1.802],[1.802,2.01],[2.01,2.496],[2.496,3.05],[3.05,3.882],[3.882,4.16]],[[4.939,5.255],[5.255,5.887],[5.887,6.203],[6.203,6.393],[6.393,6.899],[6.899,7.278],[7.278,7.721],[7.721,7.848],[7.848,8.037],[8.037,8.29],[8.29,8.796],[8.796,9.302]],[[9.893,10.786],[10.786,11.68],[11.68,12.492],[12.492,12.979],[12.979,13.791],[13.791,14.684],[14.684,14.847],[14.847,15.659]],[[16.226,16.566],[16.566,16.906],[16.906,17.246],[17.246,17.382],[17.382,17.926],[17.926,18.673],[18.673,18.945],[18.945,19.217],[19.217,19.557],[19.557,19.693],[19.693,20.305],[20.305,20.781],[20.781,21.052],[21.052,21.324]],[[21.924,22.412],[22.412,22.534],[22.534,22.838],[22.838,23.326],[23.326,23.692],[23.692,23.874],[23.874,24.301],[24.301,24.423],[24.423,24.728],[24.728,25.032],[25.032,25.215],[25.215,25.52],[25.52,25.703],[25.703,26.069]],[[26.791,27.363],[27.363,28.126],[28.126,28.317],[28.317,28.698],[28.698,28.889],[28.889,29.588],[29.588,29.843],[29.843,30.16],[30.16,30.542],[30.542,30.86],[30.86,30.987],[30.987,31.495]],[[32.04,32.434],[32.434,32.565],[32.565,33.09],[33.09,33.418],[33.418,33.746],[33.746,34.14],[34.7,34.97],[35.51,36]],[[36.52,36.843],[36.843,37.058],[37.058,37.327],[37.327,37.65],[38.25,38.49],[38.49,38.85],[38.85,39.03],[39.03,39.33]],[[40.03,40.347],[40.347,40.855],[40.855,41.236],[41.236,41.681],[41.681,41.935],[41.935,42.506],[42.506,42.633],[42.633,43.268],[43.268,44.03]],[[44.182,44.563],[44.563,45.07],[45.07,45.196],[45.196,45.577],[45.577,46.274],[46.274,46.464],[46.464,46.908],[46.908,47.034],[47.034,47.542],[47.542,47.858],[47.858,48.492],[48.492,48.682],[48.682,48.936]],[[49.436,49.668],[49.668,50.441],[50.441,50.673],[50.673,51.137],[51.137,51.524],[51.524,51.988],[51.988,52.375],[52.375,52.529],[52.529,53.225]],[[53.75,53.871],[53.871,54.357],[54.357,54.66],[55.07,55.41],[55.84,56.34],[56.88,57.26],[57.62,57.859],[57.859,58.337],[58.337,58.894],[58.894,59.372],[59.372,59.85]],[[60.25,60.741],[60.741,60.864],[60.864,61.232],[61.232,61.907],[61.907,62.153],[62.153,62.46],[62.46,62.951],[62.951,63.258],[63.258,63.749],[63.749,63.872],[63.872,64.24],[64.24,64.67]],[[65.07,65.35],[65.35,65.63],[65.63,65.84],[65.84,66.399],[66.399,66.749],[66.749,67.589],[67.589,67.799],[67.799,68.358],[68.358,68.848],[68.848,69.478],[69.478,69.757],[69.757,70.597]],[[71.123,71.408],[71.408,71.646],[71.646,71.931],[71.931,72.168],[72.168,72.358],[72.358,72.786],[72.786,72.881],[72.881,73.213]]];
+  const wt = (s, i) => W_[s][i][0];
+  const col = (i) => $("#col" + i), hl = (i) => $("#hl" + i);
+
+  // gancho: "2,5 m = ? cm" já na miniatura
+  pop($("#qq"), wt(0, 7), 1.6);
+
+  // a tabela e a regra
+  const s1 = wt(1, 0);
+  hide($("#ttl"), s1 - 0.2, 0.3);
+  tl.to($("#q"), { y: -282, scale: 0.8, duration: 0.6, ease: "power2.inOut" }, s1);
+  [0, 1, 2, 3, 4, 5, 7].forEach((w, i) => up(col(i), wt(2, w) - 0.05));
+  up($("#r1"), wt(3, 4)); up($("#r2"), wt(3, 10));
+
+  // exemplo 1: 2,5 m → cm
+  const s4 = wt(4, 0);
+  hide([$("#r1"), $("#r2")], s4 - 0.2, 0.3);
+  drop($("#a2"), wt(4, 2)); drop($("#ac"), wt(4, 3)); drop($("#a5"), wt(4, 4));
+  show(hl(3), wt(4, 11), 0.3); pop($("#a2"), wt(4, 8), 1.3);
+  show(hl(5), wt(5, 1), 0.3);
+  jump($("#ac"), wt(6, 6) - 0.1, 1, 1, $("#ah1"));
+  jump($("#ac"), wt(6, 7) - 0.1, 2, 1, $("#ah2"));
+  drop($("#a0"), wt(7, 6));
+  up($("#ar"), wt(8, 0)); pop($("#ary"), wt(8, 5), 1.5);
+
+  // exemplo 2: 75 mm → m
+  const s9 = wt(9, 0);
+  hide([$("#q"), hl(3), hl(5), $("#a2"), $("#a5"), $("#a0"), $("#ac"), $("#ah1"), $("#ah2"), $("#ar")], s9 - 0.2, 0.3);
+  up($("#q2"), s9 + 0.1);
+  drop($("#b7"), wt(9, 1)); drop($("#b5"), wt(9, 3));
+  drop($("#bc"), wt(9, 8)); pop($("#bc"), wt(9, 10), 1.6);
+  show(hl(6), wt(10, 1), 0.3); show(hl(3), wt(10, 3), 0.3);
+  jump($("#bc"), wt(11, 3) - 0.1, 1, -1, $("#bh1"));
+  jump($("#bc"), wt(11, 4) - 0.1, 2, -1, $("#bh2"));
+  jump($("#bc"), wt(11, 5) - 0.1, 3, -1, $("#bh3"));
+  drop($("#b0a"), wt(11, 9)); drop($("#b0b"), wt(11, 10));
+  up($("#br"), wt(12, 0)); pop($("#bry"), wt(12, 5), 1.5);
+  pop($("#q2q"), wt(12, 5), 1.5);
+  tl.set($("#q2q"), { textContent: "0,075" }, wt(12, 5));
+
+  // desafio
+  const s13 = wt(13, 0);
+  hide([$("#q2"), hl(3), hl(6), $("#b7"), $("#b5"), $("#b0a"), $("#b0b"), $("#bc"), $("#bh1"), $("#bh2"), $("#bh3"), $("#br")], s13 - 0.2, 0.3);
+  up($("#q3"), wt(13, 2) - 0.1); pop($("#q3q"), wt(13, 7), 1.6);
+  show(hl(0), wt(13, 5), 0.3); show(hl(3), wt(13, 8), 0.3);
+  show($("#e2"), wt(13, 9), 0.3);
+  show($("#e3"), wt(14, 0), 0.3);
+
+  // marca
+  hide([$("#q3"), hl(0), hl(3), $("#e2"), $("#e3"), col(0), col(1), col(2), col(3), col(4), col(5), col(6)], 73.81 - 0.3, 0.3);
+  tl.fromTo($("#end"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out", ...IR }, 73.81);
+  show($("#endsub"), 73.81 + 0.6, 0.4);
+
+  tl.seek(0);
+  window.__timelines["lousa"] = tl;
+})();
+</script>
+</template></body></html>

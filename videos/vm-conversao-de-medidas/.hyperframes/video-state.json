@@ -1,0 +1,668 @@
+{
+  "version": 1,
+  "historyId": "daaf561d-a528-46fd-a136-a5c7e4a2ca1f",
+  "currentRevision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "CLAUDE.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "assets/fonts/kalam-latin-400-normal.woff2": {
+      "hash": "954410601a823f37e219f7930b7446f86afa15621326a7078d56fb9c910135cb",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/95/954410601a823f37e219f7930b7446f86afa15621326a7078d56fb9c910135cb"
+    },
+    "assets/fonts/kalam-latin-700-normal.woff2": {
+      "hash": "252063af6ade8b9a744cde4ddad0fc21ea53b8ba711eed121a0c2e8610ea9c93",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/25/252063af6ade8b9a744cde4ddad0fc21ea53b8ba711eed121a0c2e8610ea9c93"
+    },
+    "assets/fonts/patrick-hand-latin-400-normal.woff2": {
+      "hash": "ac5bc9033b2572bf84d39f7150c1634e37ed16e8dbee632d6d0bceac0bbf0199",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/ac/ac5bc9033b2572bf84d39f7150c1634e37ed16e8dbee632d6d0bceac0bbf0199"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "compositions/legendas.html": {
+      "hash": "d7b8c38420ad828be8fb390602debbf8e5ed62f4cdb7ccb006077d19bed03e44",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/d7/d7b8c38420ad828be8fb390602debbf8e5ed62f4cdb7ccb006077d19bed03e44"
+    },
+    "compositions/lousa.html": {
+      "hash": "32691ed98561fba5f02a873873dd65e98c6b0a7fb50cf47f2e8a45c89bdefc7f",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/32/32691ed98561fba5f02a873873dd65e98c6b0a7fb50cf47f2e8a45c89bdefc7f"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "b132c07e883b3be1879741f10b32a8426a01ba67c8863ef65d8d5ae491d613bd",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/b1/b132c07e883b3be1879741f10b32a8426a01ba67c8863ef65d8d5ae491d613bd"
+    },
+    "meta.json": {
+      "hash": "6efa05a93b7acdbfac6f08327c95d34aaababb5e5f36ec69e746c2c896cd9759",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/6e/6efa05a93b7acdbfac6f08327c95d34aaababb5e5f36ec69e746c2c896cd9759"
+    },
+    "package.json": {
+      "hash": "c1f3b2558b7e4e276564869d03fbc58f73016508c2fa84b6ab1125213094f3b3",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/c1/c1f3b2558b7e4e276564869d03fbc58f73016508c2fa84b6ab1125213094f3b3"
+    },
+    "assets/narracao-bruta.mp3": {
+      "hash": "b3c7716eba36a3230cbb5dfa19d20a7752766cf4003f72ee4e83bb93e9aced85",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/b3/b3c7716eba36a3230cbb5dfa19d20a7752766cf4003f72ee4e83bb93e9aced85"
+    },
+    "assets/narracao.mp3": {
+      "hash": "bc2f287a3b071ef10cf013ea87b7e96927e8bf19e0073d122d12edeaac807c00",
+      "content": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/bc/bc2f287a3b071ef10cf013ea87b7e96927e8bf19e0073d122d12edeaac807c00"
+    }
+  },
+  "revisions": {
+    "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793217303286,
+      "endedAt": 1793217303301,
+      "files": {
+        "assets/narracao-bruta.mp3": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/b3/b3c7716eba36a3230cbb5dfa19d20a7752766cf4003f72ee4e83bb93e9aced85"
+        },
+        "assets/narracao.mp3": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/bc/bc2f287a3b071ef10cf013ea87b7e96927e8bf19e0073d122d12edeaac807c00"
+        },
+        "compositions/legendas.html": {
+          "before": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/1e/1e9bc07d61f025803f2af4a861f5b0fdad4220ee84fc72766b428239979a7435",
+          "after": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/d7/d7b8c38420ad828be8fb390602debbf8e5ed62f4cdb7ccb006077d19bed03e44"
+        },
+        "compositions/lousa.html": {
+          "before": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/e2/e200e4d8d682e2387b8467a1d756e605bfcda06ddf1b68d10c276db45f3351a9",
+          "after": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/32/32691ed98561fba5f02a873873dd65e98c6b0a7fb50cf47f2e8a45c89bdefc7f"
+        },
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/58/58a9fe923be8244cadaa367f70ba892f3f37947d60a8304c8bb95a68b692927e",
+          "after": "/root/.cache/hyperframes/history/daaf561d-a528-46fd-a136-a5c7e4a2ca1f/blobs/b1/b132c07e883b3be1879741f10b32a8426a01ba67c8863ef65d8d5ae491d613bd"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+      "id": "50492b0b-3d99-42ba-b18b-e657a35d4bf9"
+    },
+    "revisions": {
+      "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae": [
+        {
+          "id": "50492b0b-3d99-42ba-b18b-e657a35d4bf9",
+          "scope": "project",
+          "report": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/checks/50492b0b-3d99-42ba-b18b-e657a35d4bf9.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 10000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1793217312453,
+          "contentHash": "077a6e5e364c836a39d1b253d8b42ae55d860f02dc68addd0ee4a173076b4543",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "588cf55f-25bd-4414-bef7-46c45a617a6e",
+        "scope": "project",
+        "report": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/checks/588cf55f-25bd-4414-bef7-46c45a617a6e.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 10000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1793217202553,
+        "contentHash": "03cfe96d19b3231d1d3d05bc29a0a61fad0e26f748440f329b33a8cf20de9c3f",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+      "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-11"
+    },
+    "revisions": {
+      "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae": [
+        {
+          "scope": "full",
+          "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-0",
+          "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/7e3cbb6a-61c0-4487-8f2a-782590cf470b/frame-00-at-12s.png",
+          "time": 12,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793217326354,
+          "contentHash": "54e1733d6a83b2e9a0cb281391c3f786a326f6856e5f93e59e7ef814daa9303a",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-1",
+          "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/7e3cbb6a-61c0-4487-8f2a-782590cf470b/frame-01-at-22.5s.png",
+          "time": 22.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793217326354,
+          "contentHash": "af38a511eb03f61062ebd0f1a4386ec58e0bfed1c09f08ddb9fbe08185f2a833",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-2",
+          "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/7e3cbb6a-61c0-4487-8f2a-782590cf470b/frame-02-at-34.4s.png",
+          "time": 34.4,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793217326354,
+          "contentHash": "a18432e749040114aafef8409e16e86dae72aad29552424106bebaf9ab542b3b",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-3",
+          "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/7e3cbb6a-61c0-4487-8f2a-782590cf470b/frame-03-at-35.7s.png",
+          "time": 35.7,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793217326354,
+          "contentHash": "a0890b9164349a5cb7c8b45e523001caeec5af04d246e2ecaa10aa2bc0926779",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-4",
+          "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/7e3cbb6a-61c0-4487-8f2a-782590cf470b/frame-04-at-38.9s.png",
+          "time": 38.9,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793217326354,
+          "contentHash": "23664c3c47783e86d7ac7ea81817aa76361f645fdc58babd89b535bb6e29c59a",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-5",
+          "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/7e3cbb6a-61c0-4487-8f2a-782590cf470b/frame-05-at-43s.png",
+          "time": 43,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793217326354,
+          "contentHash": "aa56bf7c26cf48b62ee2d986520cc3964e9b6f34a77221b92f573aade391a97e",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-6",
+          "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/7e3cbb6a-61c0-4487-8f2a-782590cf470b/frame-06-at-47.8s.png",
+          "time": 47.8,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793217326354,
+          "contentHash": "d5f7e58062c6d80c13cab250ca376ea83cfbc5a9d063535870f15322261856b5",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-7",
+          "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/7e3cbb6a-61c0-4487-8f2a-782590cf470b/frame-07-at-55.3s.png",
+          "time": 55.3,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793217326354,
+          "contentHash": "540e9696e5b7768f36ac6817fb0f63e91b9ccbf2558334f9a46d94dadf23156f",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-8",
+          "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/7e3cbb6a-61c0-4487-8f2a-782590cf470b/frame-08-at-57s.png",
+          "time": 57,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793217326354,
+          "contentHash": "4a6c225181b05a938a0ba942c811412a187bb0e8c924dbcb09994cd8edce456f",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-9",
+          "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/7e3cbb6a-61c0-4487-8f2a-782590cf470b/frame-09-at-59.5s.png",
+          "time": 59.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793217326354,
+          "contentHash": "ff8bb74a88335ea3f54450e54a6d5d903f6ee71b8ee391b2f57b9242af6179ab",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-10",
+          "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/7e3cbb6a-61c0-4487-8f2a-782590cf470b/frame-10-at-64s.png",
+          "time": 64,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793217326354,
+          "contentHash": "af6b5a9fb4fbc198edbf9d113deae7c66e442669884c8ff8885514456ae77a33",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1913cb34-f44b-439b-ab9b-26e701634fb3-11",
+          "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/7e3cbb6a-61c0-4487-8f2a-782590cf470b/frame-11-at-69s.png",
+          "time": 69,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793217326354,
+          "contentHash": "3f0121bcd6a5d16c08593e3e919b7e36719ac0296d9dbbd4f9bbb934f815fc7f",
+          "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae",
+          "inputFingerprint": "b29d224e710d07151a8c168b242cb1426338720059ffac793549682079faaf30",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "2a05fe00-5c11-417d-a0ca-8a6a9cb20d3c-0",
+        "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/9f730d61-6085-49ff-ae99-711c4b30b2f3/frame-00-at-0s.png",
+        "time": 0,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793217224321,
+        "contentHash": "1802ab477e5c32349f138cd95b5aa05a5440643f797e305366c8ebb767ada4fe",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "2a05fe00-5c11-417d-a0ca-8a6a9cb20d3c-1",
+        "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/9f730d61-6085-49ff-ae99-711c4b30b2f3/frame-01-at-13.5s.png",
+        "time": 13.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793217224321,
+        "contentHash": "c900e0105bc3b0b117d6a82337561b6097896bc77a3ec5eb326843c455628b0c",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "2a05fe00-5c11-417d-a0ca-8a6a9cb20d3c-2",
+        "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/9f730d61-6085-49ff-ae99-711c4b30b2f3/frame-02-at-19.8s.png",
+        "time": 19.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793217224321,
+        "contentHash": "6048abfe4799cc3f61cca83275f768ec9b553a459c04ff9d857a7687bdce5e9b",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "2a05fe00-5c11-417d-a0ca-8a6a9cb20d3c-3",
+        "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/9f730d61-6085-49ff-ae99-711c4b30b2f3/frame-03-at-35.2s.png",
+        "time": 35.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793217224321,
+        "contentHash": "e615af6891c199c96f50a85c8078ba48f196d6bc75469e65f138ed9dcfd45759",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "2a05fe00-5c11-417d-a0ca-8a6a9cb20d3c-4",
+        "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/9f730d61-6085-49ff-ae99-711c4b30b2f3/frame-04-at-39s.png",
+        "time": 39,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793217224321,
+        "contentHash": "a9692867237f27ba7ef0502525ee225693dfa836d52bdad21d50c907c049fd13",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "2a05fe00-5c11-417d-a0ca-8a6a9cb20d3c-5",
+        "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/9f730d61-6085-49ff-ae99-711c4b30b2f3/frame-05-at-43s.png",
+        "time": 43,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793217224321,
+        "contentHash": "8f9dbed0640d601b0bfa94a0747f440f9cb9c37a2ab3d99769c1cd8be3a22866",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "2a05fe00-5c11-417d-a0ca-8a6a9cb20d3c-6",
+        "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/9f730d61-6085-49ff-ae99-711c4b30b2f3/frame-06-at-49s.png",
+        "time": 49,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793217224321,
+        "contentHash": "2ea3403ee4956a503899f2fa2434ebd5ecaac3e4c998e9629d701680c168da2f",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "2a05fe00-5c11-417d-a0ca-8a6a9cb20d3c-7",
+        "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/9f730d61-6085-49ff-ae99-711c4b30b2f3/frame-07-at-55.9s.png",
+        "time": 55.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793217224321,
+        "contentHash": "cb9de27367d1b8bb7ce549e800b67a60d9e775bb31991bff945113391034c182",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "2a05fe00-5c11-417d-a0ca-8a6a9cb20d3c-8",
+        "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/9f730d61-6085-49ff-ae99-711c4b30b2f3/frame-08-at-58.2s.png",
+        "time": 58.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793217224321,
+        "contentHash": "1acd671cf6abe798199783dc8b5adee38bb89440f0db4af753bfd5d5110c7118",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "2a05fe00-5c11-417d-a0ca-8a6a9cb20d3c-9",
+        "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/9f730d61-6085-49ff-ae99-711c4b30b2f3/frame-09-at-63.6s.png",
+        "time": 63.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793217224321,
+        "contentHash": "3bf96c58cf1c0250dcd4905a169974754e81ecfb437dfa582e3a010b78257410",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "2a05fe00-5c11-417d-a0ca-8a6a9cb20d3c-10",
+        "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/9f730d61-6085-49ff-ae99-711c4b30b2f3/frame-10-at-69s.png",
+        "time": 69,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793217224321,
+        "contentHash": "dee686660a14d9fd7e0091e368d7561368f286be36282859bceef2391ea7c6df",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "2a05fe00-5c11-417d-a0ca-8a6a9cb20d3c-11",
+        "image": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/.hyperframes/artifacts/snapshots/9f730d61-6085-49ff-ae99-711c4b30b2f3/frame-11-at-74s.png",
+        "time": 74,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793217224321,
+        "contentHash": "d28823631ce9f90f3ed17d1b8d544f077efa3b0d550e28552cb819cbbebc9acb",
+        "revision": null,
+        "inputFingerprint": "8b4a152322b714410a690d1de2b5ac803118327ecf9aa1a68d947f30f686acc8",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "171645cd-657e-4fb6-a055-b60a8887a4a0",
+      "completedAt": 1793217553429,
+      "output": "/home/user/edicaodevideos/videos/vm-conversao-de-medidas/renders/conversao-de-medidas.mp4",
+      "status": "completed",
+      "revision": "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae"
+    },
+    "retainedRevisions": [
+      "5a0bed91-c1c8-4a61-a9e7-2c5570bea8ae"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
